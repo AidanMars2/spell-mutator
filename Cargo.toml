@@ -1,0 +1,14 @@
+workspace = { members = ["rawparse"] }
+[package]
+name = "spell-mutator"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[features]
+frequency = []
+
+[dependencies]
+zspell = "0.5.3"
+serde = { version = "1.0.199", features = ["derive"] }
+serde_json = "1.0.116"
