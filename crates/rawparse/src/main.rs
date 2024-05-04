@@ -1,28 +1,16 @@
 extern crate core;
 
 use std::fs;
-use serde::{Deserialize, Serialize};
-
-#[derive(Serialize, Deserialize)]
-struct Spell {
-    name: String,
-    level: u8,
-    concentration: bool,
-    ritual: bool,
-    school: String,
-    cast_time: String,
-    components: String,
-    source: String
-}
+use types::Spell;
 
 fn main() {
-    let raw_spells = fs::read_to_string("spells_raw.txt")
+    let raw_spells = fs::read_to_string("../../../spells_raw.txt")
         .expect("failed to load raw spells");
 
     let spells = parse_spells(&raw_spells);
 
     fs::write(
-        "spells.json",
+        "../../../spells.json",
         serde_json::to_string(&spells).expect("failed to serialize spells")
     ).expect("failed to write spells to file")
 }
@@ -50,6 +38,7 @@ fn parse_spells(raw_spells: &str) -> Vec<Spell> {
                 components: parts[5].clone(),
                 concentration: !parts[6].is_empty(),
                 source: parts[7].clone(),
+                mutations: vec![],
             }
         )
     }

@@ -1,5 +1,8 @@
 
-Blade Ward, Abjuration Cantrip, 1 action, VS (phb 218)
+Blade Ward,
+Abjuration Cantrip,
+1 action, VS (phb 218)
+
 blade award
 blade bard
 blade card
@@ -27,12 +30,19 @@ clade ward
 glade ward
 lade ward
 
-Resistance, Abjuration Cantrip, 1 action, VSM<C> (phb 272)
+Resistance,
+Abjuration Cantrip,
+1 action, VSM<C> (phb 272)
+
 resistances
 
-Acid Splash, Conjuration Cantrip, 1 action, VS (phb 211)
+Acid Splash,
+Conjuration Cantrip,
+1 action, VS (phb 211)
+
 aced splash
 acid plash
+acid splashy
 acid splosh
 acids splash
 acrid splash
@@ -40,17 +50,26 @@ amid splash
 arid splash
 avid splash
 
-Create Bonfire, Conjuration Cantrip, 1 action, VS<C> (ee 16, xge 152)
+Create Bonfire,
+Conjuration Cantrip,
+1 action, VS<C> (ee 16, xge 152)
+
 crease bonfire
 create bonfires
 created bonfire
 creates bonfire
 cremate bonfire
 
-Infestation, Conjuration Cantrip, 1 action, VSM (xge 158)
+Infestation,
+Conjuration Cantrip,
+1 action, VSM (xge 158)
+
 infestations
 
-Mage Hand, Conjuration Cantrip, 1 action, VS (phb 256)
+Mage Hand,
+Conjuration Cantrip,
+1 action, VS (phb 256)
+
 age hand
 cage hand
 image hand
@@ -59,6 +78,7 @@ made hand
 mage and
 mage band
 mage hands
+mage handy
 mage hang
 mage hank
 mage hard
@@ -84,7 +104,10 @@ rage hand
 sage hand
 wage hand
 
-Poison Spray, Conjuration Cantrip, 1 action, VS (phb 266)
+Poison Spray,
+Conjuration Cantrip,
+1 action, VS (phb 266)
+
 poison pray
 poison splay
 poison sprat
@@ -93,7 +116,10 @@ poison stray
 poisons spray
 prison spray
 
-Produce Flame, Conjuration Cantrip, 1 action, VS (phb 269)
+Produce Flame,
+Conjuration Cantrip,
+1 action, VS (phb 269)
+
 produce aflame
 produce blame
 produce flake
@@ -110,7 +136,10 @@ producer flame
 produces flame
 product flame
 
-Sword Burst, Conjuration Cantrip, 1 action, V (scag 143, tce 115)
+Sword Burst,
+Conjuration Cantrip,
+1 action, V (scag 143, tce 115)
+
 sward burst
 sword burnt
 sword bursa
@@ -122,9 +151,15 @@ swore burst
 sworn burst
 word burst
 
-Guidance, Divination Cantrip, 1 action, VS<C> (phb 248)
+Guidance,
+Divination Cantrip,
+1 action, VS<C> (phb 248)
 
-True Strike, Divination Cantrip, 1 action, S<C> (phb 284)
+
+True Strike,
+Divination Cantrip,
+1 action, S<C> (phb 284)
+
 grue strike
 rue strike
 tree strike
@@ -144,9 +179,15 @@ truer strike
 trues strike
 trug strike
 
-Friends, Enchantment Cantrip, 1 action, SM<C> (phb 244)
+Friends,
+Enchantment Cantrip,
+1 action, SM<C> (phb 244)
 
-Mind Sliver, Enchantment Cantrip, 1 action, V (tce 108)
+
+Mind Sliver,
+Enchantment Cantrip,
+1 action, V (tce 108)
+
 bind sliver
 find sliver
 hind sliver
@@ -171,11 +212,17 @@ minx sliver
 rind sliver
 wind sliver
 
-Vicious Mockery, Enchantment Cantrip, 1 action, V (phb 285)
+Vicious Mockery,
+Enchantment Cantrip,
+1 action, V (phb 285)
+
 vicious mockers
 vicious rockery
 
-Booming Blade, Evocation Cantrip, 1 action, VM (scag 142, tce 106)
+Booming Blade,
+Evocation Cantrip,
+1 action, VM (scag 142, tce 106)
+
 blooming blade
 boobing blade
 booking blade
@@ -195,7 +242,10 @@ looming blade
 rooming blade
 zooming blade
 
-Dancing Lights, Evocation Cantrip, 1 action, VSM<C> (phb 230)
+Dancing Lights,
+Evocation Cantrip,
+1 action, VSM<C> (phb 230)
+
 dancing alights
 dancing bights
 dancing blights
@@ -212,14 +262,20 @@ dancing wights
 danging lights
 lancing lights
 
-Eldritch Blast, Evocation Cantrip, 1 action, VS (phb 237)
+Eldritch Blast,
+Evocation Cantrip,
+1 action, VS (phb 237)
+
 eldritch beast
 eldritch blase
 eldritch blasts
 eldritch boast
 eldritch last
 
-Fire Bolt, Evocation Cantrip, 1 action, VS (phb 242)
+Fire Bolt,
+Evocation Cantrip,
+1 action, VS (phb 242)
+
 afire bolt
 dire bolt
 fare bolt
@@ -255,13 +311,17 @@ sire bolt
 tire bolt
 wire bolt
 
-Frostbite, Evocation Cantrip, 1 action, VS (ee 18, xge 156)
+Frostbite,
+Evocation Cantrip,
+1 action, VS (ee 18, xge 156)
+
 front bite
 frosh bite
 frost bate
 frost bide
 frost bike
 frost bile
+frost bite
 frost biter
 frost bites
 frost bits
@@ -275,33 +335,41 @@ frost rite
 frost site
 frostbites
 frosts bite
+frosty bite
 
-Green-Flame Blade, Evocation Cantrip, 1 action, VM (scag 143, tce 107)
-greed-flame blade
-green-aflame blade
-green-blame blade
-green-flake blade
-green-flambe blade
-green-flame bladed
-green-flame blades
-green-flame blame
-green-flame blare
-green-flame blase
-green-flame blaze
-green-flame clade
-green-flame glade
-green-flame lade
-green-flamed blade
-green-flamer blade
-green-flames blade
-green-flare blade
-green-flume blade
-green-frame blade
-greens-flame blade
-greet-flame blade
-preen-flame blade
+Green-Flame Blade,
+Evocation Cantrip,
+1 action, VM (scag 143, tce 107)
 
-Light, Evocation Cantrip, 1 action, VM (phb 255)
+greed flame blade
+green aflame blade
+green blame blade
+green flake blade
+green flambe blade
+green flame bladed
+green flame blades
+green flame blame
+green flame blare
+green flame blase
+green flame blaze
+green flame clade
+green flame glade
+green flame lade
+green flamed blade
+green flamer blade
+green flames blade
+green flare blade
+green flume blade
+green frame blade
+green lame blade
+greens flame blade
+greet flame blade
+preen flame blade
+
+Light,
+Evocation Cantrip,
+1 action, VM (phb 255)
+
 alight
 bight
 blight
@@ -318,7 +386,10 @@ slight
 tight
 wight
 
-Lightning Lure, Evocation Cantrip, 1 action, V (scag 143, tce 107)
+Lightning Lure,
+Evocation Cantrip,
+1 action, V (scag 143, tce 107)
+
 lightening lure
 lightning cure
 lightning lire
@@ -335,7 +406,10 @@ lightning pure
 lightning sure
 lightnings lure
 
-Ray of Frost, Evocation Cantrip, 1 action, VS (phb 271)
+Ray of Frost,
+Evocation Cantrip,
+1 action, VS (phb 271)
+
 bay of frost
 bray of frost
 cay of frost
@@ -363,10 +437,10 @@ rap of frost
 rat of frost
 raw of frost
 ray if frost
-ray oaf frost
 ray of front
 ray of frosh
 ray of frosts
+ray of frosty
 ray on frost
 ray or frost
 rays of frost
@@ -374,7 +448,10 @@ say of frost
 tray of frost
 way of frost
 
-Sacred Flame, Evocation Cantrip, 1 action, VS (phb 272)
+Sacred Flame,
+Evocation Cantrip,
+1 action, VS (phb 272)
+
 sacked flame
 sacred aflame
 sacred blame
@@ -388,7 +465,10 @@ sacred flume
 sacred frame
 sacred lame
 
-Shocking Grasp, Evocation Cantrip, 1 action, VS (phb 275)
+Shocking Grasp,
+Evocation Cantrip,
+1 action, VS (phb 275)
+
 chocking grasp
 hocking grasp
 shacking grasp
@@ -399,13 +479,17 @@ shucking grasp
 smocking grasp
 stocking grasp
 
-Thunderclap, Evocation Cantrip, 1 action, S (ee 22, xge 168)
+Thunderclap,
+Evocation Cantrip,
+1 action, S (ee 22, xge 168)
+
 chunder clap
 thunder chap
 thunder clad
 thunder clam
 thunder clamp
 thunder clan
+thunder clap
 thunder claps
 thunder clasp
 thunder claw
@@ -418,8 +502,12 @@ thunder lap
 thunder slap
 thunderclaps
 thunders clap
+thundery clap
 
-Word of Radiance, Evocation Cantrip, 1 action, VM (xge 171)
+Word of Radiance,
+Evocation Cantrip,
+1 action, VM (xge 171)
+
 cord of radiance
 ford of radiance
 lord of radiance
@@ -429,10 +517,10 @@ woad of radiance
 wold of radiance
 wood of radiance
 word if radiance
-word oaf radiance
 word on radiance
 word or radiance
 words of radiance
+wordy of radiance
 wore of radiance
 work of radiance
 world of radiance
@@ -440,14 +528,20 @@ worm of radiance
 worn of radiance
 wort of radiance
 
-Minor Illusion, Illusion Cantrip, 1 action, SM (phb 260)
+Minor Illusion,
+Illusion Cantrip,
+1 action, SM (phb 260)
+
 manor illusion
 miner illusion
 minor allusion
 minor illusions
 minors illusion
 
-Chill Touch, Necromancy Cantrip, 1 action, VS (phb 221)
+Chill Touch,
+Necromancy Cantrip,
+1 action, VS (phb 221)
+
 child touch
 chili touch
 chill couch
@@ -455,13 +549,18 @@ chill ouch
 chill pouch
 chill torch
 chill touche
+chill touchy
 chill tough
 chill vouch
 chills touch
+chilly touch
 hill touch
 shill touch
 
-Spare the Dying, Necromancy Cantrip, 1 action, VS (phb 277)
+Spare the Dying,
+Necromancy Cantrip,
+1 action, VS (phb 277)
+
 pare the dying
 scare the dying
 share the dying
@@ -484,6 +583,7 @@ spare thee dying
 spare them dying
 spare then dying
 spare thew dying
+spare they dying
 spare tho dying
 spare thy dying
 spare tie dying
@@ -499,7 +599,10 @@ spire the dying
 spore the dying
 stare the dying
 
-Toll the Dead, Necromancy Cantrip, 1 action, VS (xge 169)
+Toll the Dead,
+Necromancy Cantrip,
+1 action, VS (xge 169)
+
 atoll the dead
 boll the dead
 coll the dead
@@ -533,6 +636,7 @@ toll thee dead
 toll them dead
 toll then dead
 toll thew dead
+toll they dead
 toll tho dead
 toll thy dead
 toll tie dead
@@ -541,7 +645,10 @@ tolls the dead
 tool the dead
 troll the dead
 
-Control Flames, Transmutation Cantrip, 1 action, S (ee 16, xge 152)
+Control Flames,
+Transmutation Cantrip,
+1 action, S (ee 16, xge 152)
+
 control blames
 control flakes
 control flambes
@@ -554,9 +661,14 @@ control frames
 control lames
 controls flames
 
-Druidcraft, Transmutation Cantrip, 1 action, VS (phb 236)
+Druidcraft,
+Transmutation Cantrip,
+1 action, VS (phb 236)
+
 droid craft
+druid craft
 druid crafts
+druid crafty
 druid croft
 druid cruft
 druid draft
@@ -564,7 +676,10 @@ druid graft
 druid raft
 druids craft
 
-Gust, Transmutation Cantrip, 1 action, VS (ee 19, xge 157)
+Gust,
+Transmutation Cantrip,
+1 action, VS (ee 19, xge 157)
+
 bust
 dust
 gist
@@ -572,13 +687,17 @@ guest
 gush
 gusto
 gusts
+gusty
 just
 lust
 must
 oust
 rust
 
-Magic Stone, Transmutation Cantrip, 1 bonus action, VS (ee 20, xge 160)
+Magic Stone,
+Transmutation Cantrip,
+1 bonus action, VS (ee 20, xge 160)
+
 magic atone
 magic scone
 magic shone
@@ -594,7 +713,10 @@ magic tone
 magics stone
 manic stone
 
-Mending, Transmutation Cantrip, 1 minute, VSM (phb 259)
+Mending,
+Transmutation Cantrip,
+1 minute, VSM (phb 259)
+
 amending
 bending
 emending
@@ -610,12 +732,18 @@ tending
 vending
 wending
 
-Message, Transmutation Cantrip, 1 action, VSM (phb 259)
+Message,
+Transmutation Cantrip,
+1 action, VSM (phb 259)
+
 massage
 messaged
 messages
 
-Mold Earth, Transmutation Cantrip, 1 action, S (ee 21, xge 162)
+Mold Earth,
+Transmutation Cantrip,
+1 action, S (ee 21, xge 162)
+
 bold earth
 cold earth
 fold earth
@@ -625,8 +753,10 @@ meld earth
 mild earth
 mold dearth
 mold earths
+mold earthy
 mold hearth
 molds earth
+moldy earth
 mole earth
 moll earth
 molt earth
@@ -636,12 +766,21 @@ sold earth
 told earth
 wold earth
 
-Prestidigitation, Transmutation Cantrip, 1 action, VS (phb 267)
+Prestidigitation,
+Transmutation Cantrip,
+1 action, VS (phb 267)
 
-Primal Savagery, Transmutation Cantrip, 1 action, S (xge 163)
+
+Primal Savagery,
+Transmutation Cantrip,
+1 action, S (xge 163)
+
 primal savagely
 
-Shape Water, Transmutation Cantrip, 1 action, S (ee 21)
+Shape Water,
+Transmutation Cantrip,
+1 action, S (ee 21)
+
 shade water
 shake water
 shale water
@@ -660,18 +799,28 @@ shape wager
 shape waiter
 shape waster
 shape waters
+shape watery
 shape waver
 shaped water
 shapes water
 share water
 shave water
 
-Shillelagh, Transmutation Cantrip, 1 bonus action, VSM (phb 275)
+Shillelagh,
+Transmutation Cantrip,
+1 bonus action, VSM (phb 275)
+
 shillelaghs
 
-Thaumaturgy, Transmutation Cantrip, 1 action, V (phb 282)
+Thaumaturgy,
+Transmutation Cantrip,
+1 action, V (phb 282)
 
-Thorn Whip, Transmutation Cantrip, 1 action, VSM (phb 282)
+
+Thorn Whip,
+Transmutation Cantrip,
+1 action, VSM (phb 282)
+
 horn whip
 thorn chip
 thorn hip
@@ -684,26 +833,42 @@ thorn whiz
 thorn whop
 thorn whup
 thorns whip
+thorny whip
 
-Absorb Elements, 1st level level Abjuration, 1 reaction, S (ee 15, xge 150)
+Absorb Elements,
+1st level Abjuration,
+1 reaction, S (ee 15, xge 150)
+
 absorbs elements
 adsorb elements
 
-Alarm, 1st level level Abjuration, 1 minute, VSM<R> (phb 211)
+Alarm,
+1st level Abjuration,
+1 minute, VSM<R> (phb 211)
+
 alarms
 
-Armor of Agathys, 1st level level Abjuration, 1 action, VSM (phb 215)
+Armor of Agathys,
+1st level Abjuration,
+1 action, VSM (phb 215)
+
 arbor of agathys
 ardor of agathys
 armor if agathys
-armor oaf agathys
 armor on agathys
 armor or agathys
 armors of agathys
+armory of agathys
 
-Ceremony, 1st level level Abjuration, 1 hour, VSMgp<R> (xge 151)
+Ceremony,
+1st level Abjuration,
+1 hour, VSMgp<R> (xge 151)
 
-Mage Armor, 1st level level Abjuration, 1 action, VSM (phb 256)
+
+Mage Armor,
+1st level Abjuration,
+1 action, VSM (phb 256)
+
 age armor
 cage armor
 image armor
@@ -712,6 +877,7 @@ made armor
 mage arbor
 mage ardor
 mage armors
+mage armory
 mages armor
 magi armor
 mags armor
@@ -729,7 +895,10 @@ rage armor
 sage armor
 wage armor
 
-Protection from Evil and Good, 1st level level Abjuration, 1 action, VSM<C> (phb 270)
+Protection from Evil and Good,
+1st level Abjuration,
+1 action, VSM<C> (phb 270)
+
 projection from evil and good
 protection frog evil and good
 protection from devil and good
@@ -739,6 +908,7 @@ protection from evil and food
 protection from evil and goad
 protection from evil and gold
 protection from evil and goods
+protection from evil and goody
 protection from evil and goof
 protection from evil and gook
 protection from evil and goon
@@ -762,21 +932,32 @@ protection from evils and good
 protection prom evil and good
 protections from evil and good
 
-Sanctuary, 1st level level Abjuration, 1 bonus action, VSM (phb 272)
+Sanctuary,
+1st level Abjuration,
+1 bonus action, VSM (phb 272)
 
-Shield, 1st level level Abjuration, 1 reaction, VS (phb 275)
+
+Shield,
+1st level Abjuration,
+1 reaction, VS (phb 275)
+
 shields
 
-Shield of Faith, 1st level level Abjuration, 1 bonus action, VSM<C> (phb 275)
+Shield of Faith,
+1st level Abjuration,
+1 bonus action, VSM<C> (phb 275)
+
 shield if faith
-shield oaf faith
 shield of faiths
 shield of saith
 shield on faith
 shield or faith
 shields of faith
 
-Snare, 1st level level Abjuration, 1 minute, SMgp (xge 165)
+Snare,
+1st level Abjuration,
+1 minute, SMgp (xge 165)
+
 scare
 share
 snake
@@ -789,14 +970,16 @@ snore
 spare
 stare
 
-Arms of Hadar, 1st level level Conjuration, 1 action, VS (phb 215)
+Arms of Hadar,
+1st level Conjuration,
+1 action, VS (phb 215)
+
 aims of hadar
 alms of hadar
 arcs of hadar
 ares of hadar
 arks of hadar
 arms if hadar
-arms oaf hadar
 arms of radar
 arms on hadar
 arms or hadar
@@ -807,7 +990,10 @@ farms of hadar
 harms of hadar
 warms of hadar
 
-Ensnaring Strike, 1st level level Conjuration, 1 bonus action, V<C> (phb 237)
+Ensnaring Strike,
+1st level Conjuration,
+1 bonus action, V<C> (phb 237)
+
 ensnaring shrike
 ensnaring striae
 ensnaring stride
@@ -819,12 +1005,18 @@ ensnaring strive
 ensnaring stroke
 ensnaring trike
 
-Entangle, 1st level level Conjuration, 1 action, VS<C> (phb 238)
+Entangle,
+1st level Conjuration,
+1 action, VS<C> (phb 238)
+
 entangled
 entangles
 untangle
 
-Find Familiar, 1st level level Conjuration, 1 hour, VSMgp<R> (phb 240)
+Find Familiar,
+1st level Conjuration,
+1 hour, VSMgp<R> (phb 240)
+
 bind familiar
 fend familiar
 fiend familiar
@@ -844,7 +1036,10 @@ mind familiar
 rind familiar
 wind familiar
 
-Fog Cloud, 1st level level Conjuration, 1 action, VS<C> (phb 243)
+Fog Cloud,
+1st level Conjuration,
+1 action, VS<C> (phb 243)
+
 bog cloud
 cog cloud
 dog cloud
@@ -855,9 +1050,11 @@ fob cloud
 foe cloud
 fog aloud
 fog clouds
+fog cloudy
 fog clout
 fog loud
 fogs cloud
+fogy cloud
 fol cloud
 foo cloud
 fop cloud
@@ -871,19 +1068,24 @@ log cloud
 tog cloud
 wog cloud
 
-Grease, 1st level level Conjuration, 1 action, VSM (phb 246)
+Grease,
+1st level Conjuration,
+1 action, VSM (phb 246)
+
 crease
 greased
 greaser
 greases
 greasy
 
-Hail of Thorns, 1st level level Conjuration, 1 bonus action, V<C> (phb 249)
+Hail of Thorns,
+1st level Conjuration,
+1 bonus action, V<C> (phb 249)
+
 ail of thorns
 bail of thorns
 fail of thorns
 hail if thorns
-hail oaf thorns
 hail of horns
 hail of thorny
 hail on thorns
@@ -901,7 +1103,10 @@ sail of thorns
 tail of thorns
 wail of thorns
 
-Ice Knife, 1st level level Conjuration, 1 action, SM (ee 19, xge 157)
+Ice Knife,
+1st level Conjuration,
+1 action, SM (ee 19, xge 157)
+
 ace knife
 dice knife
 ice knifed
@@ -916,7 +1121,10 @@ nice knife
 rice knife
 vice knife
 
-Tenser's Floating Disk, 1st level level Conjuration, 1 action, VSM<R> (phb 282)
+Tenser's Floating Disk,
+1st level Conjuration,
+1 action, VSM<R> (phb 282)
+
 censer's floating disk
 teaser's floating disk
 tender's floating disk
@@ -934,10 +1142,16 @@ tenser's floating risk
 tenser's flouting disk
 tenser's gloating disk
 
-Unseen Servant, 1st level level Conjuration, 1 action, VSM<R> (phb 284)
+Unseen Servant,
+1st level Conjuration,
+1 action, VSM<R> (phb 284)
+
 unseen servants
 
-Beast Bond, 1st level level Divination, 1 action, VSM<C> (ee 15, xge 150)
+Beast Bond,
+1st level Divination,
+1 action, VSM<C> (ee 15, xge 150)
+
 beast band
 beast bend
 beast bind
@@ -962,10 +1176,16 @@ feast bond
 least bond
 yeast bond
 
-Comprehend Languages, 1st level level Divination, 1 action, VSM<R> (phb 224)
+Comprehend Languages,
+1st level Divination,
+1 action, VSM<R> (phb 224)
+
 comprehends languages
 
-Detect Evil and Good, 1st level level Divination, 1 action, VS<C> (phb 231)
+Detect Evil and Good,
+1st level Divination,
+1 action, VS<C> (phb 231)
+
 defect evil and good
 deject evil and good
 detect devil and good
@@ -975,6 +1195,7 @@ detect evil and food
 detect evil and goad
 detect evil and gold
 detect evil and goods
+detect evil and goody
 detect evil and goof
 detect evil and gook
 detect evil and goon
@@ -998,7 +1219,10 @@ detect evils and good
 detects evil and good
 detest evil and good
 
-Detect Magic, 1st level level Divination, 1 action, VS<CR> (phb 231)
+Detect Magic,
+1st level Divination,
+1 action, VS<CR> (phb 231)
+
 defect magic
 deject magic
 detect magics
@@ -1006,7 +1230,10 @@ detect manic
 detects magic
 detest magic
 
-Detect Poison and Disease, 1st level level Divination, 1 action, VSM<CR> (phb 231)
+Detect Poison and Disease,
+1st level Divination,
+1 action, VSM<CR> (phb 231)
+
 defect poison and disease
 deject poison and disease
 detect poison add disease
@@ -1029,7 +1256,10 @@ detect prison and disease
 detects poison and disease
 detest poison and disease
 
-Hunter's Mark, 1st level level Divination, 1 bonus action, V<C> (phb 251)
+Hunter's Mark,
+1st level Divination,
+1 bonus action, V<C> (phb 251)
+
 haunter's mark
 hinter's mark
 hunger's mark
@@ -1049,10 +1279,16 @@ hunter's nark
 hunter's park
 punter's mark
 
-Identify, 1st level level Divination, 1 minute, VSMgp<R> (phb 252)
+Identify,
+1st level Divination,
+1 minute, VSMgp<R> (phb 252)
+
 identity
 
-Speak with Animals, 1st level level Divination, 1 action, VS<R> (phb 277)
+Speak with Animals,
+1st level Divination,
+1 action, VS<R> (phb 277)
+
 peak with animals
 sneak with animals
 speak kith animals
@@ -1067,24 +1303,18 @@ spear with animals
 speck with animals
 steak with animals
 
-Animal Friendship, 1st level level Enchantment, 1 action, VSM (phb 212)
-animal friend chip
-animal friend hip
-animal friend shim
-animal friend shin
-animal friend ships
-animal friend shit
-animal friend shiv
-animal friend shop
-animal friend skip
-animal friend slip
-animal friend snip
-animal friend whip
-animal friends ship
+Animal Friendship,
+1st level Enchantment,
+1 action, VSM (phb 212)
+
+animal friend ship
 animal friendships
 animals friendship
 
-Bane, 1st level level Enchantment, 1 action, VSM<C> (phb 216)
+Bane,
+1st level Enchantment,
+1 action, VSM<C> (phb 216)
+
 babe
 bade
 bake
@@ -1107,11 +1337,17 @@ sane
 vane
 wane
 
-Bless, 1st level level Enchantment, 1 action, VSM<C> (phb 219)
+Bless,
+1st level Enchantment,
+1 action, VSM<C> (phb 219)
+
 bliss
 less
 
-Charm Person, 1st level level Enchantment, 1 action, VS (phb 221)
+Charm Person,
+1st level Enchantment,
+1 action, VS (phb 221)
+
 chard person
 charm parson
 charm persona
@@ -1123,12 +1359,18 @@ chary person
 chasm person
 harm person
 
-Command, 1st level level Enchantment, 1 action, V (phb 223)
+Command,
+1st level Enchantment,
+1 action, V (phb 223)
+
 commando
 commands
 commend
 
-Compelled Duel, 1st level level Enchantment, 1 bonus action, V<C> (phb 224)
+Compelled Duel,
+1st level Enchantment,
+1 bonus action, V<C> (phb 224)
+
 compelled dual
 compelled duels
 compelled dues
@@ -1136,14 +1378,23 @@ compelled duet
 compelled dull
 compelled fuel
 
-Dissonant Whispers, 1st level level Enchantment, 1 action, V (phb 234)
+Dissonant Whispers,
+1st level Enchantment,
+1 action, V (phb 234)
+
 dissonant whimpers
 dissonant whippers
 dissonant whiskers
 
-Heroism, 1st level level Enchantment, 1 action, VS<C> (phb 250)
+Heroism,
+1st level Enchantment,
+1 action, VS<C> (phb 250)
 
-Hex, 1st level level Enchantment, 1 bonus action, VSM<C> (phb 251)
+
+Hex,
+1st level Enchantment,
+1 bonus action, VSM<C> (phb 251)
+
 ex
 hem
 hen
@@ -1155,24 +1406,34 @@ hey
 sex
 vex
 
-Sleep, 1st level level Enchantment, 1 action, VSM (phb 276)
+Sleep,
+1st level Enchantment,
+1 action, VSM (phb 276)
+
 asleep
 bleep
 sheep
 sleek
 sleeps
+sleepy
 sleet
 steep
 sweep
 
-Tasha's Hideous Laughter, 1st level level Enchantment, 1 action, VSM<C> (phb 280)
+Tasha's Hideous Laughter,
+1st level Enchantment,
+1 action, VSM<C> (phb 280)
+
 pasha's hideous laughter
 tasha's hideous daughter
 tasha's hideous slaughter
 tasha's hideout laughter
 tasha's hideouts laughter
 
-Burning Hands, 1st level level Evocation, 1 action, VS (phb 220)
+Burning Hands,
+1st level Evocation,
+1 action, VS (phb 220)
+
 burning bands
 burning handy
 burning hangs
@@ -1186,7 +1447,10 @@ burring hands
 burying hands
 turning hands
 
-Chaos Bolt, 1st level level Evocation, 1 action, VS (xge 151)
+Chaos Bolt,
+1st level Evocation,
+1 action, VS (xge 151)
+
 chads bolt
 chaos belt
 chaos boat
@@ -1207,7 +1471,10 @@ chars bolt
 chats bolt
 ciaos bolt
 
-Chromatic Orb, 1st level level Evocation, 1 action, VSMgp (phb 221)
+Chromatic Orb,
+1st level Evocation,
+1 action, VSMgp (phb 221)
+
 achromatic orb
 chromatic orbs
 chromatic orc
@@ -1215,7 +1482,10 @@ chromatic ore
 chromatic org
 chromatin orb
 
-Cure Wounds, 1st level level Evocation, 1 action, VS (phb 230)
+Cure Wounds,
+1st level Evocation,
+1 action, VS (phb 230)
+
 care wounds
 core wounds
 cube wounds
@@ -1244,7 +1514,10 @@ lure wounds
 pure wounds
 sure wounds
 
-Divine Favor, 1st level level Evocation, 1 bonus action, VS<C> (phb 234)
+Divine Favor,
+1st level Evocation,
+1 bonus action, VS<C> (phb 234)
+
 divide favor
 divine favors
 divine flavor
@@ -1254,13 +1527,20 @@ diviner favor
 divines favor
 diving favor
 
-Earth Tremor, 1st level level Evocation, 1 action, VS (ee 17, xge 155)
+Earth Tremor,
+1st level Evocation,
+1 action, VS (ee 17, xge 155)
+
 dearth tremor
 earth tremors
 earths tremor
+earthy tremor
 hearth tremor
 
-Faerie Fire, 1st level level Evocation, 1 action, V<C> (phb 239)
+Faerie Fire,
+1st level Evocation,
+1 action, V<C> (phb 239)
+
 aerie fire
 faerie afire
 faerie dire
@@ -1284,7 +1564,10 @@ faerie tire
 faerie wire
 faeries fire
 
-Guiding Bolt, 1st level level Evocation, 1 action, VS (phb 248)
+Guiding Bolt,
+1st level Evocation,
+1 action, VS (phb 248)
+
 gliding bolt
 guiding belt
 guiding boat
@@ -1301,7 +1584,10 @@ guiding jolt
 guiding molt
 guiding volt
 
-Healing Word, 1st level level Evocation, 1 bonus action, V (phb 250)
+Healing Word,
+1st level Evocation,
+1 bonus action, V (phb 250)
+
 dealing word
 heading word
 healing cord
@@ -1313,6 +1599,7 @@ healing woad
 healing wold
 healing wood
 healing words
+healing wordy
 healing wore
 healing work
 healing world
@@ -1327,11 +1614,17 @@ heeling word
 pealing word
 sealing word
 
-Hellish Rebuke, 1st level level Evocation, 1 reaction, VS (phb 250)
+Hellish Rebuke,
+1st level Evocation,
+1 reaction, VS (phb 250)
+
 hellish rebuked
 hellish rebukes
 
-Magic Missile, 1st level level Evocation, 1 action, VS (phb 257)
+Magic Missile,
+1st level Evocation,
+1 action, VS (phb 257)
+
 magic fissile
 magic misfile
 magic missiles
@@ -1339,7 +1632,10 @@ magic missive
 magics missile
 manic missile
 
-Searing Smite, 1st level level Evocation, 1 bonus action, V<C> (phb 274)
+Searing Smite,
+1st level Evocation,
+1 bonus action, V<C> (phb 274)
+
 bearing smite
 fearing smite
 gearing smite
@@ -1369,7 +1665,10 @@ swearing smite
 tearing smite
 wearing smite
 
-Tasha's Caustic Brew, 1st level level Evocation, 1 action, VSM<C> (tce 115)
+Tasha's Caustic Brew,
+1st level Evocation,
+1 action, VSM<C> (tce 115)
+
 pasha's caustic brew
 tasha's caustic blew
 tasha's caustic bred
@@ -1380,7 +1679,10 @@ tasha's caustic drew
 tasha's caustic grew
 tasha's caustics brew
 
-Thunderous Smite, 1st level level Evocation, 1 bonus action, V<C> (phb 282)
+Thunderous Smite,
+1st level Evocation,
+1 bonus action, V<C> (phb 282)
+
 thunderous mite
 thunderous smile
 thunderous smites
@@ -1389,7 +1691,10 @@ thunderous smote
 thunderous spite
 thunderous suite
 
-Thunderwave, 1st level level Evocation, 1 action, VS (phb 282)
+Thunderwave,
+1st level Evocation,
+1 action, VS (phb 282)
+
 chunder wave
 thunder ave
 thunder cave
@@ -1409,6 +1714,7 @@ thunder wake
 thunder wale
 thunder wane
 thunder ware
+thunder wave
 thunder waved
 thunder waver
 thunder waves
@@ -1417,8 +1723,12 @@ thunder weave
 thunder wive
 thunder wove
 thunders wave
+thundery wave
 
-Witch Bolt, 1st level level Evocation, 1 action, VSM<C> (phb 289)
+Witch Bolt,
+1st level Evocation,
+1 action, VSM<C> (phb 289)
+
 aitch bolt
 bitch bolt
 ditch bolt
@@ -1445,7 +1755,10 @@ witch jolt
 witch molt
 witch volt
 
-Wrathful Smite, 1st level level Evocation, 1 bonus action, V<C> (phb 289)
+Wrathful Smite,
+1st level Evocation,
+1 bonus action, V<C> (phb 289)
+
 wrathful mite
 wrathful smile
 wrathful smites
@@ -1454,7 +1767,10 @@ wrathful smote
 wrathful spite
 wrathful suite
 
-Color Spray, 1st level level Illusion, 1 action, VSM (phb 222)
+Color Spray,
+1st level Illusion,
+1 action, VSM (phb 222)
+
 colon spray
 color pray
 color splay
@@ -1464,7 +1780,11 @@ color stray
 colors spray
 dolor spray
 
-Disguise Self, 1st level level Illusion, 1 action, VS (phb 233)
+Disguise Self,
+1st level Illusion,
+1 action, VS (phb 233)
+
+dis guise self
 disguise elf
 disguise pelf
 disguise sell
@@ -1473,18 +1793,27 @@ disguise shelf
 disguised self
 disguises self
 
-Illusory Script, 1st level level Illusion, 1 minute, SMgp<R> (phb 252)
+Illusory Script,
+1st level Illusion,
+1 minute, SMgp<R> (phb 252)
+
 illusory scrips
 illusory scripts
 
-Silent Image, 1st level level Illusion, 1 action, VSM<C> (phb 276)
+Silent Image,
+1st level Illusion,
+1 action, VSM<C> (phb 276)
+
 silent imaged
 silent images
 silent imago
 silent mage
 silents image
 
-Cause Fear, 1st level level Necromancy, 1 action, V<C> (xge 151)
+Cause Fear,
+1st level Necromancy,
+1 action, V<C> (xge 151)
+
 cause bear
 cause dear
 cause ear
@@ -1507,7 +1836,10 @@ clause fear
 cruse fear
 pause fear
 
-False Life, 1st level level Necromancy, 1 action, VSM (phb 239)
+False Life,
+1st level Necromancy,
+1 action, VSM (phb 239)
+
 false fife
 false lice
 false lifer
@@ -1523,7 +1855,10 @@ false wife
 falser life
 falsie life
 
-Inflict Wounds, 1st level level Necromancy, 1 action, VS (phb 253)
+Inflict Wounds,
+1st level Necromancy,
+1 action, VS (phb 253)
+
 inflect wounds
 inflict bounds
 inflict founds
@@ -1536,7 +1871,10 @@ inflict woulds
 inflict zounds
 inflicts wounds
 
-Ray of Sickness, 1st level level Necromancy, 1 action, VS (phb 271)
+Ray of Sickness,
+1st level Necromancy,
+1 action, VS (phb 271)
+
 bay of sickness
 bray of sickness
 cay of sickness
@@ -1564,7 +1902,6 @@ rap of sickness
 rat of sickness
 raw of sickness
 ray if sickness
-ray oaf sickness
 ray of slickness
 ray on sickness
 ray or sickness
@@ -1573,17 +1910,24 @@ say of sickness
 tray of sickness
 way of sickness
 
-Arcane Weapon, 1st level level Transmutation, 1 bonus action, VS<C> (ua)
+Arcane Weapon,
+1st level Transmutation,
+1 bonus action, VS<C> (ua)
+
 arcade weapon
 arcane weapons
 
-Catapult, 1st level level Transmutation, 1 action, S (ee 15, xge 150)
+Catapult,
+1st level Transmutation,
+1 action, S (ee 15, xge 150)
+
 catapults
 
-Create or Destroy Water, 1st level level Transmutation, 1 action, VSM (phb 229)
+Create or Destroy Water,
+1st level Transmutation,
+1 action, VSM (phb 229)
+
 crease or destroy water
-create if destroy water
-create oaf destroy water
 create of destroy water
 create on destroy water
 create or destroy cater
@@ -1600,18 +1944,25 @@ create or destroy wager
 create or destroy waiter
 create or destroy waster
 create or destroy waters
+create or destroy watery
 create or destroy waver
 create or destroys water
 created or destroy water
 creates or destroy water
 cremate or destroy water
 
-Expeditious Retreat, 1st level level Transmutation, 1 bonus action, VS<C> (phb 238)
+Expeditious Retreat,
+1st level Transmutation,
+1 bonus action, VS<C> (phb 238)
+
 expeditions retreat
 expeditious retread
 expeditious retreats
 
-Feather Fall, 1st level level Transmutation, 1 reaction, VM (phb 239)
+Feather Fall,
+1st level Transmutation,
+1 reaction, VM (phb 239)
+
 feather all
 feather ball
 feather call
@@ -1628,19 +1979,25 @@ feather pall
 feather tall
 feather wall
 feathers fall
+feathery fall
 heather fall
 leather fall
 weather fall
 
-Goodberry, 1st level level Transmutation, 1 action, VSM (phb 246)
+Goodberry,
+1st level Transmutation,
+1 action, VSM (phb 246)
+
 food berry
 goad berry
 gold berry
 good beery
+good berry
 good ferry
 good merry
 good terry
 goods berry
+goody berry
 goof berry
 gook berry
 goon berry
@@ -1650,20 +2007,45 @@ mood berry
 rood berry
 wood berry
 
-Jump, 1st level level Transmutation, 1 action, VSM (phb 254)
+Jump,
+1st level Transmutation,
+1 action, VSM (phb 254)
+
 bump
 dump
 hump
 jumps
+jumpy
 lump
 pump
 rump
 sump
 ump
 
-Longstrider, 1st level level Transmutation, 1 action, VSM (phb 256)
+Longstrider,
+1st level Transmutation,
+1 action, VSM (phb 256)
 
-Purify Food and Drink, 1st level level Transmutation, 1 action, VS<R> (phb 270)
+along strider
+bong strider
+dong strider
+gong strider
+ling strider
+lone strider
+long staider
+long strider
+long strides
+long striker
+longs strider
+lung strider
+pong strider
+song strider
+tong strider
+
+Purify Food and Drink,
+1st level Transmutation,
+1 action, VS<R> (phb 270)
+
 purify flood and drink
 purify fold and drink
 purify fond and drink
@@ -1696,7 +2078,10 @@ purify rood and drink
 purify wood and drink
 purity food and drink
 
-Zephyr Strike, 1st level level Transmutation, 1 bonus action, V<C> (xge 171)
+Zephyr Strike,
+1st level Transmutation,
+1 bonus action, V<C> (xge 171)
+
 zephyr shrike
 zephyr striae
 zephyr stride
@@ -1709,7 +2094,10 @@ zephyr stroke
 zephyr trike
 zephyrs strike
 
-Aid, 2nd level level Abjuration, 1 action, VSM (phb 211)
+Aid,
+2nd level Abjuration,
+1 action, VSM (phb 211)
+
 acid
 add
 aide
@@ -1736,7 +2124,10 @@ rid
 said
 yid
 
-Arcane Lock, 2nd level level Abjuration, 1 action, VSMgp (phb 215)
+Arcane Lock,
+2nd level Abjuration,
+1 action, VSMgp (phb 215)
+
 arcade lock
 arcane block
 arcane bock
@@ -1758,38 +2149,21 @@ arcane pock
 arcane rock
 arcane sock
 
-Lesser Restoration, 2nd level level Abjuration, 1 action, VS (phb 255)
+Lesser Restoration,
+2nd level Abjuration,
+1 action, VS (phb 255)
+
 leaser restoration
 lessee restoration
 lessen restoration
-lesser best oration
-lesser crest oration
-lesser est oration
-lesser fest oration
-lesser jest oration
-lesser lest oration
-lesser nest oration
-lesser pest oration
-lesser rent oration
-lesser resat oration
-lesser reset oration
-lesser resit oration
-lesser resp oration
-lesser rest orations
-lesser rest ovation
-lesser rest ration
+lesser rest oration
 lesser restorations
-lesser rests oration
-lesser rust oration
-lesser test oration
-lesser vest oration
-lesser west oration
-lesser wrest oration
-lesser yest oration
-lesser zest oration
 lessor restoration
 
-Pass without Trace, 2nd level level Abjuration, 1 action, VSM<C> (phb 264)
+Pass without Trace,
+2nd level Abjuration,
+1 action, VSM<C> (phb 264)
+
 ass without trace
 bass without trace
 lass without trace
@@ -1822,7 +2196,10 @@ poss without trace
 puss without trace
 sass without trace
 
-Protection from Poison, 2nd level level Abjuration, 1 action, VS (phb 270)
+Protection from Poison,
+2nd level Abjuration,
+1 action, VS (phb 270)
+
 projection from poison
 protection frog poison
 protection from poisons
@@ -1830,7 +2207,10 @@ protection from prison
 protection prom poison
 protections from poison
 
-Warding Bond, 2nd level level Abjuration, 1 action, VSMgp (phb 287)
+Warding Bond,
+2nd level Abjuration,
+1 action, VSMgp (phb 287)
+
 awarding bond
 carding bond
 larding bond
@@ -1855,10 +2235,12 @@ warping bond
 warring bond
 wording bond
 
-Cloud of Daggers, 2nd level level Conjuration, 1 action, VSM<C> (phb 222)
+Cloud of Daggers,
+2nd level Conjuration,
+1 action, VSM<C> (phb 222)
+
 aloud of daggers
 cloud if daggers
-cloud oaf daggers
 cloud of dangers
 cloud of diggers
 cloud of naggers
@@ -1866,10 +2248,14 @@ cloud of taggers
 cloud on daggers
 cloud or daggers
 clouds of daggers
+cloudy of daggers
 clout of daggers
 loud of daggers
 
-Dust Devil, 2nd level level Conjuration, 1 action, VSM<C> (ee 17, xge 154)
+Dust Devil,
+2nd level Conjuration,
+1 action, VSM<C> (ee 17, xge 154)
+
 bust devil
 dist devil
 dost devil
@@ -1880,6 +2266,7 @@ dusk devil
 dust devils
 dust evil
 dusts devil
+dusty devil
 gust devil
 just devil
 lust devil
@@ -1887,7 +2274,10 @@ must devil
 oust devil
 rust devil
 
-Find Steed, 2nd level level Conjuration, 10 minutes, VS (phb 240)
+Find Steed,
+2nd level Conjuration,
+10 minutes, VS (phb 240)
+
 bind steed
 fend steed
 fiend steed
@@ -1913,7 +2303,10 @@ mind steed
 rind steed
 wind steed
 
-Flaming Sphere, 2nd level level Conjuration, 1 action, VSM<C> (phb 242)
+Flaming Sphere,
+2nd level Conjuration,
+1 action, VSM<C> (phb 242)
+
 blaming sphere
 flaking sphere
 flaming spheres
@@ -1926,7 +2319,10 @@ foaming sphere
 framing sphere
 laming sphere
 
-Healing Spirit, 2nd level level Conjuration, 1 bonus action, VS<C> (xge 157)
+Healing Spirit,
+2nd level Conjuration,
+1 bonus action, VS<C> (xge 157)
+
 dealing spirit
 heading spirit
 healing spirits
@@ -1938,7 +2334,10 @@ heeling spirit
 pealing spirit
 sealing spirit
 
-Misty Step, 2nd level level Conjuration, 1 bonus action, V (phb 260)
+Misty Step,
+2nd level Conjuration,
+1 bonus action, V (phb 260)
+
 minty step
 mists step
 misty seep
@@ -1951,7 +2350,10 @@ misty stop
 misty strep
 musty step
 
-Summon Beast, 2nd level level Conjuration, 1 action, VSM<C> (tce 109)
+Summon Beast,
+2nd level Conjuration,
+1 action, VSM<C> (tce 109)
+
 summon beasts
 summon beaut
 summon blast
@@ -1961,9 +2363,11 @@ summon east
 summon feast
 summon least
 summon yeast
-summons beast
 
-Web, 2nd level level Conjuration, 1 action, VSM<C> (phb 287)
+Web,
+2nd level Conjuration,
+1 action, VSM<C> (phb 287)
+
 deb
 webs
 wed
@@ -1971,10 +2375,16 @@ wee
 wen
 wet
 
-Augury, 2nd level level Divination, 1 minute, VSMgp<R> (phb 215)
+Augury,
+2nd level Divination,
+1 minute, VSMgp<R> (phb 215)
+
 augurs
 
-Beast Sense, 2nd level level Divination, 1 action, S<CR> (phb 217)
+Beast Sense,
+2nd level Divination,
+1 action, S<CR> (phb 217)
+
 beast dense
 beast sensed
 beast senses
@@ -1989,13 +2399,19 @@ feast sense
 least sense
 yeast sense
 
-Detect Thoughts, 2nd level level Divination, 1 action, VSM<C> (phb 231)
+Detect Thoughts,
+2nd level Divination,
+1 action, VSM<C> (phb 231)
+
 defect thoughts
 deject thoughts
 detects thoughts
 detest thoughts
 
-Find Traps, 2nd level level Divination, 1 action, VS (phb 241)
+Find Traps,
+2nd level Divination,
+1 action, VS (phb 241)
+
 bind traps
 fend traps
 fiend traps
@@ -2022,10 +2438,11 @@ mind traps
 rind traps
 wind traps
 
-Locate Animals or Plants, 2nd level level Divination, 1 action, VSM<R> (phb 256)
+Locate Animals or Plants,
+2nd level Divination,
+1 action, VSM<R> (phb 256)
+
 locale animals or plants
-locate animals if plants
-locate animals oaf plants
 locate animals of plants
 locate animals on plants
 locate animals or plaints
@@ -2037,14 +2454,20 @@ locate animals or slants
 located animals or plants
 locates animals or plants
 
-Locate Object, 2nd level level Divination, 1 action, VSM<C> (phb 256)
+Locate Object,
+2nd level Divination,
+1 action, VSM<C> (phb 256)
+
 locale object
 locate abject
 locate objects
 located object
 locates object
 
-Mind Spike, 2nd level level Divination, 1 action, S<C> (xge 162)
+Mind Spike,
+2nd level Divination,
+1 action, S<C> (xge 162)
+
 bind spike
 find spike
 hind spike
@@ -2072,7 +2495,10 @@ minx spike
 rind spike
 wind spike
 
-See Invisibility, 2nd level level Divination, 1 action, VSM (phb 274)
+See Invisibility,
+2nd level Divination,
+1 action, VSM (phb 274)
+
 bee invisibility
 fee invisibility
 gee invisibility
@@ -2099,11 +2525,17 @@ sue invisibility
 tee invisibility
 wee invisibility
 
-Animal Messenger, 2nd level level Enchantment, 1 action, VSM<R> (phb 212)
+Animal Messenger,
+2nd level Enchantment,
+1 action, VSM<R> (phb 212)
+
 animal messengers
 animals messenger
 
-Calm Emotions, 2nd level level Enchantment, 1 action, VS<C> (phb 221)
+Calm Emotions,
+2nd level Enchantment,
+1 action, VS<C> (phb 221)
+
 balm emotions
 calf emotions
 calk emotions
@@ -2114,13 +2546,15 @@ calm motions
 calms emotions
 palm emotions
 
-Crown of Madness, 2nd level level Enchantment, 1 action, VS<C> (phb 229)
+Crown of Madness,
+2nd level Enchantment,
+1 action, VS<C> (phb 229)
+
 brown of madness
 clown of madness
 croon of madness
 crowd of madness
 crown if madness
-crown oaf madness
 crown of badness
 crown of sadness
 crown on madness
@@ -2131,10 +2565,16 @@ drown of madness
 frown of madness
 grown of madness
 
-Enthrall, 2nd level level Enchantment, 1 action, VS (phb 238)
+Enthrall,
+2nd level Enchantment,
+1 action, VS (phb 238)
+
 enthralls
 
-Hold Person, 2nd level level Enchantment, 1 action, VSM<C> (phb 251)
+Hold Person,
+2nd level Enchantment,
+1 action, VSM<C> (phb 251)
+
 bold person
 cold person
 fold person
@@ -2156,10 +2596,16 @@ sold person
 told person
 wold person
 
-Suggestion, 2nd level level Enchantment, 1 action, VM<C> (phb 279)
+Suggestion,
+2nd level Enchantment,
+1 action, VM<C> (phb 279)
+
 suggestions
 
-Tasha's Mind Whip, 2nd level level Enchantment, 1 action, V (tce 115)
+Tasha's Mind Whip,
+2nd level Enchantment,
+1 action, V (tce 115)
+
 pasha's mind whip
 tasha's bind whip
 tasha's find whip
@@ -2188,7 +2634,10 @@ tasha's minx whip
 tasha's rind whip
 tasha's wind whip
 
-Zone of Truth, 2nd level level Enchantment, 1 action, VS (phb 289)
+Zone of Truth,
+2nd level Enchantment,
+1 action, VS (phb 289)
+
 bone of truth
 cone of truth
 done of truth
@@ -2202,7 +2651,6 @@ pone of truth
 tone of truth
 zine of truth
 zone if truth
-zone oaf truth
 zone of troth
 zone of truths
 zone on truth
@@ -2210,40 +2658,20 @@ zone or truth
 zoned of truth
 zones of truth
 
-Aganazzar's Scorcher, 2nd level level Evocation, 1 action, VSM (ee 15, xge 150)
+Aganazzar's Scorcher,
+2nd level Evocation,
+1 action, VSM (ee 15, xge 150)
+
 aganazzar's scorched
 aganazzar's scorchers
 aganazzar's scorches
 
-Branding Smite, 2nd level level Evocation, 1 bonus action, V<C> (phb 219)
-bean ding smite
-brad ding smite
-brae ding smite
-brag ding smite
+Branding Smite,
+2nd level Evocation,
+1 bonus action, V<C> (phb 219)
+
 braiding smite
-brain ding smite
-bran dang smite
-bran dding smite
-bran dine smite
-bran dingo smite
-bran dings smite
-bran dink smite
-bran dins smite
-bran dint smite
-bran doing smite
-bran dong smite
-bran dung smite
-bran dying smite
-bran hing smite
-bran king smite
-bran ling smite
-bran ping smite
-bran ring smite
-bran sing smite
-bran ting smite
-bran wing smite
-bran zing smite
-brand ding smite
+bran ding smite
 branding mite
 branding smile
 branding smites
@@ -2252,14 +2680,11 @@ branding smote
 branding spite
 branding suite
 brandying smite
-bras ding smite
-brat ding smite
-brawn ding smite
-bray ding smite
-gran ding smite
-ran ding smite
 
-Continual Flame, 2nd level level Evocation, 1 action, VSMgp (phb 227)
+Continual Flame,
+2nd level Evocation,
+1 action, VSMgp (phb 227)
+
 continual aflame
 continual blame
 continual flake
@@ -2272,10 +2697,16 @@ continual flume
 continual frame
 continual lame
 
-Darkness, 2nd level level Evocation, 1 action, VM<C> (phb 230)
+Darkness,
+2nd level Evocation,
+1 action, VM<C> (phb 230)
+
 dankness
 
-Flame Blade, 2nd level level Evocation, 1 bonus action, VSM<C> (phb 242)
+Flame Blade,
+2nd level Evocation,
+1 bonus action, VSM<C> (phb 242)
+
 aflame blade
 blame blade
 flake blade
@@ -2297,14 +2728,16 @@ flume blade
 frame blade
 lame blade
 
-Gust of Wind, 2nd level level Evocation, 1 action, VSM<C> (phb 248)
+Gust of Wind,
+2nd level Evocation,
+1 action, VSM<C> (phb 248)
+
 bust of wind
 dust of wind
 gist of wind
 guest of wind
 gush of wind
 gust if wind
-gust oaf wind
 gust of bind
 gust of find
 gust of hind
@@ -2316,6 +2749,7 @@ gust of wand
 gust of wend
 gust of wild
 gust of winds
+gust of windy
 gust of wine
 gust of wined
 gust of wing
@@ -2327,13 +2761,17 @@ gust on wind
 gust or wind
 gusto of wind
 gusts of wind
+gusty of wind
 just of wind
 lust of wind
 must of wind
 oust of wind
 rust of wind
 
-Melf's Acid Arrow, 2nd level level Evocation, 1 action, VSM (phb 259)
+Melf's Acid Arrow,
+2nd level Evocation,
+1 action, VSM (phb 259)
+
 elf's acid arrow
 meld's acid arrow
 melf's aced arrow
@@ -2354,7 +2792,10 @@ milf's acid arrow
 pelf's acid arrow
 self's acid arrow
 
-Moonbeam, 2nd level level Evocation, 1 action, VSM<C> (phb 261)
+Moonbeam,
+2nd level Evocation,
+1 action, VSM<C> (phb 261)
+
 boon beam
 coon beam
 goon beam
@@ -2364,6 +2805,7 @@ mood beam
 moon abeam
 moon bead
 moon beak
+moon beam
 moon beams
 moon bean
 moon bear
@@ -2384,13 +2826,15 @@ moron beam
 noon beam
 soon beam
 
-Prayer of Healing, 2nd level level Evocation, 10 minutes, V (phb 267)
+Prayer of Healing,
+2nd level Evocation,
+10 minutes, V (phb 267)
+
 grayer of healing
 player of healing
 prater of healing
 prayed of healing
 prayer if healing
-prayer oaf healing
 prayer of dealing
 prayer of heading
 prayer of heaping
@@ -2405,7 +2849,10 @@ prayer or healing
 prayers of healing
 sprayer of healing
 
-Scorching Ray, 2nd level level Evocation, 1 action, VS (phb 273)
+Scorching Ray,
+2nd level Evocation,
+1 action, VS (phb 273)
+
 scorching bay
 scorching bray
 scorching cay
@@ -2438,7 +2885,10 @@ scorching tray
 scorching way
 scotching ray
 
-Shatter, 2nd level level Evocation, 1 action, VSM (phb 275)
+Shatter,
+2nd level Evocation,
+1 action, VSM (phb 275)
+
 chatter
 hatter
 scatter
@@ -2447,7 +2897,10 @@ shutter
 spatter
 swatter
 
-Snilloc's Snowball Swarm, 2nd level level Evocation, 1 action, VSM (ee 22, xge 165)
+Snilloc's Snowball Swarm,
+2nd level Evocation,
+1 action, VSM (ee 22, xge 165)
+
 snilloc's know ball swarm
 snilloc's now ball swarm
 snilloc's scow ball swarm
@@ -2461,7 +2914,9 @@ snilloc's snow bail swarm
 snilloc's snow bald swarm
 snilloc's snow bale swarm
 snilloc's snow balk swarm
+snilloc's snow ball swarm
 snilloc's snow balls swarm
+snilloc's snow bally swarm
 snilloc's snow balm swarm
 snilloc's snow bawl swarm
 snilloc's snow bell swarm
@@ -2482,13 +2937,20 @@ snilloc's snowball warm
 snilloc's snowballs swarm
 snilloc's snowfall swarm
 snilloc's snows ball swarm
+snilloc's snowy ball swarm
 snilloc's stow ball swarm
 
-Spiritual Weapon, 2nd level level Evocation, 1 bonus action, VS (phb 278)
+Spiritual Weapon,
+2nd level Evocation,
+1 bonus action, VS (phb 278)
+
 spiritual weapons
 spirituals weapon
 
-Warding Wind, 2nd level level Evocation, 1 action, V<C> (ee 23, xge 170)
+Warding Wind,
+2nd level Evocation,
+1 action, V<C> (ee 23, xge 170)
+
 awarding wind
 carding wind
 larding wind
@@ -2504,6 +2966,7 @@ warding wand
 warding wend
 warding wild
 warding winds
+warding windy
 warding wine
 warding wined
 warding wing
@@ -2517,7 +2980,10 @@ warping wind
 warring wind
 wording wind
 
-Blur, 2nd level level Illusion, 1 action, V<C> (phb 219)
+Blur,
+2nd level Illusion,
+1 action, V<C> (phb 219)
+
 blue
 bluer
 blurb
@@ -2525,37 +2991,56 @@ blurs
 blurt
 slur
 
-Invisibility, 2nd level level Illusion, 1 action, VSM<C> (phb 254)
+Invisibility,
+2nd level Illusion,
+1 action, VSM<C> (phb 254)
 
-Magic Mouth, 2nd level level Illusion, 1 minute, VSMgp<R> (phb 257)
+
+Magic Mouth,
+2nd level Illusion,
+1 minute, VSMgp<R> (phb 257)
+
 magic month
 magic mouths
+magic mouthy
 magic south
 magic youth
 magics mouth
 manic mouth
 
-Mirror Image, 2nd level level Illusion, 1 action, VS (phb 260)
+Mirror Image,
+2nd level Illusion,
+1 action, VS (phb 260)
+
 mirror imaged
 mirror images
 mirror imago
 mirror mage
 mirrors image
 
-Nystul's Magic Aura, 2nd level level Illusion, 1 action, VSM (phb 263)
+Nystul's Magic Aura,
+2nd level Illusion,
+1 action, VSM (phb 263)
+
 nystul's magic aural
 nystul's magic auras
 nystul's magics aura
 nystul's manic aura
 
-Phantasmal Force, 2nd level level Illusion, 1 action, VSM<C> (phb 264)
+Phantasmal Force,
+2nd level Illusion,
+1 action, VSM<C> (phb 264)
+
 phantasmal farce
 phantasmal forced
 phantasmal forces
 phantasmal forge
 phantasmal forte
 
-Shadow Blade, 2nd level level Illusion, 1 bonus action, VS<C> (xge 164)
+Shadow Blade,
+2nd level Illusion,
+1 bonus action, VS<C> (xge 164)
+
 shadow bladed
 shadow blades
 shadow blame
@@ -2566,18 +3051,28 @@ shadow clade
 shadow glade
 shadow lade
 shadows blade
+shadowy blade
 
-Silence, 2nd level level Illusion, 1 action, VS<CR> (phb 275)
+Silence,
+2nd level Illusion,
+1 action, VS<CR> (phb 275)
+
 silenced
 silencer
 silences
 
-Blindness/Deafness, 2nd level level Necromancy, 1 action, V (phb 219)
-blandness/deafness
-blindness/dearness
-blondness/deafness
+Blindness/Deafness,
+2nd level Necromancy,
+1 action, V (phb 219)
 
-Gentle Repose, 2nd level level Necromancy, 1 action, VSM<R> (phb 245)
+blandness deafness
+blindness dearness
+blondness deafness
+
+Gentle Repose,
+2nd level Necromancy,
+1 action, VSM<R> (phb 245)
+
 gentile repose
 gentle depose
 gentle reposed
@@ -2587,7 +3082,10 @@ gentler repose
 gentles repose
 gently repose
 
-Ray of Enfeeblement, 2nd level level Necromancy, 1 action, VS<C> (phb 271)
+Ray of Enfeeblement,
+2nd level Necromancy,
+1 action, VS<C> (phb 271)
+
 bay of enfeeblement
 bray of enfeeblement
 cay of enfeeblement
@@ -2615,7 +3113,6 @@ rap of enfeeblement
 rat of enfeeblement
 raw of enfeeblement
 ray if enfeeblement
-ray oaf enfeeblement
 ray on enfeeblement
 ray or enfeeblement
 rays of enfeeblement
@@ -2623,7 +3120,10 @@ say of enfeeblement
 tray of enfeeblement
 way of enfeeblement
 
-Alter Self, 2nd level level Transmutation, 1 action, VS<C> (phb 211)
+Alter Self,
+2nd level Transmutation,
+1 action, VS<C> (phb 211)
+
 after self
 alder self
 altar self
@@ -2639,7 +3139,10 @@ falter self
 halter self
 salter self
 
-Barkskin, 2nd level level Transmutation, 1 action, VSM<C> (phb 217)
+Barkskin,
+2nd level Transmutation,
+1 action, VSM<C> (phb 217)
+
 ark skin
 back skin
 balk skin
@@ -2654,6 +3157,7 @@ bark shin
 bark skein
 bark skid
 bark skim
+bark skin
 bark skins
 bark skint
 bark skip
@@ -2672,9 +3176,11 @@ mark skin
 nark skin
 park skin
 
-Cordon of Arrows, 2nd level level Transmutation, 1 action, VSM (phb 228)
+Cordon of Arrows,
+2nd level Transmutation,
+1 action, VSM (phb 228)
+
 cordon if arrows
-cordon oaf arrows
 cordon of barrows
 cordon of farrows
 cordon of harrows
@@ -2684,11 +3190,15 @@ cordon on arrows
 cordon or arrows
 cordons of arrows
 
-Darkvision, 2nd level level Transmutation, 1 action, VSM (phb 230)
+Darkvision,
+2nd level Transmutation,
+1 action, VSM (phb 230)
+
 ark vision
 bark vision
 dank vision
 dare vision
+dark vision
 dark visions
 darn vision
 dart vision
@@ -2700,18 +3210,26 @@ mark vision
 nark vision
 park vision
 
-Dragon's Breath, 2nd level level Transmutation, 1 bonus action, VSM<C> (xge 154)
+Dragon's Breath,
+2nd level Transmutation,
+1 bonus action, VSM<C> (xge 154)
+
 dragon's breach
 dragon's breadth
 dragon's breathe
 dragon's breaths
+dragon's breathy
 dragon's wreath
 dragoon's breath
 
-Earthbind, 2nd level level Transmutation, 1 action, V<C> (ee 17, xge 154)
+Earthbind,
+2nd level Transmutation,
+1 action, V<C> (ee 17, xge 154)
+
 dearth bind
 earth band
 earth bend
+earth bind
 earth binds
 earth bins
 earth bird
@@ -2725,25 +3243,36 @@ earth mind
 earth rind
 earth wind
 earths bind
+earthy bind
 hearth bind
 
-Enhance Ability, 2nd level level Transmutation, 1 action, VSM<C> (phb 237)
+Enhance Ability,
+2nd level Transmutation,
+1 action, VSM<C> (phb 237)
+
 enhance agility
 enhanced ability
 enhancer ability
 enhances ability
 
-Enlarge/Reduce, 2nd level level Transmutation, 1 action, VSM<C> (phb 237)
-enlarge/deduce
-enlarge/reduced
-enlarge/reducer
-enlarge/reduces
-enlarge/seduce
-enlarged/reduce
-enlarger/reduce
-enlarges/reduce
+Enlarge/Reduce,
+2nd level Transmutation,
+1 action, VSM<C> (phb 237)
 
-Heat Metal, 2nd level level Transmutation, 1 action, VSM<C> (phb 250)
+enlarge deduce
+enlarge educe
+enlarge reduced
+enlarge reducer
+enlarge reduces
+enlarge seduce
+enlarged reduce
+enlarger reduce
+enlarges reduce
+
+Heat Metal,
+2nd level Transmutation,
+1 action, VSM<C> (phb 250)
+
 beat metal
 cheat metal
 eat metal
@@ -2768,28 +3297,50 @@ seat metal
 teat metal
 wheat metal
 
-Knock, 2nd level level Transmutation, 1 action, V (phb 254)
+Knock,
+2nd level Transmutation,
+1 action, V (phb 254)
+
 knack
 knocks
 
-Levitate, 2nd level level Transmutation, 1 action, VSM<C> (phb 255)
+Levitate,
+2nd level Transmutation,
+1 action, VSM<C> (phb 255)
+
 levitated
 levitates
 
-Magic Weapon, 2nd level level Transmutation, 1 bonus action, VS<C> (phb 257)
+Magic Weapon,
+2nd level Transmutation,
+1 bonus action, VS<C> (phb 257)
+
 magic weapons
 magics weapon
 manic weapon
 
-Maximilian's Earthen Grasp, 2nd level level Transmutation, 1 action, VSM<C> (ee 20, xge 161)
+Maximilian's Earthen Grasp,
+2nd level Transmutation,
+1 action, VSM<C> (ee 20, xge 161)
+
 maximilian's earthed grasp
 maximilian's earthen grasps
 maximilian's earthen grass
 maximilian's earthen rasp
 
-Pyrotechnics, 2nd level level Transmutation, 1 action, VS (ee 21, xge 163)
+Pyrotechnics,
+2nd level Transmutation,
+1 action, VS (ee 21, xge 163)
 
-Rope Trick, 2nd level level Transmutation, 1 action, VSM (phb 272)
+gyro technics
+pyre technics
+pyro technics
+tyro technics
+
+Rope Trick,
+2nd level Transmutation,
+1 action, VSM (phb 272)
+
 cope trick
 dope trick
 grope trick
@@ -2812,6 +3363,7 @@ rope thick
 rope track
 rope trice
 rope tricks
+rope tricky
 rope truck
 roped trick
 roper trick
@@ -2823,18 +3375,45 @@ roue trick
 rove trick
 trope trick
 
-Skywrite, 2nd level level Transmutation, 1 action, VS<CR> (ee 22, xge 165)
-skywriter
+Skywrite,
+2nd level Transmutation,
+1 action, VS<CR> (ee 22, xge 165)
 
-Spider Climb, 2nd level level Transmutation, 1 action, VSM<C> (phb 277)
+say write
+shy write
+ska write
+ski write
+sky rite
+sky trite
+sky white
+sky write
+sky writer
+sky writes
+sky writhe
+sky writs
+sky wrote
+skywriter
+sly write
+soy write
+spy write
+sty write
+
+Spider Climb,
+2nd level Transmutation,
+1 action, VSM<C> (phb 277)
+
 slider climb
 snider climb
 spider climbs
 spider clime
 spider limb
 spiders climb
+spidery climb
 
-Spike Growth, 2nd level level Transmutation, 1 action, VSM<C> (phb 277)
+Spike Growth,
+2nd level Transmutation,
+1 action, VSM<C> (phb 277)
+
 pike growth
 spake growth
 spice growth
@@ -2847,9 +3426,11 @@ spire growth
 spite growth
 spoke growth
 
-Beacon of Hope, 3rd level level Abjuration, 1 action, VS<C> (phb 217)
+Beacon of Hope,
+3rd level Abjuration,
+1 action, VS<C> (phb 217)
+
 beacon if hope
-beacon oaf hope
 beacon of cope
 beacon of dope
 beacon of hoke
@@ -2873,25 +3454,34 @@ beacon or hope
 beacons of hope
 deacon of hope
 
-Counterspell, 3rd level level Abjuration, 1 reaction, S (phb 228)
+Counterspell,
+3rd level Abjuration,
+1 reaction, S (phb 228)
+
 chunter spell
 counted spell
 counter shell
 counter smell
+counter spell
 counter spells
 counter spill
 counter swell
 counters spell
 mounter spell
 
-Dispel Magic, 3rd level level Abjuration, 1 action, VS (phb 234)
+Dispel Magic,
+3rd level Abjuration,
+1 action, VS (phb 234)
+
 dispel magics
 dispel manic
 dispels magic
 
-Glyph of Warding, 3rd level level Abjuration, 1 hour, VSMgp (phb 245)
+Glyph of Warding,
+3rd level Abjuration,
+1 hour, VSMgp (phb 245)
+
 glyph if warding
-glyph oaf warding
 glyph of awarding
 glyph of carding
 glyph of larding
@@ -2904,25 +3494,42 @@ glyph of wording
 glyph on warding
 glyph or warding
 
-Intellect Fortress, 3rd level level Abjuration, 1 action, V<C> (tce 107)
+Intellect Fortress,
+3rd level Abjuration,
+1 action, V<C> (tce 107)
+
+intellect for tress
 intellects fortress
 
-Magic Circle, 3rd level level Abjuration, 1 minute, VSMgp (phb 256)
+Magic Circle,
+3rd level Abjuration,
+1 minute, VSMgp (phb 256)
+
 magic circled
 magic circles
 magic circlet
 magics circle
 manic circle
 
-Nondetection, 3rd level level Abjuration, 1 action, VSMgp (phb 263)
+Nondetection,
+3rd level Abjuration,
+1 action, VSMgp (phb 263)
 
-Protection from Energy, 3rd level level Abjuration, 1 action, VS<C> (phb 270)
+non detection
+
+Protection from Energy,
+3rd level Abjuration,
+1 action, VS<C> (phb 270)
+
 projection from energy
 protection frog energy
 protection prom energy
 protections from energy
 
-Remove Curse, 3rd level level Abjuration, 1 action, VS (phb 271)
+Remove Curse,
+3rd level Abjuration,
+1 action, VS (phb 271)
+
 remote curse
 remove course
 remove curie
@@ -2936,7 +3543,10 @@ remover curse
 removes curse
 rewove curse
 
-Call Lightning, 3rd level level Conjuration, 1 action, VS<C> (phb 220)
+Call Lightning,
+3rd level Conjuration,
+1 action, VS<C> (phb 220)
+
 all lightning
 ball lightning
 calf lightning
@@ -2957,19 +3567,28 @@ pall lightning
 tall lightning
 wall lightning
 
-Conjure Animals, 3rd level level Conjuration, 1 action, VS<C> (phb 225)
+Conjure Animals,
+3rd level Conjuration,
+1 action, VS<C> (phb 225)
+
 conjured animals
 conjurer animals
 conjures animals
 
-Conjure Barrage, 3rd level level Conjuration, 1 action, VSM (phb 225)
+Conjure Barrage,
+3rd level Conjuration,
+1 action, VSM (phb 225)
+
 conjure barraged
 conjure barrages
 conjured barrage
 conjurer barrage
 conjures barrage
 
-Create Food and Water, 3rd level level Conjuration, 1 action, VS (phb 229)
+Create Food and Water,
+3rd level Conjuration,
+1 action, VS (phb 229)
+
 crease food and water
 create flood and water
 create fold and water
@@ -2990,6 +3609,7 @@ create food and wager
 create food and waiter
 create food and waster
 create food and waters
+create food and watery
 create food and waver
 create food ans water
 create food ant water
@@ -3015,10 +3635,12 @@ created food and water
 creates food and water
 cremate food and water
 
-Hunger of Hadar, 3rd level level Conjuration, 1 action, VSM<C> (phb 251)
+Hunger of Hadar,
+3rd level Conjuration,
+1 action, VSM<C> (phb 251)
+
 hanger of hadar
 hunger if hadar
-hunger oaf hadar
 hunger of radar
 hunger on hadar
 hunger or hadar
@@ -3026,7 +3648,10 @@ hungers of hadar
 hunker of hadar
 hunter of hadar
 
-Sleet Storm, 3rd level level Conjuration, 1 action, VSM<C> (phb 276)
+Sleet Storm,
+3rd level Conjuration,
+1 action, VSM<C> (phb 276)
+
 fleet storm
 sheet storm
 skeet storm
@@ -3035,26 +3660,38 @@ sleep storm
 sleet store
 sleet stork
 sleet storms
+sleet stormy
 sleet story
 sleets storm
+sleety storm
 slept storm
 sweet storm
 
-Spirit Guardians, 3rd level level Conjuration, 1 action, VSM<C> (phb 278)
+Spirit Guardians,
+3rd level Conjuration,
+1 action, VSM<C> (phb 278)
+
 spirits guardians
 
-Stinking Cloud, 3rd level level Conjuration, 1 action, VSM<C> (phb 278)
+Stinking Cloud,
+3rd level Conjuration,
+1 action, VSM<C> (phb 278)
+
 slinking cloud
 sticking cloud
 stinging cloud
 stinking aloud
 stinking clouds
+stinking cloudy
 stinking clout
 stinking loud
 stinting cloud
 stonking cloud
 
-Summon Fey, 3rd level level Conjuration, 1 action, VSM<C> (tce 112)
+Summon Fey,
+3rd level Conjuration,
+1 action, VSM<C> (tce 112)
+
 summon bey
 summon fay
 summon fed
@@ -3069,9 +3706,11 @@ summon fry
 summon fwy
 summon hey
 summon key
-summons fey
 
-Summon Lesser Demons, 3rd level level Conjuration, 1 action, VSM<C> (xge 167)
+Summon Lesser Demons,
+3rd level Conjuration,
+1 action, VSM<C> (xge 167)
+
 summon leaser demons
 summon lessee demons
 summon lessen demons
@@ -3079,26 +3718,18 @@ summon lesser daemons
 summon lesser demobs
 summon lesser lemons
 summon lessor demons
-summons lesser demons
 
-Summon Shadowspawn, 3rd level level Conjuration, 1 action, VSM<C> (tce 113)
-summon shadow pawn
-summon shadow spawns
-summon shadows awn
-summon shadows dawn
-summon shadows fawn
-summon shadows lawn
-summon shadows pain
-summon shadows pawl
-summon shadows pawns
-summon shadows paws
-summon shadows prawn
-summon shadows spawn
-summon shadows yawn
-summon shadowy pawn
-summons shadowspawn
+Summon Shadowspawn,
+3rd level Conjuration,
+1 action, VSM<C> (tce 113)
 
-Thunder Step, 3rd level level Conjuration, 1 action, V (xge 168)
+summon shadow spawn
+summon shadows pawn
+
+Thunder Step,
+3rd level Conjuration,
+1 action, V (xge 168)
+
 chunder step
 thunder seep
 thunder steep
@@ -3109,8 +3740,12 @@ thunder stew
 thunder stop
 thunder strep
 thunders step
+thundery step
 
-Tidal Wave, 3rd level level Conjuration, 1 action, VSM (ee 22, xge 168)
+Tidal Wave,
+3rd level Conjuration,
+1 action, VSM (ee 22, xge 168)
+
 tidal ave
 tidal cave
 tidal eave
@@ -3137,29 +3772,46 @@ tidal weave
 tidal wive
 tidal wove
 
-Clairvoyance, 3rd level level Divination, 10 minutes, VSMgp<C> (phb 222)
+Clairvoyance,
+3rd level Divination,
+10 minutes, VSMgp<C> (phb 222)
 
-Tongues, 3rd level level Divination, 1 action, VM (phb 283)
+
+Tongues,
+3rd level Divination,
+1 action, VM (phb 283)
+
 tongued
 
-Catnap, 3rd level level Enchantment, 1 action, SM (xge 151)
+Catnap,
+3rd level Enchantment,
+1 action, SM (xge 151)
+
 catnaps
 catnip
 
-Enemies Abound, 3rd level level Enchantment, 1 action, VS<C> (xge 155)
+Enemies Abound,
+3rd level Enchantment,
+1 action, VS<C> (xge 155)
+
 enemies abounds
 enemies around
 enemies bound
 
-Aura of Vitality, 3rd level level Evocation, 1 action, V<C> (phb 216)
+Aura of Vitality,
+3rd level Evocation,
+1 action, V<C> (phb 216)
+
 aura if vitality
-aura oaf vitality
 aura on vitality
 aura or vitality
 aural of vitality
 auras of vitality
 
-Blinding Smite, 3rd level level Evocation, 1 bonus action, V<C> (phb 219)
+Blinding Smite,
+3rd level Evocation,
+1 bonus action, V<C> (phb 219)
+
 blending smite
 blinding mite
 blinding smile
@@ -3170,15 +3822,25 @@ blinding spite
 blinding suite
 blinking smite
 
-Crusader's Mantle, 3rd level level Evocation, 1 action, V<C> (phb 230)
+Crusader's Mantle,
+3rd level Evocation,
+1 action, V<C> (phb 230)
+
 crusader's mangle
 crusader's mantled
 crusader's mantles
 
-Daylight, 3rd level level Evocation, 1 action, VS (phb 230)
+Daylight,
+3rd level Evocation,
+1 action, VS (phb 230)
+
+day light
 daylights
 
-Fireball, 3rd level level Evocation, 1 action, VSM (phb 241)
+Fireball,
+3rd level Evocation,
+1 action, VSM (phb 241)
+
 afire ball
 dire ball
 fare ball
@@ -3190,7 +3852,9 @@ fire bail
 fire bald
 fire bale
 fire balk
+fire ball
 fire balls
+fire bally
 fire balm
 fire bawl
 fire bell
@@ -3222,7 +3886,10 @@ sire ball
 tire ball
 wire ball
 
-Leomund's Tiny Hut, 3rd level level Evocation, 1 minute, VSM<R> (phb 255)
+Leomund's Tiny Hut,
+3rd level Evocation,
+1 minute, VSM<R> (phb 255)
+
 leomund's tidy hut
 leomund's tine hut
 leomund's ting hut
@@ -3255,7 +3922,10 @@ leomund's tiny tut
 leomund's tony hut
 leomund's winy hut
 
-Lightning Bolt, 3rd level level Evocation, 1 action, VSM (phb 255)
+Lightning Bolt,
+3rd level Evocation,
+1 action, VSM (phb 255)
+
 lightening bolt
 lightning belt
 lightning boat
@@ -3273,7 +3943,10 @@ lightning molt
 lightning volt
 lightnings bolt
 
-Mass Healing Word, 3rd level level Evocation, 1 bonus action, V (phb 258)
+Mass Healing Word,
+3rd level Evocation,
+1 bonus action, V (phb 258)
+
 amass healing word
 ass healing word
 bass healing word
@@ -3300,6 +3973,7 @@ mass healing woad
 mass healing wold
 mass healing wood
 mass healing words
+mass healing wordy
 mass healing wore
 mass healing work
 mass healing world
@@ -3324,7 +3998,10 @@ muss healing word
 pass healing word
 sass healing word
 
-Melf's Minute Meteors, 3rd level level Evocation, 1 action, VSM<C> (ee 20, xge 161)
+Melf's Minute Meteors,
+3rd level Evocation,
+1 action, VSM<C> (ee 20, xge 161)
+
 elf's minute meteors
 meld's minute meteors
 melf's minuted meteors
@@ -3335,7 +4012,10 @@ milf's minute meteors
 pelf's minute meteors
 self's minute meteors
 
-Sending, 3rd level level Evocation, 1 action, VSM (phb 274)
+Sending,
+3rd level Evocation,
+1 action, VSM (phb 274)
+
 bending
 ending
 fending
@@ -3351,7 +4031,10 @@ tending
 vending
 wending
 
-Wall of Sand, 3rd level level Evocation, 1 action, VSM<C> (ee 23, xge 170)
+Wall of Sand,
+3rd level Evocation,
+1 action, VSM<C> (ee 23, xge 170)
+
 all of sand
 ball of sand
 call of sand
@@ -3365,7 +4048,6 @@ wail of sand
 wale of sand
 walk of sand
 wall if sand
-wall oaf sand
 wall of and
 wall of band
 wall of hand
@@ -3373,6 +4055,7 @@ wall of land
 wall of rand
 wall of said
 wall of sands
+wall of sandy
 wall of sane
 wall of sang
 wall of sank
@@ -3383,10 +4066,14 @@ wall of wand
 wall on sand
 wall or sand
 walls of sand
+wally of sand
 well of sand
 will of sand
 
-Wall of Water, 3rd level level Evocation, 1 action, VSM<C> (ee 23, xge 170)
+Wall of Water,
+3rd level Evocation,
+1 action, VSM<C> (ee 23, xge 170)
+
 all of water
 ball of water
 call of water
@@ -3400,7 +4087,6 @@ wail of water
 wale of water
 walk of water
 wall if water
-wall oaf water
 wall of cater
 wall of dater
 wall of eater
@@ -3415,14 +4101,19 @@ wall of wager
 wall of waiter
 wall of waster
 wall of waters
+wall of watery
 wall of waver
 wall on water
 wall or water
 walls of water
+wally of water
 well of water
 will of water
 
-Wind Wall, 3rd level level Evocation, 1 action, VSM<C> (phb 288)
+Wind Wall,
+3rd level Evocation,
+1 action, VSM<C> (phb 288)
+
 bind wall
 find wall
 hind wall
@@ -3446,9 +4137,11 @@ wind wail
 wind wale
 wind walk
 wind walls
+wind wally
 wind well
 wind will
 winds wall
+windy wall
 wine wall
 wined wall
 wing wall
@@ -3457,7 +4150,10 @@ wino wall
 wins wall
 winy wall
 
-Fear, 3rd level level Illusion, 1 action, VSM<C> (phb 239)
+Fear,
+3rd level Illusion,
+1 action, VSM<C> (phb 239)
+
 bear
 dear
 ear
@@ -3473,13 +4169,19 @@ tear
 wear
 year
 
-Hypnotic Pattern, 3rd level level Illusion, 1 action, SM<C> (phb 252)
+Hypnotic Pattern,
+3rd level Illusion,
+1 action, SM<C> (phb 252)
+
 hypnotic pastern
 hypnotic patterns
 hypnotic patters
 hypnotics pattern
 
-Major Image, 3rd level level Illusion, 1 action, VSM<C> (phb 258)
+Major Image,
+3rd level Illusion,
+1 action, VSM<C> (phb 258)
+
 major imaged
 major images
 major imago
@@ -3488,7 +4190,10 @@ majors image
 manor image
 mayor image
 
-Phantom Steed, 3rd level level Illusion, 1 minute, VS<R> (phb 265)
+Phantom Steed,
+3rd level Illusion,
+1 minute, VS<R> (phb 265)
+
 phantom speed
 phantom stead
 phantom steeds
@@ -3499,7 +4204,10 @@ phantom stewed
 phantom teed
 phantoms steed
 
-Animate Dead, 3rd level level Necromancy, 1 minute, VSM (phb 212)
+Animate Dead,
+3rd level Necromancy,
+1 minute, VSM (phb 212)
+
 animate bead
 animate deaf
 animate deal
@@ -3514,7 +4222,10 @@ animate read
 animated dead
 animates dead
 
-Bestow Curse, 3rd level level Necromancy, 1 action, VS<C> (phb 218)
+Bestow Curse,
+3rd level Necromancy,
+1 action, VS<C> (phb 218)
+
 bestow course
 bestow curie
 bestow cursed
@@ -3524,7 +4235,10 @@ bestow nurse
 bestow purse
 bestows curse
 
-Feign Death, 3rd level level Necromancy, 1 action, VSM<R> (phb 240)
+Feign Death,
+3rd level Necromancy,
+1 action, VSM<R> (phb 240)
+
 deign death
 feign dearth
 feign deaths
@@ -3534,7 +4248,10 @@ feign neath
 feigns death
 reign death
 
-Life Transference, 3rd level level Necromancy, 1 action, VS (xge 160)
+Life Transference,
+3rd level Necromancy,
+1 action, VS (xge 160)
+
 fife transference
 lice transference
 lifer transference
@@ -3548,9 +4265,15 @@ live transference
 rife transference
 wife transference
 
-Revivify, 3rd level level Necromancy, 1 action, VSMgp (phb 272)
+Revivify,
+3rd level Necromancy,
+1 action, VSMgp (phb 272)
 
-Speak with Dead, 3rd level level Necromancy, 1 action, VSM (phb 277)
+
+Speak with Dead,
+3rd level Necromancy,
+1 action, VSM (phb 277)
+
 peak with dead
 sneak with dead
 speak kith dead
@@ -3576,24 +4299,36 @@ spear with dead
 speck with dead
 steak with dead
 
-Spirit Shroud, 3rd level level Necromancy, 1 bonus action, VS<C> (tce 108)
+Spirit Shroud,
+3rd level Necromancy,
+1 bonus action, VS<C> (tce 108)
+
 spirit shrouds
 spirits shroud
 
-Summon Undead, 3rd level level Necromancy, 1 action, VSM<C> (tce 114)
-summon unread
-summons undead
+Summon Undead,
+3rd level Necromancy,
+1 action, VSM<C> (tce 114)
 
-Vampiric Touch, 3rd level level Necromancy, 1 action, VS<C> (phb 285)
+summon unread
+
+Vampiric Touch,
+3rd level Necromancy,
+1 action, VS<C> (phb 285)
+
 vampiric couch
 vampiric ouch
 vampiric pouch
 vampiric torch
 vampiric touche
+vampiric touchy
 vampiric tough
 vampiric vouch
 
-Blink, 3rd level level Transmutation, 1 action, VS (phb 219)
+Blink,
+3rd level Transmutation,
+1 action, VS (phb 219)
+
 blank
 blind
 bling
@@ -3605,16 +4340,26 @@ clink
 link
 slink
 
-Elemental Weapon, 3rd level level Transmutation, 1 action, VS<C> (phb 237)
+Elemental Weapon,
+3rd level Transmutation,
+1 action, VS<C> (phb 237)
+
 elemental weapons
 
-Erupting Earth, 3rd level level Transmutation, 1 action, VSM (ee 17, xge 155)
+Erupting Earth,
+3rd level Transmutation,
+1 action, VSM (ee 17, xge 155)
+
 eructing earth
 erupting dearth
 erupting earths
+erupting earthy
 erupting hearth
 
-Flame Arrows, 3rd level level Transmutation, 1 action, VS<C> (ee 18, xge 156)
+Flame Arrows,
+3rd level Transmutation,
+1 action, VS<C> (ee 18, xge 156)
+
 aflame arrows
 blame arrows
 flake arrows
@@ -3632,7 +4377,10 @@ flume arrows
 frame arrows
 lame arrows
 
-Fly, 3rd level level Transmutation, 1 action, VSM<C> (phb 243)
+Fly,
+3rd level Transmutation,
+1 action, VSM<C> (phb 243)
+
 fay
 fey
 flay
@@ -3643,7 +4391,10 @@ fwy
 ply
 sly
 
-Gaseous Form, 3rd level level Transmutation, 1 action, VSM<C> (phb 244)
+Gaseous Form,
+3rd level Transmutation,
+1 action, VSM<C> (phb 244)
+
 gaseous corm
 gaseous dorm
 gaseous farm
@@ -3659,7 +4410,10 @@ gaseous forum
 gaseous norm
 gaseous worm
 
-Haste, 3rd level level Transmutation, 1 action, VSM<C> (phb 250)
+Haste,
+3rd level Transmutation,
+1 action, VSM<C> (phb 250)
+
 baste
 caste
 chaste
@@ -3671,7 +4425,10 @@ paste
 taste
 waste
 
-Lightning Arrow, 3rd level level Transmutation, 1 bonus action, VS<C> (phb 255)
+Lightning Arrow,
+3rd level Transmutation,
+1 bonus action, VS<C> (phb 255)
+
 lightening arrow
 lightning arrows
 lightning barrow
@@ -3682,7 +4439,10 @@ lightning narrow
 lightning yarrow
 lightnings arrow
 
-Meld into Stone, 3rd level level Transmutation, 1 action, VS<R> (phb 259)
+Meld into Stone,
+3rd level Transmutation,
+1 action, VS<R> (phb 259)
+
 geld into stone
 held into stone
 mead into stone
@@ -3712,7 +4472,10 @@ mold into stone
 veld into stone
 weld into stone
 
-Plant Growth, 3rd level level Transmutation, 1 action, VS (phb 266)
+Plant Growth,
+3rd level Transmutation,
+1 action, VS (phb 266)
+
 plaint growth
 plait growth
 plane growth
@@ -3724,7 +4487,10 @@ plants growth
 pliant growth
 slant growth
 
-Slow, 3rd level level Transmutation, 1 action, VSM<C> (phb 277)
+Slow,
+3rd level Transmutation,
+1 action, VSM<C> (phb 277)
+
 blow
 flow
 glow
@@ -3743,7 +4509,10 @@ slows
 snow
 stow
 
-Speak with Plants, 3rd level level Transmutation, 1 action, VS (phb 277)
+Speak with Plants,
+3rd level Transmutation,
+1 action, VS (phb 277)
+
 peak with plants
 sneak with plants
 speak kith plants
@@ -3764,7 +4533,10 @@ spear with plants
 speck with plants
 steak with plants
 
-Tiny Servant, 3rd level level Transmutation, 1 minute, VS (xge 168)
+Tiny Servant,
+3rd level Transmutation,
+1 minute, VS (xge 168)
+
 tidy servant
 tine servant
 ting servant
@@ -3775,7 +4547,10 @@ tiny servants
 tony servant
 winy servant
 
-Water Breathing, 3rd level level Transmutation, 1 action, VSM<R> (phb 287)
+Water Breathing,
+3rd level Transmutation,
+1 action, VSM<R> (phb 287)
+
 cater breathing
 dater breathing
 eater breathing
@@ -3792,9 +4567,13 @@ waster breathing
 water breaching
 water wreathing
 waters breathing
+watery breathing
 waver breathing
 
-Water Walk, 3rd level level Transmutation, 1 action, VSM<R> (phb 287)
+Water Walk,
+3rd level Transmutation,
+1 action, VSM<R> (phb 287)
+
 cater walk
 dater walk
 eater walk
@@ -3817,11 +4596,14 @@ water walks
 water wall
 water wank
 waters walk
+watery walk
 waver walk
 
-Aura of Life, 4th level Abjuration, 1 action, V<C> (phb 216)
+Aura of Life,
+4th level Abjuration,
+1 action, V<C> (phb 216)
+
 aura if life
-aura oaf life
 aura of fife
 aura of lice
 aura of lifer
@@ -3839,9 +4621,11 @@ aura or life
 aural of life
 auras of life
 
-Aura of Purity, 4th level Abjuration, 1 action, V<C> (phb 216)
+Aura of Purity,
+4th level Abjuration,
+1 action, V<C> (phb 216)
+
 aura if purity
-aura oaf purity
 aura of parity
 aura of purify
 aura on purity
@@ -3849,9 +4633,15 @@ aura or purity
 aural of purity
 auras of purity
 
-Banishment, 4th level Abjuration, 1 action, VSM<C> (phb 217)
+Banishment,
+4th level Abjuration,
+1 action, VSM<C> (phb 217)
 
-Death Ward, 4th level Abjuration, 1 action, VS (phb 230)
+
+Death Ward,
+4th level Abjuration,
+1 action, VS (phb 230)
+
 dearth ward
 death award
 death bard
@@ -3875,21 +4665,29 @@ depth ward
 heath ward
 neath ward
 
-Freedom of Movement, 4th level Abjuration, 1 action, VSM (phb 244)
+Freedom of Movement,
+4th level Abjuration,
+1 action, VSM (phb 244)
+
 freedom if movement
-freedom oaf movement
 freedom of movements
 freedom on movement
 freedom or movement
 freedoms of movement
 
-Mordenkainen's Private Sanctum, 4th level Abjuration, 10 minutes, VSM (phb 262)
+Mordenkainen's Private Sanctum,
+4th level Abjuration,
+10 minutes, VSM (phb 262)
+
 mordenkainen's primate sanctum
 mordenkainen's private sanctums
 mordenkainen's privater sanctum
 mordenkainen's privates sanctum
 
-Stoneskin, 4th level Abjuration, 1 action, VSMgp<C> (phb 278)
+Stoneskin,
+4th level Abjuration,
+1 action, VSMgp<C> (phb 278)
+
 atone skin
 scone skin
 shone skin
@@ -3901,6 +4699,7 @@ stone shin
 stone skein
 stone skid
 stone skim
+stone skin
 stone skins
 stone skint
 stone skip
@@ -3915,7 +4714,10 @@ store skin
 stove skin
 tone skin
 
-Conjure Minor Elementals, 4th level Conjuration, 1 minute, VS<C> (phb 226)
+Conjure Minor Elementals,
+4th level Conjuration,
+1 minute, VS<C> (phb 226)
+
 conjure manor elementals
 conjure miner elementals
 conjure minors elementals
@@ -3923,43 +4725,21 @@ conjured minor elementals
 conjurer minor elementals
 conjures minor elementals
 
-Conjure Woodland Beings, 4th level Conjuration, 1 action, VSM<C> (phb 226)
-conjure food land beings
-conjure good land beings
-conjure hood land beings
-conjure mood land beings
-conjure rood land beings
-conjure woad land beings
-conjure wold land beings
-conjure wood and beings
-conjure wood band beings
-conjure wood bland beings
-conjure wood eland beings
-conjure wood gland beings
-conjure wood hand beings
-conjure wood laid beings
-conjure wood lands beings
-conjure wood lane beings
-conjure wood lank beings
-conjure wood lard beings
-conjure wood laud beings
-conjure wood lend beings
-conjure wood rand beings
-conjure wood sand beings
-conjure wood wand beings
+Conjure Woodland Beings,
+4th level Conjuration,
+1 action, VSM<C> (phb 226)
+
+conjure wood land beings
 conjure woodland brings
 conjure woodlands beings
-conjure woods land beings
-conjure wooed land beings
-conjure woof land beings
-conjure wool land beings
-conjure woos land beings
-conjure word land beings
 conjured woodland beings
 conjurer woodland beings
 conjures woodland beings
 
-Dimension Door, 4th level Conjuration, 1 action, V (phb 233)
+Dimension Door,
+4th level Conjuration,
+1 action, V (phb 233)
+
 dimension boor
 dimension doer
 dimension dolor
@@ -3971,7 +4751,10 @@ dimension moor
 dimension poor
 dimensions door
 
-Evard's Black Tentacles, 4th level Conjuration, 1 action, VSM<C> (phb 238)
+Evard's Black Tentacles,
+4th level Conjuration,
+1 action, VSM<C> (phb 238)
+
 evard's alack tentacles
 evard's black pentacles
 evard's black tentacled
@@ -3983,7 +4766,10 @@ evard's flack tentacles
 evard's lack tentacles
 evard's slack tentacles
 
-Find Greater Steed, 4th level Conjuration, 10 minutes, VS (xge 156)
+Find Greater Steed,
+4th level Conjuration,
+10 minutes, VS (xge 156)
+
 bind greater steed
 fend greater steed
 fiend greater steed
@@ -4011,7 +4797,10 @@ mind greater steed
 rind greater steed
 wind greater steed
 
-Grasping Vine, 4th level Conjuration, 1 bonus action, VS<C> (phb 246)
+Grasping Vine,
+4th level Conjuration,
+1 bonus action, VS<C> (phb 246)
+
 grasping cine
 grasping dine
 grasping fine
@@ -4034,25 +4823,34 @@ grasping zine
 grassing vine
 rasping vine
 
-Guardian of Faith, 4th level Conjuration, 1 action, V (phb 246)
+Guardian of Faith,
+4th level Conjuration,
+1 action, V (phb 246)
+
 guardian if faith
-guardian oaf faith
 guardian of faiths
 guardian of saith
 guardian on faith
 guardian or faith
 guardians of faith
 
-Leomund's Secret Chest, 4th level Conjuration, 1 action, VSMgp (phb 254)
+Leomund's Secret Chest,
+4th level Conjuration,
+1 action, VSMgp (phb 254)
+
 leomund's secret cheat
 leomund's secret chert
 leomund's secret chess
 leomund's secret chests
+leomund's secret chesty
 leomund's secret crest
 leomund's secrete chest
 leomund's secrets chest
 
-Mordenkainen's Faithful Hound, 4th level Conjuration, 1 action, VSM (phb 261)
+Mordenkainen's Faithful Hound,
+4th level Conjuration,
+1 action, VSM (phb 261)
+
 mordenkainen's faithful bound
 mordenkainen's faithful found
 mordenkainen's faithful hounds
@@ -4063,19 +4861,28 @@ mordenkainen's faithful sound
 mordenkainen's faithful wound
 mordenkainen's faithfuls hound
 
-Summon Aberration, 4th level Conjuration, 1 action, VSM<C> (tce 109)
-summon aberrations
-summons aberration
+Summon Aberration,
+4th level Conjuration,
+1 action, VSM<C> (tce 109)
 
-Summon Construct, 4th level Conjuration, 1 action, VSM<C> (tce 111)
+summon aberrations
+
+Summon Construct,
+4th level Conjuration,
+1 action, VSM<C> (tce 111)
+
 summon constrict
 summon constructs
-summons construct
 
-Summon Elemental, 4th level Conjuration, 1 action, VSM<C> (tce 111)
-summons elemental
+Summon Elemental,
+4th level Conjuration,
+1 action, VSM<C> (tce 111)
 
-Summon Greater Demon, 4th level Conjuration, 1 action, VSM<C> (xge 166)
+
+Summon Greater Demon,
+4th level Conjuration,
+1 action, VSM<C> (xge 166)
+
 summon greaser demon
 summon greater daemon
 summon greater demob
@@ -4083,14 +4890,19 @@ summon greater demons
 summon greater demos
 summon greater lemon
 summon greeter demon
-summons greater demon
 
-Watery Sphere, 4th level Conjuration, 1 action, VSM<C> (ee 23, xge 170)
+Watery Sphere,
+4th level Conjuration,
+1 action, VSM<C> (ee 23, xge 170)
+
 eatery sphere
 waters sphere
 watery spheres
 
-Arcane Eye, 4th level Divination, 1 action, VSM<C> (phb 214)
+Arcane Eye,
+4th level Divination,
+1 action, VSM<C> (phb 214)
+
 arcade eye
 arcane aye
 arcane bye
@@ -4105,15 +4917,24 @@ arcane lye
 arcane rye
 arcane ye
 
-Divination, 4th level Divination, 1 action, VSMgp<R> (phb 234)
+Divination,
+4th level Divination,
+1 action, VSMgp<R> (phb 234)
 
-Locate Creature, 4th level Divination, 1 action, VSM<C> (phb 256)
+
+Locate Creature,
+4th level Divination,
+1 action, VSM<C> (phb 256)
+
 locale creature
 locate creatures
 located creature
 locates creature
 
-Charm Monster, 4th level Enchantment, 1 action, VS (xge 151)
+Charm Monster,
+4th level Enchantment,
+1 action, VS (xge 151)
+
 chard monster
 charm minster
 charm mobster
@@ -4126,14 +4947,24 @@ chary monster
 chasm monster
 harm monster
 
-Compulsion, 4th level Enchantment, 1 action, VS<C> (phb 224)
+Compulsion,
+4th level Enchantment,
+1 action, VS<C> (phb 224)
+
 compulsions
 
-Confusion, 4th level Enchantment, 1 action, VSM<C> (phb 224)
+Confusion,
+4th level Enchantment,
+1 action, VSM<C> (phb 224)
+
+con fusion
 confusions
 contusion
 
-Dominate Beast, 4th level Enchantment, 1 action, VS<C> (phb 234)
+Dominate Beast,
+4th level Enchantment,
+1 action, VS<C> (phb 234)
+
 dominate beasts
 dominate beaut
 dominate blast
@@ -4147,7 +4978,10 @@ dominated beast
 dominates beast
 nominate beast
 
-Fire Shield, 4th level Evocation, 1 action, VSM (phb 242)
+Fire Shield,
+4th level Evocation,
+1 action, VSM (phb 242)
+
 afire shield
 dire shield
 fare shield
@@ -4170,12 +5004,16 @@ sire shield
 tire shield
 wire shield
 
-Ice Storm, 4th level Evocation, 1 action, VSM (phb 252)
+Ice Storm,
+4th level Evocation,
+1 action, VSM (phb 252)
+
 ace storm
 dice storm
 ice store
 ice stork
 ice storms
+ice stormy
 ice story
 iced storm
 ices storm
@@ -4187,12 +5025,21 @@ nice storm
 rice storm
 vice storm
 
-Otiluke's Resilient Sphere, 4th level Evocation, 1 action, VSM<C> (phb 264)
+Otiluke's Resilient Sphere,
+4th level Evocation,
+1 action, VSM<C> (phb 264)
+
 otiluke's resilient spheres
 
-Sickening Radiance, 4th level Evocation, 1 action, VS<C> (xge 164)
+Sickening Radiance,
+4th level Evocation,
+1 action, VS<C> (xge 164)
 
-Staggering Smite, 4th level Evocation, 1 bonus action, V<C> (phb 278)
+
+Staggering Smite,
+4th level Evocation,
+1 bonus action, V<C> (phb 278)
+
 staggering mite
 staggering smile
 staggering smites
@@ -4202,17 +5049,27 @@ staggering spite
 staggering suite
 swaggering smite
 
-Storm Sphere, 4th level Evocation, 1 action, VS<C> (ee 22, xge 166)
+Storm Sphere,
+4th level Evocation,
+1 action, VS<C> (ee 22, xge 166)
+
 store sphere
 stork sphere
 storm spheres
 storms sphere
+stormy sphere
 story sphere
 
-Vitriolic Sphere, 4th level Evocation, 1 action, VSM (ee 23, xge 170)
+Vitriolic Sphere,
+4th level Evocation,
+1 action, VSM (ee 23, xge 170)
+
 vitriolic spheres
 
-Wall of Fire, 4th level Evocation, 1 action, VSM<C> (phb 285)
+Wall of Fire,
+4th level Evocation,
+1 action, VSM<C> (phb 285)
+
 all of fire
 ball of fire
 call of fire
@@ -4226,7 +5083,6 @@ wail of fire
 wale of fire
 walk of fire
 wall if fire
-wall oaf fire
 wall of afire
 wall of dire
 wall of fare
@@ -4250,18 +5106,28 @@ wall of wire
 wall on fire
 wall or fire
 walls of fire
+wally of fire
 well of fire
 will of fire
 
-Greater Invisibility, 4th level Illusion, 1 action, VS<C> (phb 246)
+Greater Invisibility,
+4th level Illusion,
+1 action, VS<C> (phb 246)
+
 greaser invisibility
 greeter invisibility
 
-Hallucinatory Terrain, 4th level Illusion, 10 minutes, VSM (phb 249)
+Hallucinatory Terrain,
+4th level Illusion,
+10 minutes, VSM (phb 249)
+
 hallucinatory terrains
 hallucinatory terrapin
 
-Phantasmal Killer, 4th level Illusion, 1 action, VS<C> (phb 265)
+Phantasmal Killer,
+4th level Illusion,
+1 action, VS<C> (phb 265)
+
 phantasmal filler
 phantasmal killed
 phantasmal killers
@@ -4269,7 +5135,10 @@ phantasmal kilter
 phantasmal miller
 phantasmal tiller
 
-Blight, 4th level Necromancy, 1 action, VS (phb 219)
+Blight,
+4th level Necromancy,
+1 action, VS (phb 219)
+
 alight
 blights
 bright
@@ -4278,9 +5147,11 @@ light
 plight
 slight
 
-Shadow of Moil, 4th level Necromancy, 1 action, VSMgp<C> (xge 164)
+Shadow of Moil,
+4th level Necromancy,
+1 action, VSMgp<C> (xge 164)
+
 shadow if moil
-shadow oaf moil
 shadow of boil
 shadow of coil
 shadow of foil
@@ -4294,8 +5165,12 @@ shadow of toil
 shadow on moil
 shadow or moil
 shadows of moil
+shadowy of moil
 
-Control Water, 4th level Transmutation, 1 action, VSM<C> (phb 227)
+Control Water,
+4th level Transmutation,
+1 action, VSM<C> (phb 227)
+
 control cater
 control dater
 control eater
@@ -4310,10 +5185,14 @@ control wager
 control waiter
 control waster
 control waters
+control watery
 control waver
 controls water
 
-Elemental Bane, 4th level Transmutation, 1 action, VS<C> (ee 17, xge 155)
+Elemental Bane,
+4th level Transmutation,
+1 action, VS<C> (ee 17, xge 155)
+
 elemental babe
 elemental bade
 elemental bake
@@ -4336,11 +5215,17 @@ elemental sane
 elemental vane
 elemental wane
 
-Fabricate, 4th level Transmutation, 10 minutes, VS (phb 239)
+Fabricate,
+4th level Transmutation,
+10 minutes, VS (phb 239)
+
 fabricated
 fabricates
 
-Giant Insect, 4th level Transmutation, 1 action, VS<C> (phb 245)
+Giant Insect,
+4th level Transmutation,
+1 action, VS<C> (phb 245)
+
 giant infect
 giant inject
 giant insects
@@ -4349,29 +5234,27 @@ giant inspect
 giants insect
 grant insect
 
-Guardian of Nature, 4th level Transmutation, 1 bonus action, V<C> (xge 157)
+Guardian of Nature,
+4th level Transmutation,
+1 bonus action, V<C> (xge 157)
+
 guardian if nature
-guardian oaf nature
 guardian of mature
 guardian of natures
 guardian on nature
 guardian or nature
 guardians of nature
 
-Polymorph, 4th level Transmutation, 1 action, VSM<C> (phb 266)
-holy morph
-poky morph
-pole morph
-poll morph
-polo morph
-pols morph
-poly morphs
-polyp morph
-polys morph
-pony morph
-posy morph
+Polymorph,
+4th level Transmutation,
+1 action, VSM<C> (phb 266)
 
-Stone Shape, 4th level Transmutation, 1 action, VSM (phb 278)
+poly morph
+
+Stone Shape,
+4th level Transmutation,
+1 action, VSM (phb 278)
+
 atone shape
 scone shape
 shone shape
@@ -4393,10 +5276,14 @@ store shape
 stove shape
 tone shape
 
-Antilife Shell, 5th level Abjuration, 1 action, VS<C> (phb 213)
+Antilife Shell,
+5th level Abjuration,
+1 action, VS<C> (phb 213)
+
 ante life shell
 anti fife shell
 anti lice shell
+anti life shell
 anti lifer shell
 anti lift shell
 anti like shell
@@ -4419,7 +5306,10 @@ antilife swell
 antis life shell
 ants life shell
 
-Banishing Smite, 5th level Abjuration, 1 bonus action, V<C> (phb 216)
+Banishing Smite,
+5th level Abjuration,
+1 bonus action, V<C> (phb 216)
+
 banishing mite
 banishing smile
 banishing smites
@@ -4429,9 +5319,11 @@ banishing spite
 banishing suite
 vanishing smite
 
-Circle of Power, 5th level Abjuration, 1 action, V<C> (phb 221)
+Circle of Power,
+5th level Abjuration,
+1 action, V<C> (phb 221)
+
 circle if power
-circle oaf power
 circle of bower
 circle of cower
 circle of dower
@@ -4450,7 +5342,10 @@ circled of power
 circles of power
 circlet of power
 
-Dispel Evil and Good, 5th level Abjuration, 1 action, VSM<C> (phb 233)
+Dispel Evil and Good,
+5th level Abjuration,
+1 action, VSM<C> (phb 233)
+
 dispel devil and good
 dispel evil add good
 dispel evil aid good
@@ -4458,6 +5353,7 @@ dispel evil and food
 dispel evil and goad
 dispel evil and gold
 dispel evil and goods
+dispel evil and goody
 dispel evil and goof
 dispel evil and gook
 dispel evil and goon
@@ -4480,36 +5376,19 @@ dispel evil wand good
 dispel evils and good
 dispels evil and good
 
-Greater Restoration, 5th level Abjuration, 1 action, VSMgp (phb 246)
+Greater Restoration,
+5th level Abjuration,
+1 action, VSMgp (phb 246)
+
 greaser restoration
-greater best oration
-greater crest oration
-greater est oration
-greater fest oration
-greater jest oration
-greater lest oration
-greater nest oration
-greater pest oration
-greater rent oration
-greater resat oration
-greater reset oration
-greater resit oration
-greater resp oration
-greater rest orations
-greater rest ovation
-greater rest ration
+greater rest oration
 greater restorations
-greater rests oration
-greater rust oration
-greater test oration
-greater vest oration
-greater west oration
-greater wrest oration
-greater yest oration
-greater zest oration
 greeter restoration
 
-Planar Binding, 5th level Abjuration, 1 hour, VSMgp (phb 265)
+Planar Binding,
+5th level Abjuration,
+1 hour, VSMgp (phb 265)
+
 planar banding
 planar bending
 planar bidding
@@ -4524,7 +5403,10 @@ planar winding
 planer binding
 plantar binding
 
-Cloudkill, 5th level Conjuration, 1 action, VS<C> (phb 222)
+Cloudkill,
+5th level Conjuration,
+1 action, VS<C> (phb 222)
+
 aloud kill
 cloud bill
 cloud dill
@@ -4532,6 +5414,7 @@ cloud fill
 cloud gill
 cloud hill
 cloud ill
+cloud kill
 cloud kills
 cloud kiln
 cloud kilo
@@ -4545,22 +5428,32 @@ cloud skill
 cloud till
 cloud will
 clouds kill
+cloudy kill
 clout kill
 loud kill
 
-Conjure Elemental, 5th level Conjuration, 1 minute, VSM<C> (phb 225)
+Conjure Elemental,
+5th level Conjuration,
+1 minute, VSM<C> (phb 225)
+
 conjured elemental
 conjurer elemental
 conjures elemental
 
-Conjure Volley, 5th level Conjuration, 1 action, VSM (phb 226)
+Conjure Volley,
+5th level Conjuration,
+1 action, VSM (phb 226)
+
 conjure valley
 conjure volleys
 conjured volley
 conjurer volley
 conjures volley
 
-Far Step, 5th level Conjuration, 1 bonus action, V<C> (xge 155)
+Far Step,
+5th level Conjuration,
+1 bonus action, V<C> (xge 155)
+
 afar step
 bar step
 car step
@@ -4599,7 +5492,10 @@ tar step
 var step
 war step
 
-Infernal Calling, 5th level Conjuration, 1 minute, VSMgp<C> (xge 158)
+Infernal Calling,
+5th level Conjuration,
+1 minute, VSMgp<C> (xge 158)
+
 infernal balling
 infernal cabling
 infernal calking
@@ -4613,7 +5509,10 @@ infernal palling
 infernal walling
 internal calling
 
-Insect Plague, 5th level Conjuration, 1 action, VSM<C> (phb 254)
+Insect Plague,
+5th level Conjuration,
+1 action, VSM<C> (phb 254)
+
 infect plague
 inject plague
 insect plagued
@@ -4623,7 +5522,10 @@ insects plague
 insert plague
 inspect plague
 
-Steel Wind Strike, 5th level Conjuration, 1 action, SMgp (xge 166)
+Steel Wind Strike,
+5th level Conjuration,
+1 action, SMgp (xge 166)
+
 steal wind strike
 steed wind strike
 steel bind strike
@@ -4647,6 +5549,7 @@ steel wind strive
 steel wind stroke
 steel wind trike
 steel winds strike
+steel windy strike
 steel wine strike
 steel wined strike
 steel wing strike
@@ -4655,18 +5558,27 @@ steel wino strike
 steel wins strike
 steel winy strike
 steels wind strike
+steely wind strike
 steep wind strike
 steer wind strike
 
-Summon Celestial, 5th level Conjuration, 1 action, VSM<C> (tce 110)
-summons celestial
+Summon Celestial,
+5th level Conjuration,
+1 action, VSM<C> (tce 110)
 
-Teleportation Circle, 5th level Conjuration, 1 minute, VMgp (phb 282)
+
+Teleportation Circle,
+5th level Conjuration,
+1 minute, VMgp (phb 282)
+
 teleportation circled
 teleportation circles
 teleportation circlet
 
-Tree Stride, 5th level Conjuration, 1 action, VS<C> (phb 283)
+Tree Stride,
+5th level Conjuration,
+1 action, VS<C> (phb 283)
+
 free stride
 thee stride
 three stride
@@ -4685,12 +5597,18 @@ trey stride
 true stride
 twee stride
 
-Commune, 5th level Divination, 1 minute, VSM<R> (phb 223)
+Commune,
+5th level Divination,
+1 minute, VSM<R> (phb 223)
+
 communed
 communes
 commute
 
-Commune with Nature, 5th level Divination, 1 minute, VS<R> (phb 224)
+Commune with Nature,
+5th level Divination,
+1 minute, VS<R> (phb 224)
+
 commune kith nature
 commune pith nature
 commune width nature
@@ -4704,7 +5622,10 @@ communed with nature
 communes with nature
 commute with nature
 
-Contact Other Plane, 5th level Divination, 1 minute, V<R> (phb 226)
+Contact Other Plane,
+5th level Divination,
+1 minute, V<R> (phb 226)
+
 contact bother plane
 contact ether plane
 contact mother plane
@@ -4725,7 +5646,10 @@ contact pother plane
 contacts other plane
 contract other plane
 
-Legend Lore, 5th level Divination, 10 minutes, VSMgp (phb 254)
+Legend Lore,
+5th level Divination,
+10 minutes, VSMgp (phb 254)
+
 legend bore
 legend core
 legend fore
@@ -4751,7 +5675,10 @@ legend wore
 legend yore
 legends lore
 
-Rary's Telepathic Bond, 5th level Divination, 1 action, VSM<R> (phb 270)
+Rary's Telepathic Bond,
+5th level Divination,
+1 action, VSM<R> (phb 270)
+
 rary's telepathic band
 rary's telepathic bend
 rary's telepathic bind
@@ -4767,10 +5694,16 @@ rary's telepathic bound
 rary's telepathic fond
 rary's telepathic pond
 
-Scrying, 5th level Divination, 10 minutes, VSMgp<C> (phb 273)
+Scrying,
+5th level Divination,
+10 minutes, VSMgp<C> (phb 273)
+
 crying
 
-Dominate Person, 5th level Enchantment, 1 action, VS<C> (phb 235)
+Dominate Person,
+5th level Enchantment,
+1 action, VS<C> (phb 235)
+
 dominate parson
 dominate persona
 dominate persons
@@ -4778,7 +5711,10 @@ dominated person
 dominates person
 nominate person
 
-Geas, 5th level Enchantment, 1 minute, V (phb 244)
+Geas,
+5th level Enchantment,
+1 minute, V (phb 244)
+
 gear
 gears
 gees
@@ -4793,7 +5729,10 @@ seas
 teas
 yeas
 
-Hold Monster, 5th level Enchantment, 1 action, VSM<C> (phb 251)
+Hold Monster,
+5th level Enchantment,
+1 action, VSM<C> (phb 251)
+
 bold monster
 cold monster
 fold monster
@@ -4816,17 +5755,27 @@ sold monster
 told monster
 wold monster
 
-Modify Memory, 5th level Enchantment, 1 action, VS<C> (phb 261)
+Modify Memory,
+5th level Enchantment,
+1 action, VS<C> (phb 261)
+
 codify memory
 
-Synaptic Static, 5th level Enchantment, 1 action, VS (xge 167)
+Synaptic Static,
+5th level Enchantment,
+1 action, VS (xge 167)
+
 synaptic statics
 synoptic static
 
-Bigby's Hand, 5th level Evocation, 1 action, VSM<C> (phb 218)
+Bigby's Hand,
+5th level Evocation,
+1 action, VSM<C> (phb 218)
+
 bigby's and
 bigby's band
 bigby's hands
+bigby's handy
 bigby's hang
 bigby's hank
 bigby's hard
@@ -4836,7 +5785,10 @@ bigby's rand
 bigby's sand
 bigby's wand
 
-Cone of Cold, 5th level Evocation, 1 action, VSM (phb 224)
+Cone of Cold,
+5th level Evocation,
+1 action, VSM (phb 224)
+
 bone of cold
 cane of cold
 cine of cold
@@ -4845,7 +5797,6 @@ code of cold
 coke of cold
 come of cold
 cone if cold
-cone oaf cold
 cone of bold
 cone of coed
 cone of cola
@@ -4889,7 +5840,10 @@ scone of cold
 tone of cold
 zone of cold
 
-Dawn, 5th level Evocation, 1 action, VSMgp<C> (xge 153)
+Dawn,
+5th level Evocation,
+1 action, VSMgp<C> (xge 153)
+
 awn
 damn
 darn
@@ -4901,7 +5855,10 @@ lawn
 pawn
 yawn
 
-Destructive Wave, 5th level Evocation, 1 action, V (phb 231)
+Destructive Wave,
+5th level Evocation,
+1 action, V (phb 231)
+
 destructive ave
 destructive cave
 destructive eave
@@ -4928,7 +5885,10 @@ destructive weave
 destructive wive
 destructive wove
 
-Flame Strike, 5th level Evocation, 1 action, VSM (phb 242)
+Flame Strike,
+5th level Evocation,
+1 action, VSM (phb 242)
+
 aflame strike
 blame strike
 flake strike
@@ -4951,7 +5911,10 @@ flume strike
 frame strike
 lame strike
 
-Hallow, 5th level Evocation, 24 hours, VSMgp (phb 249)
+Hallow,
+5th level Evocation,
+24 hours, VSMgp (phb 249)
+
 allow
 callow
 fallow
@@ -4964,7 +5927,10 @@ shallow
 tallow
 wallow
 
-Holy Weapon, 5th level Evocation, 1 bonus action, VS<C> (xge 157)
+Holy Weapon,
+5th level Evocation,
+1 bonus action, VS<C> (xge 157)
+
 hold weapon
 hole weapon
 holey weapon
@@ -4974,12 +5940,21 @@ holy weapons
 hotly weapon
 poly weapon
 
-Immolation, 5th level Evocation, 1 action, V<C> (ee 19, xge 158)
+Immolation,
+5th level Evocation,
+1 action, V<C> (ee 19, xge 158)
 
-Maelstrom, 5th level Evocation, 1 action, VSM<C> (ee 20, xge 160)
+
+Maelstrom,
+5th level Evocation,
+1 action, VSM<C> (ee 20, xge 160)
+
 maelstroms
 
-Mass Cure Wounds, 5th level Evocation, 1 action, VS (phb 258)
+Mass Cure Wounds,
+5th level Evocation,
+1 action, VS (phb 258)
+
 amass cure wounds
 ass cure wounds
 bass cure wounds
@@ -5033,7 +6008,10 @@ muss cure wounds
 pass cure wounds
 sass cure wounds
 
-Wall of Force, 5th level Evocation, 1 action, VSM<C> (phb 285)
+Wall of Force,
+5th level Evocation,
+1 action, VSM<C> (phb 285)
+
 all of force
 ball of force
 call of force
@@ -5047,7 +6025,6 @@ wail of force
 wale of force
 walk of force
 wall if force
-wall oaf force
 wall of farce
 wall of forced
 wall of forces
@@ -5056,10 +6033,14 @@ wall of forte
 wall on force
 wall or force
 walls of force
+wally of force
 well of force
 will of force
 
-Wall of Light, 5th level Evocation, 1 action, VSM<C> (xge 170)
+Wall of Light,
+5th level Evocation,
+1 action, VSM<C> (xge 170)
+
 all of light
 ball of light
 call of light
@@ -5073,7 +6054,6 @@ wail of light
 wale of light
 walk of light
 wall if light
-wall oaf light
 wall of alight
 wall of bight
 wall of blight
@@ -5092,10 +6072,14 @@ wall of wight
 wall on light
 wall or light
 walls of light
+wally of light
 well of light
 will of light
 
-Wall of Stone, 5th level Evocation, 1 action, VSM<C> (phb 287)
+Wall of Stone,
+5th level Evocation,
+1 action, VSM<C> (phb 287)
+
 all of stone
 ball of stone
 call of stone
@@ -5109,7 +6093,6 @@ wail of stone
 wale of stone
 walk of stone
 wall if stone
-wall oaf stone
 wall of atone
 wall of scone
 wall of shone
@@ -5125,13 +6108,16 @@ wall of tone
 wall on stone
 wall or stone
 walls of stone
+wally of stone
 well of stone
 will of stone
 
-Wrath of Nature, 5th level Evocation, 1 action, VS<C> (xge 171)
+Wrath of Nature,
+5th level Evocation,
+1 action, VS<C> (xge 171)
+
 wraith of nature
 wrath if nature
-wrath oaf nature
 wrath of mature
 wrath of natures
 wrath on nature
@@ -5139,23 +6125,36 @@ wrath or nature
 wreath of nature
 wroth of nature
 
-Creation, 5th level Illusion, 1 minute, VSM (phb 229)
+Creation,
+5th level Illusion,
+1 minute, VSM (phb 229)
+
 creations
 cremation
 
-Dream, 5th level Illusion, 1 minute, VSM (phb 236)
+Dream,
+5th level Illusion,
+1 minute, VSM (phb 236)
+
 bream
 cream
 dread
 dreams
+dreamy
 drear
 ream
 
-Mislead, 5th level Illusion, 1 action, S<C> (phb 260)
+Mislead,
+5th level Illusion,
+1 action, S<C> (phb 260)
+
 misleads
 misread
 
-Seeming, 5th level Illusion, 1 action, VS (phb 274)
+Seeming,
+5th level Illusion,
+1 action, VS (phb 274)
+
 deeming
 seaming
 seeding
@@ -5163,24 +6162,39 @@ seeking
 seeping
 teeming
 
-Contagion, 5th level Necromancy, 1 action, VS (phb 227)
+Contagion,
+5th level Necromancy,
+1 action, VS (phb 227)
+
 contagions
 
-Danse Macabre, 5th level Necromancy, 1 action, VS<C> (xge 153)
+Danse Macabre,
+5th level Necromancy,
+1 action, VS<C> (xge 153)
+
 dance macabre
 dense macabre
 manse macabre
 
-Enervation, 5th level Necromancy, 1 action, VS<C> (xge 155)
+Enervation,
+5th level Necromancy,
+1 action, VS<C> (xge 155)
 
-Negative Energy Flood, 5th level Necromancy, 1 action, VM (xge 163)
+
+Negative Energy Flood,
+5th level Necromancy,
+1 action, VM (xge 163)
+
 negative energy blood
 negative energy floods
 negative energy floor
 negatived energy flood
 negatives energy flood
 
-Raise Dead, 5th level Necromancy, 1 hour, VSMgp (phb 270)
+Raise Dead,
+5th level Necromancy,
+1 hour, VSMgp (phb 270)
+
 braise dead
 praise dead
 raise bead
@@ -5198,17 +6212,26 @@ raised dead
 raiser dead
 raises dead
 
-Animate Objects, 5th level Transmutation, 1 action, VS<C> (phb 213)
+Animate Objects,
+5th level Transmutation,
+1 action, VS<C> (phb 213)
+
 animated objects
 animates objects
 
-Awaken, 5th level Transmutation, 8 hours, VSMgp (phb 216)
+Awaken,
+5th level Transmutation,
+8 hours, VSMgp (phb 216)
+
 awakens
 awakes
 awoken
 waken
 
-Control Winds, 5th level Transmutation, 1 action, VS<C> (ee 16)
+Control Winds,
+5th level Transmutation,
+1 action, VS<C> (ee 16)
+
 control binds
 control finds
 control hinds
@@ -5225,7 +6248,10 @@ control winks
 control winos
 controls winds
 
-Passwall, 5th level Transmutation, 1 action, VSM (phb 264)
+Passwall,
+5th level Transmutation,
+1 action, VSM (phb 264)
+
 ass wall
 bass wall
 lass wall
@@ -5247,7 +6273,9 @@ pass tall
 pass wail
 pass wale
 pass walk
+pass wall
 pass walls
+pass wally
 pass well
 pass will
 passe wall
@@ -5261,11 +6289,17 @@ poss wall
 puss wall
 sass wall
 
-Reincarnate, 5th level Transmutation, 1 hour, VSMgp (phb 271)
+Reincarnate,
+5th level Transmutation,
+1 hour, VSMgp (phb 271)
+
 reincarnated
 reincarnates
 
-Skill Empowerment, 5th level Transmutation, 1 action, VS<C> (xge 165)
+Skill Empowerment,
+5th level Transmutation,
+1 action, VS<C> (xge 165)
+
 kill empowerment
 shill empowerment
 skills empowerment
@@ -5274,32 +6308,26 @@ spill empowerment
 still empowerment
 swill empowerment
 
-Swift Quiver, 5th level Transmutation, 1 bonus action, VSM<C> (phb 279)
+Swift Quiver,
+5th level Transmutation,
+1 bonus action, VSM<C> (phb 279)
+
 shift quiver
 swift quaver
 swift quivers
+swift quivery
 swifts quiver
 
-Telekinesis, 5th level Transmutation, 1 action, VS<C> (phb 280)
+Telekinesis,
+5th level Transmutation,
+1 action, VS<C> (phb 280)
 
-Transmute Rock, 5th level Transmutation, 1 action, VSM (ee 22, xge 169)
-grans mute rock
-trains mute rock
-trams mute rock
-trans cute rock
-trans jute rock
-trans lute rock
-trans mate rock
-trans mete rock
-trans mite rock
-trans mote rock
-trans mule rock
-trans muse rock
-trans muted rock
-trans muter rock
-trans mutes rock
-trans mutt rock
-transl mute rock
+
+Transmute Rock,
+5th level Transmutation,
+1 action, VSM (ee 22, xge 169)
+
+trans mute rock
 transmute bock
 transmute cock
 transmute crock
@@ -5313,16 +6341,17 @@ transmute pock
 transmute rack
 transmute rick
 transmute rocks
+transmute rocky
 transmute rook
 transmute ruck
 transmute sock
 transmuted rock
 transmutes rock
-traps mute rock
-trays mute rock
-trons mute rock
 
-Druid Grove, 6th level Abjuration, 10 minutes, VSM (xge 154)
+Druid Grove,
+6th level Abjuration,
+10 minutes, VSM (xge 154)
+
 droid grove
 druid drove
 druid glove
@@ -5336,18 +6365,17 @@ druid rove
 druid trove
 druids grove
 
-Forbiddance, 6th level Abjuration, 10 minutes, VSMgp<R> (phb 243)
-forbid danced
-forbid dancer
-forbid dances
-forbid dunce
-forbid lance
-forbids dance
-morbid dance
+Forbiddance,
+6th level Abjuration,
+10 minutes, VSMgp<R> (phb 243)
 
-Globe of Invulnerability, 6th level Abjuration, 1 action, VSM<C> (phb 245)
+forbid dance
+
+Globe of Invulnerability,
+6th level Abjuration,
+1 action, VSM<C> (phb 245)
+
 globe if invulnerability
-globe oaf invulnerability
 globe on invulnerability
 globe or invulnerability
 globed of invulnerability
@@ -5356,7 +6384,10 @@ globs of invulnerability
 glove of invulnerability
 lobe of invulnerability
 
-Guards and Wards, 6th level Abjuration, 10 minutes, VSMgp (phb 248)
+Guards and Wards,
+6th level Abjuration,
+10 minutes, VSMgp (phb 248)
+
 guards add wards
 guards aid wards
 guards and awards
@@ -5384,7 +6415,10 @@ guards rand wards
 guards sand wards
 guards wand wards
 
-Primordial Ward, 6th level Abjuration, 1 action, VS<C> (ee 21, xge 163)
+Primordial Ward,
+6th level Abjuration,
+1 action, VS<C> (ee 21, xge 163)
+
 primordial award
 primordial bard
 primordial card
@@ -5403,7 +6437,10 @@ primordial wary
 primordial word
 primordial yard
 
-Scatter, 6th level Abjuration, 1 action, V (xge 164)
+Scatter,
+6th level Abjuration,
+1 action, V (xge 164)
+
 scanter
 scatted
 scatters
@@ -5411,7 +6448,10 @@ shatter
 spatter
 swatter
 
-Arcane Gate, 6th level Conjuration, 1 action, VS<C> (phb 214)
+Arcane Gate,
+6th level Conjuration,
+1 action, VS<C> (phb 214)
+
 arcade gate
 arcane agate
 arcane ate
@@ -5434,7 +6474,10 @@ arcane pate
 arcane rate
 arcane sate
 
-Conjure Fey, 6th level Conjuration, 1 minute, VS<C> (phb 226)
+Conjure Fey,
+6th level Conjuration,
+1 minute, VS<C> (phb 226)
+
 conjure bey
 conjure fay
 conjure fed
@@ -5453,20 +6496,26 @@ conjured fey
 conjurer fey
 conjures fey
 
-Drawmij's Instant Summons, 6th level Conjuration, 1 minute, VSMgp<R> (phb 235)
+Drawmij's Instant Summons,
+6th level Conjuration,
+1 minute, VSMgp<R> (phb 235)
+
 drawmij's instants summons
 
-Heroes' Feast, 6th level Conjuration, 10 minutes, VSMgp (phb 250)
+Heroes' Feast,
+6th level Conjuration,
+10 minutes, VSMgp (phb 250)
+
 heroes' beast
 heroes' east
 heroes' feasts
 heroes' least
 heroes' yeast
-herons' feast
-herpes' feast
-zeroes' feast
 
-Planar Ally, 6th level Conjuration, 10 minutes, VS (phb 265)
+Planar Ally,
+6th level Conjuration,
+10 minutes, VS (phb 265)
+
 planar ably
 planar allay
 planar alley
@@ -5481,31 +6530,19 @@ planar wally
 planer ally
 plantar ally
 
-Summon Fiend, 6th level Conjuration, 1 action, VSM<C> (tce 112)
+Summon Fiend,
+6th level Conjuration,
+1 action, VSM<C> (tce 112)
+
 summon field
 summon fiends
 summon friend
-summons fiend
 
-Transport via Plants, 6th level Conjuration, 1 action, VS (phb 283)
-grans port via plants
-trains port via plants
-trams port via plants
-trans fort via plants
-trans part via plants
-trans pert via plants
-trans poet via plants
-trans pore via plants
-trans pork via plants
-trans porn via plants
-trans ports via plants
-trans post via plants
-trans pout via plants
-trans sort via plants
-trans sport via plants
-trans tort via plants
-trans wort via plants
-transl port via plants
+Transport via Plants,
+6th level Conjuration,
+1 action, VS (phb 283)
+
+trans port via plants
 transport via plaints
 transport via plaits
 transport via planes
@@ -5521,11 +6558,11 @@ transport vita plants
 transport viva plants
 transport viz plants
 transports via plants
-traps port via plants
-trays port via plants
-trons port via plants
 
-Wall of Thorns, 6th level Conjuration, 1 action, VSM<C> (phb 287)
+Wall of Thorns,
+6th level Conjuration,
+1 action, VSM<C> (phb 287)
+
 all of thorns
 ball of thorns
 call of thorns
@@ -5539,16 +6576,19 @@ wail of thorns
 wale of thorns
 walk of thorns
 wall if thorns
-wall oaf thorns
 wall of horns
 wall of thorny
 wall on thorns
 wall or thorns
 walls of thorns
+wally of thorns
 well of thorns
 will of thorns
 
-Word of Recall, 6th level Conjuration, 1 action, V (phb 289)
+Word of Recall,
+6th level Conjuration,
+1 action, V (phb 289)
+
 cord of recall
 ford of recall
 lord of recall
@@ -5558,11 +6598,11 @@ woad of recall
 wold of recall
 wood of recall
 word if recall
-word oaf recall
 word of recalls
 word on recall
 word or recall
 words of recall
+wordy of recall
 wore of recall
 work of recall
 world of recall
@@ -5570,7 +6610,10 @@ worm of recall
 worn of recall
 wort of recall
 
-Find the Path, 6th level Divination, 1 minute, VSMgp<C> (phb 240)
+Find the Path,
+6th level Divination,
+1 minute, VSMgp<C> (phb 240)
+
 bind the path
 fend the path
 fiend the path
@@ -5591,6 +6634,7 @@ find thee path
 find them path
 find then path
 find thew path
+find they path
 find tho path
 find thy path
 find tie path
@@ -5609,7 +6653,10 @@ mind the path
 rind the path
 wind the path
 
-True Seeing, 6th level Divination, 1 action, VSMgp (phb 284)
+True Seeing,
+6th level Divination,
+1 action, VSMgp (phb 284)
+
 grue seeing
 rue seeing
 tree seeing
@@ -5630,7 +6677,10 @@ truer seeing
 trues seeing
 trug seeing
 
-Mass Suggestion, 6th level Enchantment, 1 action, VM (phb 258)
+Mass Suggestion,
+6th level Enchantment,
+1 action, VM (phb 258)
+
 amass suggestion
 ass suggestion
 bass suggestion
@@ -5658,7 +6708,10 @@ muss suggestion
 pass suggestion
 sass suggestion
 
-Otto's Irresistible Dance, 6th level Enchantment, 1 action, V<C> (phb 264)
+Otto's Irresistible Dance,
+6th level Enchantment,
+1 action, V<C> (phb 264)
+
 lotto's irresistible dance
 motto's irresistible dance
 otto's irresistible danced
@@ -5668,7 +6721,10 @@ otto's irresistible dunce
 otto's irresistible lance
 otto's irresistibly dance
 
-Blade Barrier, 6th level Evocation, 1 action, VS<C> (phb 218)
+Blade Barrier,
+6th level Evocation,
+1 action, VS<C> (phb 218)
+
 blade barmier
 blade barriers
 blade carrier
@@ -5685,15 +6741,24 @@ clade barrier
 glade barrier
 lade barrier
 
-Chain Lightning, 6th level Evocation, 1 action, VSM (phb 221)
+Chain Lightning,
+6th level Evocation,
+1 action, VSM (phb 221)
+
 chain lightening
 chain lightnings
 chains lightning
 chair lightning
 
-Contingency, 6th level Evocation, 10 minutes, VSMgp (phb 227)
+Contingency,
+6th level Evocation,
+10 minutes, VSMgp (phb 227)
 
-Heal, 6th level Evocation, 1 action, VS (phb 250)
+
+Heal,
+6th level Evocation,
+1 action, VS (phb 250)
+
 deal
 head
 heals
@@ -5712,33 +6777,62 @@ weal
 wheal
 zeal
 
-Otiluke's Freezing Sphere, 6th level Evocation, 1 action, VSM (phb 263)
+Otiluke's Freezing Sphere,
+6th level Evocation,
+1 action, VSM (phb 263)
+
 otiluke's breezing sphere
-otiluke's flee zing sphere
-otiluke's free ding sphere
-otiluke's free hing sphere
-otiluke's free king sphere
-otiluke's free ling sphere
-otiluke's free ping sphere
-otiluke's free ring sphere
-otiluke's free sing sphere
-otiluke's free ting sphere
-otiluke's free wing sphere
-otiluke's free zinc sphere
-otiluke's free zine sphere
-otiluke's free zings sphere
-otiluke's freed zing sphere
-otiluke's freer zing sphere
-otiluke's frees zing sphere
+otiluke's free zing sphere
 otiluke's freezing spheres
-otiluke's freq zing sphere
-otiluke's fret zing sphere
-otiluke's tree zing sphere
 
-Sunbeam, 6th level Evocation, 1 action, VSM<C> (phb 279)
+Sunbeam,
+6th level Evocation,
+1 action, VSM<C> (phb 279)
+
+bun beam
+dun beam
+fun beam
+gun beam
+jun beam
+mun beam
+nun beam
+pun beam
+run beam
+sen beam
+shun beam
+sin beam
+son beam
+spun beam
+stun beam
+sub beam
+sue beam
+sum beam
+sun abeam
+sun bead
+sun beak
+sun beam
+sun beams
+sun bean
+sun bear
+sun beat
+sun beau
+sun berm
+sun bream
+sun ream
+sun seam
+sun team
 sunbeams
+sung beam
+sunk beam
+suns beam
+sup beam
+syn beam
+tun beam
 
-Wall of Ice, 6th level Evocation, 1 action, VSM<C> (phb 285)
+Wall of Ice,
+6th level Evocation,
+1 action, VSM<C> (phb 285)
+
 all of ice
 ball of ice
 call of ice
@@ -5752,7 +6846,6 @@ wail of ice
 wale of ice
 walk of ice
 wall if ice
-wall oaf ice
 wall of ace
 wall of dice
 wall of iced
@@ -5767,10 +6860,14 @@ wall of vice
 wall on ice
 wall or ice
 walls of ice
+wally of ice
 well of ice
 will of ice
 
-Mental Prison, 6th level Illusion, 1 action, S<C> (xge 161)
+Mental Prison,
+6th level Illusion,
+1 action, S<C> (xge 161)
+
 dental prison
 menial prison
 mental orison
@@ -5778,14 +6875,19 @@ mental poison
 mental prisons
 rental prison
 
-Programmed Illusion, 6th level Illusion, 1 action, VSMgp (phb 269)
+Programmed Illusion,
+6th level Illusion,
+1 action, VSMgp (phb 269)
+
 programmed allusion
 programmed illusions
 programmer illusion
 
-Circle of Death, 6th level Necromancy, 1 action, VSMgp (phb 221)
+Circle of Death,
+6th level Necromancy,
+1 action, VSMgp (phb 221)
+
 circle if death
-circle oaf death
 circle of dearth
 circle of deaths
 circle of depth
@@ -5797,16 +6899,53 @@ circled of death
 circles of death
 circlet of death
 
-Create Undead, 6th level Necromancy, 1 minute, VSMgp (phb 229)
+Create Undead,
+6th level Necromancy,
+1 minute, VSMgp (phb 229)
+
 crease undead
 create unread
 created undead
 creates undead
 cremate undead
 
-Eyebite, 6th level Necromancy, 1 action, VS<C> (phb 238)
+Eyebite,
+6th level Necromancy,
+1 action, VS<C> (phb 238)
 
-Harm, 6th level Necromancy, 1 action, VS (phb 249)
+aye bite
+bye bite
+dye bite
+eke bite
+ere bite
+eve bite
+ewe bite
+eye bate
+eye bide
+eye bike
+eye bile
+eye bite
+eye biter
+eye bites
+eye bits
+eye byte
+eye cite
+eye gite
+eye kite
+eye lite
+eye mite
+eye rite
+eye site
+eyed bite
+eyes bite
+lye bite
+rye bite
+ye bite
+
+Harm,
+6th level Necromancy,
+1 action, VS (phb 249)
+
 arm
 charm
 farm
@@ -5819,7 +6958,10 @@ harp
 hart
 warm
 
-Magic Jar, 6th level Necromancy, 1 minute, VSMgp (phb 257)
+Magic Jar,
+6th level Necromancy,
+1 minute, VSMgp (phb 257)
+
 magic ajar
 magic bar
 magic car
@@ -5841,7 +6983,10 @@ magic war
 magics jar
 manic jar
 
-Soul Cage, 6th level Necromancy, 1 reaction, VSMgp (xge 165)
+Soul Cage,
+6th level Necromancy,
+1 reaction, VSMgp (xge 165)
+
 foul cage
 soil cage
 souk cage
@@ -5850,6 +6995,7 @@ soul cadge
 soul cafe
 soul caged
 soul cages
+soul cagey
 soul cake
 soul came
 soul cane
@@ -5868,7 +7014,10 @@ soup cage
 sour cage
 sous cage
 
-Bones of the Earth, 6th level Transmutation, 1 action, VS (ee 15, xge 150)
+Bones of the Earth,
+6th level Transmutation,
+1 action, VS (ee 15, xge 150)
+
 banes of the earth
 bodes of the earth
 boles of the earth
@@ -5878,17 +7027,18 @@ boned of the earth
 boner of the earth
 boners of the earth
 bones if the earth
-bones oaf the earth
 bones of he earth
 bones of she earth
 bones of tee earth
 bones of the dearth
 bones of the earths
+bones of the earthy
 bones of the hearth
 bones of thee earth
 bones of them earth
 bones of then earth
 bones of thew earth
+bones of they earth
 bones of tho earth
 bones of thy earth
 bones of tie earth
@@ -5907,17 +7057,27 @@ pones of the earth
 tones of the earth
 zones of the earth
 
-Create Homunculus, 6th level Transmutation, 1 hour, VSMgp (xge 152)
+Create Homunculus,
+6th level Transmutation,
+1 hour, VSMgp (xge 152)
+
 crease homunculus
 created homunculus
 creates homunculus
 cremate homunculus
 
-Disintegrate, 6th level Transmutation, 1 action, VSM (phb 233)
+Disintegrate,
+6th level Transmutation,
+1 action, VSM (phb 233)
+
+dis integrate
 disintegrated
 disintegrates
 
-Flesh to Stone, 6th level Transmutation, 1 action, VSM<C> (phb 243)
+Flesh to Stone,
+6th level Transmutation,
+1 action, VSM<C> (phb 243)
+
 flash to stone
 flesh co stone
 flesh do stone
@@ -5954,16 +7114,20 @@ flesh top stone
 flesh tor stone
 flesh tot stone
 flesh tow stone
+flesh toy stone
 flesh tr stone
 flesh ts stone
 flesh two stone
 flesh yo stone
+fleshy to stone
 flush to stone
 fresh to stone
 
-Investiture of Flame, 6th level Transmutation, 1 action, VS<C> (ee 19, xge 159)
+Investiture of Flame,
+6th level Transmutation,
+1 action, VS<C> (ee 19, xge 159)
+
 investiture if flame
-investiture oaf flame
 investiture of aflame
 investiture of blame
 investiture of flake
@@ -5979,9 +7143,11 @@ investiture on flame
 investiture or flame
 investitures of flame
 
-Investiture of Ice, 6th level Transmutation, 1 action, VS<C> (ee 19, xge 159)
+Investiture of Ice,
+6th level Transmutation,
+1 action, VS<C> (ee 19, xge 159)
+
 investiture if ice
-investiture oaf ice
 investiture of ace
 investiture of dice
 investiture of iced
@@ -5997,9 +7163,11 @@ investiture on ice
 investiture or ice
 investitures of ice
 
-Investiture of Stone, 6th level Transmutation, 1 action, VS<C> (ee 19, xge 159)
+Investiture of Stone,
+6th level Transmutation,
+1 action, VS<C> (ee 19, xge 159)
+
 investiture if stone
-investiture oaf stone
 investiture of atone
 investiture of scone
 investiture of shone
@@ -6016,9 +7184,11 @@ investiture on stone
 investiture or stone
 investitures of stone
 
-Investiture of Wind, 6th level Transmutation, 1 action, VS<C> (ee 20, xge 160)
+Investiture of Wind,
+6th level Transmutation,
+1 action, VS<C> (ee 20, xge 160)
+
 investiture if wind
-investiture oaf wind
 investiture of bind
 investiture of find
 investiture of hind
@@ -6030,6 +7200,7 @@ investiture of wand
 investiture of wend
 investiture of wild
 investiture of winds
+investiture of windy
 investiture of wine
 investiture of wined
 investiture of wing
@@ -6041,7 +7212,10 @@ investiture on wind
 investiture or wind
 investitures of wind
 
-Move Earth, 6th level Transmutation, 1 action, VSM<C> (phb 263)
+Move Earth,
+6th level Transmutation,
+1 action, VSM<C> (phb 263)
+
 cove earth
 dove earth
 hove earth
@@ -6054,6 +7228,7 @@ mote earth
 moue earth
 move dearth
 move earths
+move earthy
 move hearth
 moved earth
 mover earth
@@ -6062,34 +7237,30 @@ movie earth
 rove earth
 wove earth
 
-Tasha's Otherworldly Guise, 6th level Transmutation, 1 bonus action, VSM<C> (tce 116)
+Tasha's Otherworldly Guise,
+6th level Transmutation,
+1 bonus action, VSM<C> (tce 116)
+
 pasha's otherworldly guise
-tasha's bother worldly guise
-tasha's ether worldly guise
-tasha's mother worldly guise
-tasha's ocher worldly guise
-tasha's others worldly guise
+tasha's other worldly guise
 tasha's otherworldly guide
 tasha's otherworldly guile
 tasha's otherworldly guises
-tasha's otter worldly guise
-tasha's pother worldly guise
 
-Tenser's Transformation, 6th level Transmutation, 1 action, VSM<C> (xge 168)
+Tenser's Transformation,
+6th level Transmutation,
+1 action, VSM<C> (xge 168)
+
 censer's transformation
 teaser's transformation
 tender's transformation
-tenser's grans formation
-tenser's trains formation
-tenser's trams formation
-tenser's trans formations
+tenser's trans formation
 tenser's transformations
-tenser's transl formation
-tenser's traps formation
-tenser's trays formation
-tenser's trons formation
 
-Wind Walk, 6th level Transmutation, 1 minute, VSM (phb 288)
+Wind Walk,
+6th level Transmutation,
+1 minute, VSM (phb 288)
+
 bind walk
 find walk
 hind walk
@@ -6109,6 +7280,7 @@ wind walks
 wind wall
 wind wank
 winds walk
+windy walk
 wine walk
 wined walk
 wing walk
@@ -6117,20 +7289,28 @@ wino walk
 wins walk
 winy walk
 
-Symbol, 7th level Abjuration, 1 minute, VSMgp (phb 280)
+Symbol,
+7th level Abjuration,
+1 minute, VSMgp (phb 280)
+
 symbols
 
-Conjure Celestial, 7th level Conjuration, 1 minute, VS<C> (phb 225)
+Conjure Celestial,
+7th level Conjuration,
+1 minute, VS<C> (phb 225)
+
 conjured celestial
 conjurer celestial
 conjures celestial
 
-Dream of the Blue Veil, 7th level Conjuration, 10 minutes, VSM (tce 106)
+Dream of the Blue Veil,
+7th level Conjuration,
+10 minutes, VSM (tce 106)
+
 bream of the blue veil
 cream of the blue veil
 dread of the blue veil
 dream if the blue veil
-dream oaf the blue veil
 dream of he blue veil
 dream of she blue veil
 dream of tee blue veil
@@ -6150,6 +7330,7 @@ dream of thee blue veil
 dream of them blue veil
 dream of then blue veil
 dream of thew blue veil
+dream of they blue veil
 dream of tho blue veil
 dream of thy blue veil
 dream of tie blue veil
@@ -6157,17 +7338,25 @@ dream of toe blue veil
 dream on the blue veil
 dream or the blue veil
 dreams of the blue veil
+dreamy of the blue veil
 drear of the blue veil
 ream of the blue veil
 
-Mordenkainen's Magnificent Mansion, 7th level Conjuration, 1 minute, VSMgp (phb 261)
+Mordenkainen's Magnificent Mansion,
+7th level Conjuration,
+1 minute, VSMgp (phb 261)
+
 mordenkainen's magnificent mansions
 
-Plane Shift, 7th level Conjuration, 1 action, VSMgp (phb 266)
+Plane Shift,
+7th level Conjuration,
+1 action, VSMgp (phb 266)
+
 lane shift
 place shift
 plane shaft
 plane shifts
+plane shifty
 plane shirt
 plane shrift
 plane swift
@@ -6180,11 +7369,16 @@ plans shift
 plant shift
 plate shift
 
-Teleport, 7th level Conjuration, 1 action, V (phb 281)
+Teleport,
+7th level Conjuration,
+1 action, V (phb 281)
 
-Temple of the Gods, 7th level Conjuration, 1 hour, VSMgp (xge 167)
+
+Temple of the Gods,
+7th level Conjuration,
+1 hour, VSMgp (xge 167)
+
 temple if the gods
-temple oaf the gods
 temple of he gods
 temple of she gods
 temple of tee gods
@@ -6206,6 +7400,7 @@ temple of thee gods
 temple of them gods
 temple of then gods
 temple of thew gods
+temple of they gods
 temple of tho gods
 temple of thy gods
 temple of tie gods
@@ -6214,7 +7409,10 @@ temple on the gods
 temple or the gods
 temples of the gods
 
-Power Word Pain, 7th level Enchantment, 1 action, V (xge 163)
+Power Word Pain,
+7th level Enchantment,
+1 action, V (xge 163)
+
 bower word pain
 cower word pain
 dower word pain
@@ -6246,6 +7444,7 @@ power word rain
 power word vain
 power word wain
 power words pain
+power wordy pain
 power wore pain
 power work pain
 power world pain
@@ -6257,13 +7456,15 @@ rower word pain
 sower word pain
 tower word pain
 
-Crown of Stars, 7th level Evocation, 1 action, VS (xge 152)
+Crown of Stars,
+7th level Evocation,
+1 action, VS (xge 152)
+
 brown of stars
 clown of stars
 croon of stars
 crowd of stars
 crown if stars
-crown oaf stars
 crown of scars
 crown of sears
 crown of sitars
@@ -6289,7 +7490,10 @@ drown of stars
 frown of stars
 grown of stars
 
-Delayed Blast Fireball, 7th level Evocation, 1 action, VSM<C> (phb 230)
+Delayed Blast Fireball,
+7th level Evocation,
+1 action, VSM<C> (phb 230)
+
 belayed blast fireball
 decayed blast fireball
 delayed beast fireball
@@ -6305,7 +7509,9 @@ delayed blast fire bail
 delayed blast fire bald
 delayed blast fire bale
 delayed blast fire balk
+delayed blast fire ball
 delayed blast fire balls
+delayed blast fire bally
 delayed blast fire balm
 delayed blast fire bawl
 delayed blast fire bell
@@ -6342,7 +7548,10 @@ delayed last fireball
 delayer blast fireball
 relayed blast fireball
 
-Divine Word, 7th level Evocation, 1 bonus action, V (phb 234)
+Divine Word,
+7th level Evocation,
+1 bonus action, V (phb 234)
+
 divide word
 divine cord
 divine ford
@@ -6353,6 +7562,7 @@ divine woad
 divine wold
 divine wood
 divine words
+divine wordy
 divine wore
 divine work
 divine world
@@ -6364,7 +7574,10 @@ diviner word
 divines word
 diving word
 
-Fire Storm, 7th level Evocation, 1 action, VS (phb 242)
+Fire Storm,
+7th level Evocation,
+1 action, VS (phb 242)
+
 afire storm
 dire storm
 fare storm
@@ -6374,6 +7587,7 @@ fine storm
 fire store
 fire stork
 fire storms
+fire stormy
 fire story
 fired storm
 firer storm
@@ -6390,13 +7604,18 @@ sire storm
 tire storm
 wire storm
 
-Forcecage, 7th level Evocation, 1 action, VSMgp (phb 243)
+Forcecage,
+7th level Evocation,
+1 action, VSMgp (phb 243)
+
 farce cage
 force age
 force cadge
 force cafe
+force cage
 force caged
 force cages
+force cagey
 force cake
 force came
 force cane
@@ -6415,21 +7634,30 @@ forces cage
 forge cage
 forte cage
 
-Mordenkainen's Sword, 7th level Evocation, 1 action, VSMgp<C> (phb 262)
+Mordenkainen's Sword,
+7th level Evocation,
+1 action, VSMgp<C> (phb 262)
+
 mordenkainen's sward
 mordenkainen's swords
 mordenkainen's swore
 mordenkainen's sworn
 mordenkainen's word
 
-Prismatic Spray, 7th level Evocation, 1 action, VS (phb 267)
+Prismatic Spray,
+7th level Evocation,
+1 action, VS (phb 267)
+
 prismatic pray
 prismatic splay
 prismatic sprat
 prismatic sprays
 prismatic stray
 
-Whirlwind, 7th level Evocation, 1 action, VM<C> (ee 24, xge 171)
+Whirlwind,
+7th level Evocation,
+1 action, VM<C> (ee 24, xge 171)
+
 whirl bind
 whirl find
 whirl hind
@@ -6440,7 +7668,9 @@ whirl rind
 whirl wand
 whirl wend
 whirl wild
+whirl wind
 whirl winds
+whirl windy
 whirl wine
 whirl wined
 whirl wing
@@ -6453,11 +7683,17 @@ whirlwinds
 whirs wind
 whorl wind
 
-Mirage Arcane, 7th level Illusion, 10 minutes, VS (phb 260)
+Mirage Arcane,
+7th level Illusion,
+10 minutes, VS (phb 260)
+
 mirage arcade
 mirages arcane
 
-Project Image, 7th level Illusion, 1 action, VSMgp<C> (phb 270)
+Project Image,
+7th level Illusion,
+1 action, VSMgp<C> (phb 270)
+
 project imaged
 project images
 project imago
@@ -6465,13 +7701,18 @@ project mage
 projects image
 protect image
 
-Simulacrum, 7th level Illusion, 12 hours, VSMgp (phb 276)
+Simulacrum,
+7th level Illusion,
+12 hours, VSMgp (phb 276)
+
 simulacrums
 
-Finger of Death, 7th level Necromancy, 1 action, VS (phb 241)
+Finger of Death,
+7th level Necromancy,
+1 action, VS (phb 241)
+
 finder of death
 finger if death
-finger oaf death
 finger of dearth
 finger of deaths
 finger of depth
@@ -6487,27 +7728,46 @@ singer of death
 winger of death
 zinger of death
 
-Resurrection, 7th level Necromancy, 1 hour, VSMgp (phb 272)
+Resurrection,
+7th level Necromancy,
+1 hour, VSMgp (phb 272)
+
 resurrections
 
-Etherealness, 7th level Transmutation, 1 action, VS (phb 238)
+Etherealness,
+7th level Transmutation,
+1 action, VS (phb 238)
 
-Regenerate, 7th level Transmutation, 1 minute, VSM (phb 271)
+
+Regenerate,
+7th level Transmutation,
+1 minute, VSM (phb 271)
+
 degenerate
 regenerated
 regenerates
 
-Reverse Gravity, 7th level Transmutation, 1 action, VSM<C> (phb 272)
+Reverse Gravity,
+7th level Transmutation,
+1 action, VSM<C> (phb 272)
+
 reverie gravity
 reversed gravity
 reverses gravity
 
-Sequester, 7th level Transmutation, 1 action, VSMgp (phb 274)
+Sequester,
+7th level Transmutation,
+1 action, VSMgp (phb 274)
+
 requester
 sequesters
 
-Antimagic Field, 8th level Abjuration, 1 action, VSM<C> (phb 213)
+Antimagic Field,
+8th level Abjuration,
+1 action, VSM<C> (phb 213)
+
 ante magic field
+anti magic field
 anti magics field
 anti manic field
 antic magic field
@@ -6519,7 +7779,10 @@ antimagic yield
 antis magic field
 ants magic field
 
-Holy Aura, 8th level Abjuration, 1 action, VSMgp<C> (phb 251)
+Holy Aura,
+8th level Abjuration,
+1 action, VSMgp<C> (phb 251)
+
 hold aura
 hole aura
 holey aura
@@ -6530,7 +7793,10 @@ holy auras
 hotly aura
 poly aura
 
-Mind Blank, 8th level Abjuration, 1 action, VS (phb 259)
+Mind Blank,
+8th level Abjuration,
+1 action, VS (phb 259)
+
 bind blank
 find blank
 hind blank
@@ -6556,15 +7822,39 @@ minx blank
 rind blank
 wind blank
 
-Demiplane, 8th level Conjuration, 1 action, S (phb 231)
+Demiplane,
+8th level Conjuration,
+1 action, S (phb 231)
 
-Incendiary Cloud, 8th level Conjuration, 1 action, VS<C> (phb 253)
+deli plane
+demi lane
+demi place
+demi plane
+demi planed
+demi planer
+demi planes
+demi planet
+demi plank
+demi plans
+demi plant
+demi plate
+demo plane
+semi plane
+
+Incendiary Cloud,
+8th level Conjuration,
+1 action, VS<C> (phb 253)
+
 incendiary aloud
 incendiary clouds
+incendiary cloudy
 incendiary clout
 incendiary loud
 
-Maze, 8th level Conjuration, 1 action, VS<C> (phb 258)
+Maze,
+8th level Conjuration,
+1 action, VS<C> (phb 258)
+
 amaze
 daze
 faze
@@ -6583,15 +7873,28 @@ mate
 mazes
 raze
 
-Mighty Fortress, 8th level Conjuration, 1 minute, VSMgp (xge 161)
-eighty fortress
+Mighty Fortress,
+8th level Conjuration,
+1 minute, VSMgp (xge 161)
 
-Tsunami, 8th level Conjuration, 1 minute, VS<C> (phb 284)
+eighty fortress
+mighty for tress
+
+Tsunami,
+8th level Conjuration,
+1 minute, VS<C> (phb 284)
+
 tsunamis
 
-Antipathy/Sympathy, 8th level Enchantment, 1 hour, VSM (phb 214)
+Antipathy/Sympathy,
+8th level Enchantment,
+1 hour, VSM (phb 214)
 
-Dominate Monster, 8th level Enchantment, 1 action, VS<C> (phb 235)
+
+Dominate Monster,
+8th level Enchantment,
+1 action, VS<C> (phb 235)
+
 dominate minster
 dominate mobster
 dominate moister
@@ -6600,7 +7903,10 @@ dominated monster
 dominates monster
 nominate monster
 
-Feeblemind, 8th level Enchantment, 1 action, VSM (phb 239)
+Feeblemind,
+8th level Enchantment,
+1 action, VSM (phb 239)
+
 feeble bind
 feeble find
 feeble hind
@@ -6608,6 +7914,7 @@ feeble ind
 feeble kind
 feeble mend
 feeble mild
+feeble mind
 feeble minds
 feeble mine
 feeble mined
@@ -6620,7 +7927,10 @@ feeble wind
 feebler mind
 feebly mind
 
-Power Word Stun, 8th level Enchantment, 1 action, V (phb 267)
+Power Word Stun,
+8th level Enchantment,
+1 action, V (phb 267)
+
 bower word stun
 cower word stun
 dower word stun
@@ -6647,6 +7957,7 @@ power word stuns
 power word stunt
 power word tun
 power words stun
+power wordy stun
 power wore stun
 power work stun
 power world stun
@@ -6658,40 +7969,96 @@ rower word stun
 sower word stun
 tower word stun
 
-Earthquake, 8th level Evocation, 1 action, VSM<C> (phb 236)
+Earthquake,
+8th level Evocation,
+1 action, VSM<C> (phb 236)
+
 dearth quake
+earth quake
 earth quaked
 earth quakes
 earth quaky
 earthquakes
 earths quake
+earthy quake
 hearth quake
 
-Maddening Darkness, 8th level Evocation, 1 action, VM<C> (xge 160)
+Maddening Darkness,
+8th level Evocation,
+1 action, VM<C> (xge 160)
+
 maddening dankness
 saddening darkness
 
-Sunburst, 8th level Evocation, 1 action, VSM (phb 279)
+Sunburst,
+8th level Evocation,
+1 action, VSM (phb 279)
+
+bun burst
+dun burst
+fun burst
+gun burst
+jun burst
+mun burst
+nun burst
+pun burst
+run burst
+sen burst
+shun burst
+sin burst
+son burst
+spun burst
+stun burst
+sub burst
+sue burst
+sum burst
+sun burnt
+sun bursa
+sun burst
+sun bursts
+sun durst
+sun wurst
 sunbursts
+sung burst
+sunk burst
+suns burst
+sup burst
+syn burst
+tun burst
 
-Telepathy, 8th level Evocation, 1 action, VSM (phb 281)
+Telepathy,
+8th level Evocation,
+1 action, VSM (phb 281)
 
-Illusory Dragon, 8th level Illusion, 1 action, S<C> (xge 157)
+
+Illusory Dragon,
+8th level Illusion,
+1 action, S<C> (xge 157)
+
 illusory dragons
 illusory dragoon
 
-Abi-Dalzim's Horrid Wilting, 8th level Necromancy, 1 action, VSM (ee 15, xge 150)
-abi-dalzim's horrid jilting
-abi-dalzim's horrid lilting
-abi-dalzim's horrid milting
-abi-dalzim's horrid silting
-abi-dalzim's horrid tilting
-abi-dalzim's horrid welting
-abi-dalzim's horrid willing
-abi-dalzim's horrid witting
-abi-dalzim's torrid wilting
+Abi-Dalzim's Horrid Wilting,
+8th level Necromancy,
+1 action, VSM (ee 15, xge 150)
 
-Clone, 8th level Necromancy, 1 hour, VSMgp (phb 222)
+abi dalzim's horrid jilting
+abi dalzim's horrid lilting
+abi dalzim's horrid milting
+abi dalzim's horrid silting
+abi dalzim's horrid tilting
+abi dalzim's horrid welting
+abi dalzim's horrid willing
+abi dalzim's horrid witting
+abi dalzim's torrid wilting
+abs dalzim's horrid wilting
+bi dalzim's horrid wilting
+obi dalzim's horrid wilting
+
+Clone,
+8th level Necromancy,
+1 hour, VSMgp (phb 222)
+
 alone
 cloned
 clones
@@ -6701,7 +8068,10 @@ clove
 crone
 lone
 
-Animal Shapes, 8th level Transmutation, 1 action, VS<C> (phb 212)
+Animal Shapes,
+8th level Transmutation,
+1 action, VS<C> (phb 212)
+
 animal shades
 animal shakes
 animal shames
@@ -6710,21 +8080,36 @@ animal shares
 animal shaves
 animals shapes
 
-Control Weather, 8th level Transmutation, 10 minutes, VSM<C> (phb 228)
+Control Weather,
+8th level Transmutation,
+10 minutes, VSM<C> (phb 228)
+
 control feather
 control heather
 control leather
 control weathers
 controls weather
 
-Glibness, 8th level Transmutation, 1 action, V (phb 245)
+Glibness,
+8th level Transmutation,
+1 action, V (phb 245)
 
-Imprisonment, 9th level Abjuration, 1 minute, VSMgp (phb 252)
+
+Imprisonment,
+9th level Abjuration,
+1 minute, VSMgp (phb 252)
+
 imprisonments
 
-Invulnerability, 9th level Abjuration, 1 action, VSMgp<C> (xge 160)
+Invulnerability,
+9th level Abjuration,
+1 action, VSMgp<C> (xge 160)
 
-Prismatic Wall, 9th level Abjuration, 1 action, VS (phb 267)
+
+Prismatic Wall,
+9th level Abjuration,
+1 action, VS (phb 267)
+
 prismatic all
 prismatic ball
 prismatic call
@@ -6738,12 +8123,16 @@ prismatic wail
 prismatic wale
 prismatic walk
 prismatic walls
+prismatic wally
 prismatic well
 prismatic will
 
-Blade of Disaster, 9th level Conjuration, 1 bonus action, VS<C> (tce 106)
+Blade of Disaster,
+9th level Conjuration,
+1 bonus action, VS<C> (tce 106)
+
 blade if disaster
-blade oaf disaster
+blade of dis aster
 blade of disasters
 blade on disaster
 blade or disaster
@@ -6757,7 +8146,10 @@ clade of disaster
 glade of disaster
 lade of disaster
 
-Gate, 9th level Conjuration, 1 action, VSMgp<C> (phb 244)
+Gate,
+9th level Conjuration,
+1 action, VSMgp<C> (phb 244)
+
 agate
 ate
 bate
@@ -6779,17 +8171,23 @@ pate
 rate
 sate
 
-Storm of Vengeance, 9th level Conjuration, 1 action, VS<C> (phb 279)
+Storm of Vengeance,
+9th level Conjuration,
+1 action, VS<C> (phb 279)
+
 store of vengeance
 stork of vengeance
 storm if vengeance
-storm oaf vengeance
 storm on vengeance
 storm or vengeance
 storms of vengeance
+stormy of vengeance
 story of vengeance
 
-Wish, 9th level Conjuration, 1 action, V (phb 288)
+Wish,
+9th level Conjuration,
+1 action, V (phb 288)
+
 dish
 fish
 swish
@@ -6799,43 +8197,16 @@ wisp
 wist
 with
 
-Foresight, 9th level Divination, 1 minute, VSM (phb 244)
-bore sight
-core sight
-fare sight
-fire sight
-fora sight
-force sight
-ford sight
-fore bight
-fore eight
-fore fight
-fore light
-fore might
-fore night
-fore right
-fore sighs
-fore sights
-fore slight
-fore tight
-fore wight
-fores sight
-forge sight
-fork sight
-form sight
-fort sight
-forte sight
-gore sight
-lore sight
-more sight
-ore sight
-pore sight
-sore sight
-tore sight
-wore sight
-yore sight
+Foresight,
+9th level Divination,
+1 minute, VSM (phb 244)
 
-Power Word Kill, 9th level Enchantment, 1 action, V (phb 266)
+fore sight
+
+Power Word Kill,
+9th level Enchantment,
+1 action, V (phb 266)
+
 bower word kill
 cower word kill
 dower word kill
@@ -6871,6 +8242,7 @@ power word skill
 power word till
 power word will
 power words kill
+power wordy kill
 power wore kill
 power work kill
 power world kill
@@ -6882,13 +8254,19 @@ rower word kill
 sower word kill
 tower word kill
 
-Psychic Scream, 9th level Enchantment, 1 action, S (xge 163)
+Psychic Scream,
+9th level Enchantment,
+1 action, S (xge 163)
+
 psychic cream
 psychic screams
 psychic stream
 psychics scream
 
-Mass Heal, 9th level Evocation, 1 action, VS (phb 258)
+Mass Heal,
+9th level Evocation,
+1 action, VS (phb 258)
+
 amass heal
 ass heal
 bass heal
@@ -6932,13 +8310,19 @@ muss heal
 pass heal
 sass heal
 
-Meteor Swarm, 9th level Evocation, 1 action, VS (phb 259)
+Meteor Swarm,
+9th level Evocation,
+1 action, VS (phb 259)
+
 meteor sward
 meteor swarms
 meteor warm
 meteors swarm
 
-Power Word Heal, 9th level Evocation, 1 action, VS (phb 266)
+Power Word Heal,
+9th level Evocation,
+1 action, VS (phb 266)
+
 bower word heal
 cower word heal
 dower word heal
@@ -6973,6 +8357,7 @@ power word weal
 power word wheal
 power word zeal
 power words heal
+power wordy heal
 power wore heal
 power work heal
 power world heal
@@ -6984,17 +8369,26 @@ rower word heal
 sower word heal
 tower word heal
 
-Weird, 9th level Illusion, 1 action, VS<C> (phb 288)
+Weird,
+9th level Illusion,
+1 action, VS<C> (phb 288)
+
 weirdo
 weirs
 
-Astral Projection, 9th level Necromancy, 1 hour, VSMgp (phb 215)
+Astral Projection,
+9th level Necromancy,
+1 hour, VSMgp (phb 215)
+
 astral projections
 astral protection
 astray projection
 austral projection
 
-True Resurrection, 9th level Necromancy, 1 hour, VSMgp (phb 284)
+True Resurrection,
+9th level Necromancy,
+1 hour, VSMgp (phb 284)
+
 grue resurrection
 rue resurrection
 tree resurrection
@@ -7005,7 +8399,10 @@ truer resurrection
 trues resurrection
 trug resurrection
 
-Mass Polymorph, 9th level Transmutation, 1 action, VSM<C> (xge 160)
+Mass Polymorph,
+9th level Transmutation,
+1 action, VSM<C> (xge 160)
+
 amass polymorph
 ass polymorph
 bass polymorph
@@ -7021,17 +8418,7 @@ masc polymorph
 mash polymorph
 mask polymorph
 masks polymorph
-mass holy morph
-mass poky morph
-mass pole morph
-mass poll morph
-mass polo morph
-mass pols morph
-mass poly morphs
-mass polyp morph
-mass polys morph
-mass pony morph
-mass posy morph
+mass poly morph
 mast polymorph
 masts polymorph
 mats polymorph
@@ -7043,12 +8430,16 @@ muss polymorph
 pass polymorph
 sass polymorph
 
-Shapechange, 9th level Transmutation, 1 action, VSMgp<C> (phb 274)
+Shapechange,
+9th level Transmutation,
+1 action, VSMgp<C> (phb 274)
+
 shade change
 shake change
 shale change
 shame change
 shape chance
+shape change
 shape changed
 shape changer
 shape changes
@@ -7058,7 +8449,10 @@ shapes change
 share change
 shave change
 
-Time Stop, 9th level Transmutation, 1 action, V (phb 283)
+Time Stop,
+9th level Transmutation,
+1 action, V (phb 283)
+
 dime stop
 lime stop
 mime stop
@@ -7084,22 +8478,15 @@ tine stop
 tire stop
 tome stop
 
-True Polymorph, 9th level Transmutation, 1 action, VSM<C> (phb 283)
+True Polymorph,
+9th level Transmutation,
+1 action, VSM<C> (phb 283)
+
 grue polymorph
 rue polymorph
 tree polymorph
 truce polymorph
-true holy morph
-true poky morph
-true pole morph
-true poll morph
-true polo morph
-true pols morph
-true poly morphs
-true polyp morph
-true polys morph
-true pony morph
-true posy morph
+true poly morph
 trued polymorph
 truer polymorph
 trues polymorph

@@ -1,0 +1,41 @@
+{
+  "overrides": {
+    "of": [
+      "or",
+      "on",
+      "if"
+    ],
+    "summon": []
+  },
+  "allow_split": {
+    "skywrite": "sky write",
+    "whirlwind": "whirl wind",
+    "counterspell": "counter spell",
+    "thunderclap": "thunder clap",
+    "forcecage": "force cage",
+    "shapechange": "shape change",
+    "cloudkill": "cloud kill",
+    "goodberry": "good berry",
+    "longstrider": "long strider",
+    "sunburst": "sun burst",
+    "moonbeam": "moon beam",
+    "passwall": "pass wall",
+    "pyrotechnics": "pyro technics",
+    "druidcraft": "druid craft",
+    "darkvision": "dark vision",
+    "antimagic": "anti magic",
+    "eyebite": "eye bite",
+    "earthbind": "earth bind",
+    "stoneskin": "stone skin",
+    "thunderwave": "thunder wave",
+    "antilife": "anti life",
+    "feeblemind": "feeble mind",
+    "earthquake": "earth quake",
+    "sunbeam": "sun beam",
+    "frostbite": "frost bite",
+    "snowball": "snow ball",
+    "fireball": "fire ball",
+    "demiplane": "demi plane",
+    "barkskin": "bark skin"
+  }
+}
