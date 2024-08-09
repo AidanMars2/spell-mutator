@@ -74,6 +74,7 @@ pub struct MutationConfig {
     pub diagnostics_file: String,
     pub dic_file: String,
     pub aff_file: String,
+    pub mutated_words_file: String,
     pub mutation_depth: u8,
     pub advanced_diagnostics: bool
 }

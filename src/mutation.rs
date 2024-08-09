@@ -30,7 +30,7 @@ pub fn mutate_string(
         let word: &str = &spell_words[index];
 
         if !words.contains_key(word) {
-            let mutated = get_mutated_words(word, spellchecker, words, overrides, diagnostics);
+            let mutated = get_mutated_words(word, spellchecker, overrides, diagnostics);
             words.insert(word.to_string(), mutated);
         }
         let mutated_word = words.get(word).unwrap();
@@ -56,19 +56,16 @@ pub fn mutate_string(
 fn get_mutated_words(
     word: &str,
     spellchecker: &Spellchecker,
-    words: &mut HashMap<String, Vec<String>>,
     overrides: &Overrides,
     diagnostics: &mut Diagnostics
 ) -> Vec<String> {
     if !word.contains(char::is_alphanumeric) {
+        println!("WARN: word without alphanumeric letters spotted in {word}");
         return vec![]
     }
 
-    if words.contains_key(word) {
-        return words[word].clone()
-    }
-
     if let Some(mutations) = overrides.overrides.get(word) {
+        mutations.iter().for_each(|mut_word| diagnostics.mutate_word(mut_word));
         return mutations.clone()
     }
 
@@ -79,7 +76,9 @@ fn get_mutated_words(
     result.extend(mutate_split_word(word, spellchecker, diagnostics, overrides));
     result.remove(word);
 
-    result.into_iter().collect::<Vec<_>>()
+    result.into_iter()
+        .inspect(|word| diagnostics.mutate_word(word))
+        .collect::<Vec<_>>()
 }
 
 fn mutate_add_char(

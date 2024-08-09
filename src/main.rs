@@ -1,6 +1,5 @@
 use std::collections::{HashMap, HashSet};
 use std::fs;
-use zspell::Dictionary;
 use types::{MutationConfig, Overrides, Spell};
 use crate::diagnostics::Diagnostics;
 use crate::mutation::mutate_string;
@@ -26,7 +25,7 @@ fn main() {
         );
     });
     diagnostics.final_spell_count = spells.iter().map(|spell| spell.mutations.len()).sum();
-    diagnostics.set_final_word_count(&words_mut);
+    diagnostics.set_final_word_count();
     println!("{}", diagnostics.stringify(&config, false));
 
     fs::write(&config.output_file, serde_json::to_string(&spells).unwrap())
@@ -34,6 +33,9 @@ fn main() {
 
     fs::write(&config.diagnostics_file, diagnostics.stringify(&config, true))
         .expect("failed to write diagnostics");
+
+    fs::write(&config.mutated_words_file, diagnostics.mutated_words())
+        .expect("failed to write mutated words");
 }
 
 fn mutate_spell(
