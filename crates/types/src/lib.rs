@@ -3,9 +3,9 @@ use serde::{Deserialize, Serialize};
 
 #[derive(Serialize, Deserialize, Eq, PartialEq, Ord, PartialOrd, Debug)]
 pub struct Spell {
+    pub name: String,
     pub level: u8,
     pub school: String,
-    pub name: String,
     pub source: String,
     #[serde(default)]
     pub cast_time: String,
@@ -59,7 +59,7 @@ impl Spell {
 pub struct Overrides {
     #[serde(default)]
     pub overrides: HashMap<String, Vec<String>>,
-    pub allow_split: HashMap<String, String>
+    pub allow_split: HashMap<String, usize>
 }
 
 #[derive(Serialize, Deserialize)]

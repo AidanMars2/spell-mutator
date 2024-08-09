@@ -1,6 +1,5 @@
 use std::collections::{HashMap, HashSet};
 use std::fs;
-
 use zspell::Dictionary;
 use types::{MutationConfig, Overrides, Spell};
 use crate::mutation::mutate_string;
@@ -8,24 +7,18 @@ use crate::mutation::mutate_string;
 mod mutation;
 
 fn main() {
-    let config: MutationConfig = serde_json::from_str(
-        &*fs::read_to_string("config.json").expect("failed to load config")
-    ).expect("failed to parse config");
+    let (config, mut spells, overrides) = parse_files();
 
-    let mut spells: Vec<Spell> = serde_json::from_str(
-        &*fs::read_to_string(config.input_file).expect("failed to load spells")
-    ).expect("failed to parse spells");
+    let initial_spells = spells.len();
+    println!("initial spell count: {initial_spells}");
 
-    println!("initial spell count: {}", spells.len());
-    spells.sort_unstable();
-
-    let overrides: Overrides = serde_json::from_str(
-        &*fs::read_to_string(config.overrides_file).expect("failed to load overrides")
-    ).expect("failed to parse overrides");
-    let dict = get_dict();
+    let dict = create_dictionary();
     let mut words_mut: HashMap<String, Vec<String>> = HashMap::new();
 
+    let mut index = 0;
     spells.iter_mut().for_each(|spell| {
+        index += 1;
+        println!("mutating {index}/{initial_spells}: {}", spell.name);
         mutate_spell(spell, &mut words_mut, &dict, &overrides, config.mutation_depth);
     });
 
@@ -59,15 +52,13 @@ fn mutate_spell(
                 result.insert(mutation);
             })
         });
-        next.drain().for_each(|mutation| {
-            current.push(mutation);
-        });
+        current.extend(next.drain());
     }
 
     spell.mutations.extend(result);
 }
 
-fn get_dict() -> Dictionary {
+fn create_dictionary() -> Dictionary {
     let aff_content = fs::read_to_string("lang_en_US.aff")
         .expect("failed to load lang config");
     let dict_content = fs::read_to_string("lang_en_US_DICT.dic")
@@ -78,4 +69,26 @@ fn get_dict() -> Dictionary {
         .config_str(&aff_content)
         .build()
         .expect("failed to init language")
+}
+
+fn parse_files() -> (MutationConfig, Vec<Spell>, Overrides) {
+    let config: MutationConfig = serde_json::from_str(
+        &*fs::read_to_string("config.json")
+            .expect("failed to load config")
+    ).expect("failed to parse config");
+
+    let mut spells: Vec<Spell> = serde_json::from_str(
+        &*fs::read_to_string(&config.input_file)
+            .expect("failed to load spells")
+    ).expect("failed to parse spells");
+
+    spells.sort_unstable();
+
+
+    let overrides: Overrides = serde_json::from_str(
+        &*fs::read_to_string(&config.overrides_file)
+            .expect("failed to load overrides")
+    ).expect("failed to parse overrides");
+
+    (config, spells, overrides)
 }

@@ -12,15 +12,18 @@ pub fn mutate_string(
         return words.clone()
     }
 
-    let string_split = string.split(|char: char| {
-        !char.is_alphanumeric() && char != '\''
-    }).collect::<Vec<_>>();
+    let string_split = string
+        .split(|char: char| { !char.is_alphanumeric() && char != '\'' })
+        .map(|word| process_split(word, overrides))
+        .flatten()
+        .collect::<Vec<_>>();
 
     let mut result: HashSet<String> = HashSet::new();
     let mut split_mut: Vec<String> = string_split.iter().map(|it| it.to_string()).collect();
 
     for index in 0..string_split.len() {
-        let word = string_split[index];
+        let word: &str = &string_split[index];
+
         if !words.contains_key(word) {
             let mutated = get_mutated_words(word, dictionary, words, overrides);
             words.insert(word.to_string(), mutated);
@@ -40,7 +43,7 @@ pub fn mutate_string(
         split_mut[index] = string_split[index].to_string();
     }
 
-    return result.into_iter().collect::<Vec<_>>()
+    result.into_iter().collect::<Vec<_>>()
 }
 
 fn get_mutated_words(
@@ -65,13 +68,13 @@ fn get_mutated_words(
     result.extend(mutate_add_char(word, dictionary));
     result.extend(mutate_remove_char(word, dictionary));
     result.extend(mutate_change_char(word, dictionary));
-    result.extend(mutate_split_word(word, dictionary, words, overrides));
+    result.extend(mutate_split_word(word, dictionary));
     result.remove(word);
 
     let mut result_vec = result.into_iter().collect::<Vec<_>>();
     result_vec.shrink_to_fit();
 
-    return result_vec
+    result_vec
 }
 
 fn mutate_add_char(
@@ -98,7 +101,7 @@ fn mutate_add_char(
         }
     }
 
-    return result
+    result
 }
 
 fn mutate_change_char(
@@ -126,7 +129,7 @@ fn mutate_change_char(
         chars[index] = original_letter;
     }
 
-    return result
+    result
 }
 
 fn mutate_remove_char(
@@ -148,22 +151,14 @@ fn mutate_remove_char(
         chars_mut[index] = chars[index + 1]
     }
 
-    return result
+    result
 }
 
 fn mutate_split_word(
     word: &str,
-    dictionary: &Dictionary,
-    words: &mut HashMap<String, Vec<String>>,
-    overrides: &Overrides
+    dictionary: &Dictionary
 ) -> Vec<String> {
     let mut result: HashSet<String> = HashSet::new();
-
-    let pre_split = overrides.allow_split.get(word);
-    if let Some(split) = pre_split {
-        result.insert(split.to_string());
-        result.extend(mutate_string(split, dictionary, words, overrides))
-    }
 
     if word.len() < 8 {
         return result.into_iter().collect()
@@ -171,6 +166,7 @@ fn mutate_split_word(
 
     let chars = word.chars().collect::<Vec<_>>();
 
+    // split words must be at least 3 letters long
     for index in 3..chars.len() - 3 {
         let word_one = chars[..index].into_iter().collect::<String>();
         let word_two = chars[index..].into_iter().collect::<String>();
@@ -181,56 +177,25 @@ fn mutate_split_word(
         result.insert(format!("{word_one} {word_two}"));
     }
 
-    return result.into_iter().collect()
+    result.into_iter().collect()
 }
 
-pub fn get_mutation_depths(
-    total_mutation_depth: u8,
-    num_words: u16,
-) -> Vec<Vec<u8>> {
-    if num_words == 0 {
-        return vec![];
-    }
-    let mut combinations: Vec<Vec<u8>> = vec![];
-    let mut next: Vec<Vec<u8>> = vec![];
+fn process_split(
+    mut word: &str,
+    overrides: &Overrides
+) -> Vec<String> {
+    let mut result: Vec<String> = vec![];
 
-    for mutation in 0..=total_mutation_depth {
-        combinations.push(vec![mutation])
-    }
-
-    for word_index in 1..num_words {
-        let last_word = word_index == num_words - 1;
-
-        if last_word {
-            for combination in combinations.iter_mut() {
-                let sum: u8 = combination.iter().sum();
-                let depth_left = total_mutation_depth - sum;
-                combination.push(depth_left);
-            }
+    loop {
+        if let Some(index) = overrides.allow_split.get(word) {
+            let (first, second) = word.split_at(*index);
+            result.push(first.to_string());
+            word = second;
         } else {
-            for combination in combinations.iter_mut() {
-                let sum = combination.iter().sum::<u8>();
-                let depth_left = total_mutation_depth - sum;
-
-                for depth_add in 0..depth_left {
-                    let mut new_combination = combination.clone();
-                    new_combination.push(depth_add);
-                    next.push(new_combination);
-                }
-                combination.push(depth_left)
-            }
+            result.push(word.to_string());
+            break
         }
-
-        combinations.append(&mut next)
     }
 
-    return combinations
-        .into_iter()
-        .filter(|combination| {
-            combination.iter().sum::<u8>() == total_mutation_depth
-        })
-        .collect::<Vec<_>>()
+    result
 }
-
-
-

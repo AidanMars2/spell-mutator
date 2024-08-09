@@ -1,5 +1,3 @@
-extern crate core;
-
 use std::fs;
 use types::Spell;
 
