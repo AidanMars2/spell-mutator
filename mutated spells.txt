@@ -70,11 +70,6 @@ raid
 rid
 said
 
-Alarm,
-1st level Abjuration,
-1 minute, VSM<R> (phb 211)
-
-
 Alter Self,
 2nd level Transmutation,
 1 action, VS<C> (phb 211)
@@ -175,11 +170,6 @@ anti magic wield
 anti magic yield
 anti magics field
 anti manic field
-
-Antipathy/Sympathy,
-8th level Enchantment,
-1 hour, VSM (phb 214)
-
 
 Arcane Eye,
 4th level Divination,
@@ -379,11 +369,6 @@ banishing smote
 banishing spite
 banishing suite
 vanishing smite
-
-Banishment,
-4th level Abjuration,
-1 action, VSM<C> (phb 217)
-
 
 Barkskin,
 2nd level Transmutation,
@@ -766,11 +751,6 @@ calm motions
 calms emotions
 palm emotions
 
-Catapult,
-1st level Transmutation,
-1 action, S (ee 15, xge 150)
-
-
 Catnap,
 3rd level Enchantment,
 1 action, SM (xge 151)
@@ -801,11 +781,6 @@ cayuse fear
 clause fear
 cruse fear
 pause fear
-
-Ceremony,
-1st level Abjuration,
-1 hour, VSMgp<R> (xge 151)
-
 
 Chain Lightning,
 6th level Evocation,
@@ -933,11 +908,6 @@ circled of power
 circles of power
 circlet of power
 
-Clairvoyance,
-3rd level Divination,
-10 minutes, VSMgp<C> (phb 222)
-
-
 Clone,
 8th level Necromancy,
 1 hour, VSMgp (phb 222)
@@ -1050,11 +1020,6 @@ Comprehend Languages,
 1 action, VSM<R> (phb 224)
 
 comprehends languages
-
-Compulsion,
-4th level Enchantment,
-1 action, VS<C> (phb 224)
-
 
 Cone of Cold,
 5th level Evocation,
@@ -1250,16 +1215,6 @@ contact otter plane
 contact pother plane
 contacts other plane
 contract other plane
-
-Contagion,
-5th level Necromancy,
-1 action, VS (phb 227)
-
-
-Contingency,
-6th level Evocation,
-10 minutes, VSMgp (phb 227)
-
 
 Continual Flame,
 2nd level Evocation,
@@ -1960,11 +1915,6 @@ dissonant whimpers
 dissonant whippers
 dissonant whiskers
 
-Divination,
-4th level Divination,
-1 action, VSMgp<R> (phb 234)
-
-
 Divine Favor,
 1st level Evocation,
 1 bonus action, VS<C> (phb 234)
@@ -2222,21 +2172,11 @@ elemental sane
 elemental vane
 elemental wane
 
-Elemental Weapon,
-3rd level Transmutation,
-1 action, VS<C> (phb 237)
-
-
 Enemies Abound,
 3rd level Enchantment,
 1 action, VS<C> (xge 155)
 
 enemies bound
-
-Enervation,
-5th level Necromancy,
-1 action, VS<C> (xge 155)
-
 
 Enhance Ability,
 2nd level Transmutation,
@@ -2282,11 +2222,6 @@ Entangle,
 entangled
 untangle
 
-Enthrall,
-2nd level Enchantment,
-1 action, VS (phb 238)
-
-
 Erupting Earth,
 3rd level Transmutation,
 1 action, VSM (ee 17, xge 155)
@@ -2295,11 +2230,6 @@ eructing earth
 erupting dearth
 erupting earthy
 erupting hearth
-
-Etherealness,
-7th level Transmutation,
-1 action, VS (phb 238)
-
 
 Evard's Black Tentacles,
 4th level Conjuration,
@@ -3009,11 +2939,6 @@ freedom on movement
 freedom or movement
 freedoms of movement
 
-Friends,
-Enchantment Cantrip,
-1 action, SM<C> (phb 244)
-
-
 Frostbite,
 Evocation Cantrip,
 1 action, VS (ee 18, xge 156)
@@ -3120,11 +3045,6 @@ giant insert
 giant inspect
 giants insect
 grant insect
-
-Glibness,
-8th level Transmutation,
-1 action, V (phb 245)
-
 
 Globe of Invulnerability,
 6th level Abjuration,
@@ -3303,11 +3223,6 @@ guards land wards
 guards rand wards
 guards sand wards
 guards wand wards
-
-Guidance,
-Divination Cantrip,
-1 action, VS<C> (phb 248)
-
 
 Guiding Bolt,
 1st level Evocation,
@@ -3565,11 +3480,6 @@ heroes' east
 heroes' least
 heroes' yeast
 
-Heroism,
-1st level Enchantment,
-1 action, VS<C> (phb 250)
-
-
 Hex,
 1st level Enchantment,
 1 bonus action, VSM<C> (phb 251)
@@ -3757,16 +3667,6 @@ Illusory Script,
 
 illusory scrips
 
-Immolation,
-5th level Evocation,
-1 action, V<C> (ee 19, xge 158)
-
-
-Imprisonment,
-9th level Abjuration,
-1 minute, VSMgp (phb 252)
-
-
 Incendiary Cloud,
 8th level Conjuration,
 1 action, VS<C> (phb 253)
@@ -3790,11 +3690,6 @@ infernal galling
 infernal palling
 infernal walling
 internal calling
-
-Infestation,
-Conjuration Cantrip,
-1 action, VSM (xge 158)
-
 
 Inflict Wounds,
 1st level Necromancy,
@@ -3914,16 +3809,6 @@ investiture of winy
 investiture on wind
 investiture or wind
 investitures of wind
-
-Invisibility,
-2nd level Illusion,
-1 action, VSM<C> (phb 254)
-
-
-Invulnerability,
-9th level Abjuration,
-1 action, VSMgp<C> (xge 160)
-
 
 Jump,
 1st level Transmutation,
@@ -4183,11 +4068,6 @@ Maddening Darkness,
 
 maddening dankness
 saddening darkness
-
-Maelstrom,
-5th level Evocation,
-1 action, VSM<C> (ee 20, xge 160)
-
 
 Mage Armor,
 1st level Abjuration,
@@ -4909,11 +4789,6 @@ mordenkainen's faithful sound
 mordenkainen's faithful wound
 mordenkainen's faithfuls hound
 
-Mordenkainen's Magnificent Mansion,
-7th level Conjuration,
-1 minute, VSMgp (phb 261)
-
-
 Mordenkainen's Private Sanctum,
 4th level Abjuration,
 10 minutes, VSM (phb 262)
@@ -5007,11 +4882,6 @@ Otiluke's Freezing Sphere,
 
 otiluke's breezing sphere
 otiluke's free zing sphere
-
-Otiluke's Resilient Sphere,
-4th level Evocation,
-1 action, VSM<C> (phb 264)
-
 
 Otto's Irresistible Dance,
 6th level Enchantment,
@@ -5424,11 +5294,6 @@ prayer or healing
 prayers of healing
 sprayer of healing
 
-Prestidigitation,
-Transmutation Cantrip,
-1 action, VS (phb 267)
-
-
 Primal Savagery,
 Transmutation Cantrip,
 1 action, S (xge 163)
@@ -5808,16 +5673,6 @@ remover curse
 removes curse
 rewove curse
 
-Resistance,
-Abjuration Cantrip,
-1 action, VSM<C> (phb 272)
-
-
-Resurrection,
-7th level Necromancy,
-1 hour, VSMgp (phb 272)
-
-
 Reverse Gravity,
 7th level Transmutation,
 1 action, VSM<C> (phb 272)
@@ -5825,11 +5680,6 @@ Reverse Gravity,
 reverie gravity
 reversed gravity
 reverses gravity
-
-Revivify,
-3rd level Necromancy,
-1 action, VSMgp (phb 272)
-
 
 Rope Trick,
 2nd level Transmutation,
@@ -5882,11 +5732,6 @@ sacred flare
 sacred flume
 sacred frame
 sacred lame
-
-Sanctuary,
-1st level Abjuration,
-1 bonus action, VSM (phb 272)
-
 
 Scatter,
 6th level Abjuration,
@@ -6128,11 +5973,6 @@ shutter
 spatter
 swatter
 
-Shield,
-1st level Abjuration,
-1 reaction, VS (phb 275)
-
-
 Shield of Faith,
 1st level Abjuration,
 1 bonus action, VSM<C> (phb 275)
@@ -6142,11 +5982,6 @@ shield of saith
 shield on faith
 shield or faith
 shields of faith
-
-Shillelagh,
-Transmutation Cantrip,
-1 bonus action, VSM (phb 275)
-
 
 Shocking Grasp,
 Evocation Cantrip,
@@ -6160,11 +5995,6 @@ shocking rasp
 shucking grasp
 smocking grasp
 stocking grasp
-
-Sickening Radiance,
-4th level Evocation,
-1 action, VS<C> (xge 164)
-
 
 Silence,
 2nd level Illusion,
@@ -6181,11 +6011,6 @@ silent imaged
 silent imago
 silent mage
 silents image
-
-Simulacrum,
-7th level Illusion,
-12 hours, VSMgp (phb 276)
-
 
 Skill Empowerment,
 5th level Transmutation,
@@ -6637,16 +6462,6 @@ storms of vengeance
 stormy of vengeance
 story of vengeance
 
-Suggestion,
-2nd level Enchantment,
-1 action, VM<C> (phb 279)
-
-
-Summon Aberration,
-4th level Conjuration,
-1 action, VSM<C> (tce 109)
-
-
 Summon Beast,
 2nd level Conjuration,
 1 action, VSM<C> (tce 109)
@@ -6660,21 +6475,11 @@ summon feast
 summon least
 summon yeast
 
-Summon Celestial,
-5th level Conjuration,
-1 action, VSM<C> (tce 110)
-
-
 Summon Construct,
 4th level Conjuration,
 1 action, VSM<C> (tce 111)
 
 summon constrict
-
-Summon Elemental,
-4th level Conjuration,
-1 action, VSM<C> (tce 111)
-
 
 Summon Fey,
 3rd level Conjuration,
@@ -6833,11 +6638,6 @@ swore burst
 sworn burst
 word burst
 
-Symbol,
-7th level Abjuration,
-1 minute, VSMgp (phb 280)
-
-
 Synaptic Static,
 5th level Enchantment,
 1 action, VS (xge 167)
@@ -6912,21 +6712,6 @@ tasha's others worldly guise
 tasha's otter worldly guise
 tasha's pother worldly guise
 
-Telekinesis,
-5th level Transmutation,
-1 action, VS<C> (phb 280)
-
-
-Telepathy,
-8th level Evocation,
-1 action, VSM (phb 281)
-
-
-Teleport,
-7th level Conjuration,
-1 action, V (phb 281)
-
-
 Teleportation Circle,
 5th level Conjuration,
 1 minute, VMgp (phb 282)
@@ -6984,11 +6769,6 @@ censer's transformation
 teaser's transformation
 tender's transformation
 tenser's trans formation
-
-Thaumaturgy,
-Transmutation Cantrip,
-1 action, V (phb 282)
-
 
 Thorn Whip,
 Transmutation Cantrip,
@@ -7334,16 +7114,6 @@ truer strike
 trues strike
 trug strike
 
-Tsunami,
-8th level Conjuration,
-1 minute, VS<C> (phb 284)
-
-
-Unseen Servant,
-1st level Conjuration,
-1 action, VSM<R> (phb 284)
-
-
 Vampiric Touch,
 3rd level Necromancy,
 1 action, VS<C> (phb 285)
@@ -7363,11 +7133,6 @@ Enchantment Cantrip,
 
 vicious mockers
 vicious rockery
-
-Vitriolic Sphere,
-4th level Evocation,
-1 action, VSM (ee 23, xge 170)
-
 
 Wall of Fire,
 4th level Evocation,

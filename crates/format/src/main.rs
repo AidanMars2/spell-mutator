@@ -13,6 +13,9 @@ fn main() {
     let mut result: Vec<String> = vec![];
 
     for mut spell in input {
+        if config.omit_zero_mutation_spells && spell.mutations.is_empty() {
+            continue
+        }
         result.push(spell.write_spell_information());
         spell.mutations.sort_unstable();
         for mutation in spell.mutations {
