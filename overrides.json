@@ -9,6 +9,11 @@
       "do", "go", "no",
       "so", "toy", "two"
     ],
+    "arms": [
+      "arks", "arts", "farms",
+      "harms", "warms"
+    ],
+    "anti": [],
     "summon": [],
     "the": []
   },
@@ -53,6 +58,11 @@
     "dding", "dink", "dong", "fag",
     "gook", "ho", "mams", "puss",
     "sexing", "whiz", "whop", "yid",
-    "wog"
+    "wog", "abeam", "ably", "abs",
+    "adsorb", "afar", "afield", "afire",
+    "aflame", "aitch", "ajar", "alack",
+    "alight", "alights", "aloud", "alters",
+    "animates", "anon", "ans", "arbor",
+    "ardor", "around", "aster"
   ]
 }

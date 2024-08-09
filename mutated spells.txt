@@ -12,7 +12,6 @@ abi dalzim's horrid welting
 abi dalzim's horrid willing
 abi dalzim's horrid witting
 abi dalzim's torrid wilting
-abs dalzim's horrid wilting
 bi dalzim's horrid wilting
 obi dalzim's horrid wilting
 
@@ -21,7 +20,6 @@ Absorb Elements,
 1 reaction, S (ee 15, xge 150)
 
 absorbs elements
-adsorb elements
 
 Acid Splash,
 Conjuration Cantrip,
@@ -89,9 +87,7 @@ alter pelf
 alter sell
 alter serf
 alter shelf
-alters self
 apter self
-aster self
 falter self
 halter self
 salter self
@@ -137,20 +133,17 @@ animate lead
 animate mead
 animate read
 animated dead
-animates dead
 
 Animate Objects,
 5th level Transmutation,
 1 action, VS<C> (phb 213)
 
 animated objects
-animates objects
 
 Antilife Shell,
 5th level Abjuration,
 1 action, VS<C> (phb 213)
 
-ante life shell
 anti fife shell
 anti lice shell
 anti life hell
@@ -171,25 +164,17 @@ anti lite shell
 anti live shell
 anti rife shell
 anti wife shell
-antic life shell
-antis life shell
-ants life shell
 
 Antimagic Field,
 8th level Abjuration,
 1 action, VSM<C> (phb 213)
 
-ante magic field
-anti magic afield
 anti magic fields
 anti magic fiend
 anti magic wield
 anti magic yield
 anti magics field
 anti manic field
-antic magic field
-antis magic field
-ants magic field
 
 Antipathy/Sympathy,
 8th level Enchantment,
@@ -272,8 +257,6 @@ Armor of Agathys,
 1st level Abjuration,
 1 action, VSM (phb 215)
 
-arbor of agathys
-ardor of agathys
 armor if agathys
 armor on agathys
 armor or agathys
@@ -284,18 +267,12 @@ Arms of Hadar,
 1st level Conjuration,
 1 action, VS (phb 215)
 
-aims of hadar
-alms of hadar
-arcs of hadar
-ares of hadar
 arks of hadar
 arms if hadar
 arms of radar
 arms on hadar
 arms or hadar
-army of hadar
 arts of hadar
-arums of hadar
 farms of hadar
 harms of hadar
 warms of hadar
@@ -618,7 +595,6 @@ Blight,
 4th level Necromancy,
 1 action, VS (phb 219)
 
-alight
 bright
 flight
 light
@@ -978,7 +954,6 @@ Cloud of Daggers,
 2nd level Conjuration,
 1 action, VSM<C> (phb 222)
 
-aloud of daggers
 cloud if daggers
 cloud of dangers
 cloud of diggers
@@ -995,7 +970,6 @@ Cloudkill,
 5th level Conjuration,
 1 action, VS<C> (phb 222)
 
-aloud kill
 cloud bill
 cloud dill
 cloud fill
@@ -1291,7 +1265,6 @@ Continual Flame,
 2nd level Evocation,
 1 action, VSMgp (phb 227)
 
-continual aflame
 continual blame
 continual flake
 continual flambe
@@ -1430,7 +1403,6 @@ create food and waiter
 create food and waster
 create food and watery
 create food and waver
-create food ans water
 create food ant water
 create food any water
 create food band water
@@ -1606,7 +1578,6 @@ Dancing Lights,
 Evocation Cantrip,
 1 action, VSM<C> (phb 230)
 
-dancing alights
 dancing bights
 dancing blights
 dancing eights
@@ -1679,7 +1650,6 @@ dab light
 dad light
 dag light
 dam light
-day alight
 day bight
 day blight
 day eight
@@ -1742,7 +1712,6 @@ belayed blast fire ball
 decayed blast fire ball
 delayed beast fire ball
 delayed blase fire ball
-delayed blast afire ball
 delayed blast dire ball
 delayed blast fare ball
 delayed blast fife ball
@@ -1856,7 +1825,6 @@ detect evil and hood
 detect evil and mood
 detect evil and rood
 detect evil and wood
-detect evil ans good
 detect evil ant good
 detect evil any good
 detect evil band good
@@ -1890,7 +1858,6 @@ deject poison and disease
 detect poison add disease
 detect poison aid disease
 detect poison and diseased
-detect poison ans disease
 detect poison ant disease
 detect poison any disease
 detect poison band disease
@@ -1965,7 +1932,6 @@ dispel evil and hood
 dispel evil and mood
 dispel evil and rood
 dispel evil and wood
-dispel evil ans good
 dispel evil ant good
 dispel evil any good
 dispel evil band good
@@ -2265,7 +2231,6 @@ Enemies Abound,
 3rd level Enchantment,
 1 action, VS<C> (xge 155)
 
-enemies around
 enemies bound
 
 Enervation,
@@ -2340,7 +2305,6 @@ Evard's Black Tentacles,
 4th level Conjuration,
 1 action, VSM<C> (phb 238)
 
-evard's alack tentacles
 evard's black pentacles
 evard's black tentacled
 evard's blacks tentacles
@@ -2401,7 +2365,6 @@ Faerie Fire,
 1 action, V<C> (phb 239)
 
 aerie fire
-faerie afire
 faerie dire
 faerie fare
 faerie fife
@@ -2445,7 +2408,6 @@ Far Step,
 5th level Conjuration,
 1 bonus action, V<C> (xge 155)
 
-afar step
 bar step
 car step
 ear step
@@ -2722,7 +2684,6 @@ Fire Bolt,
 Evocation Cantrip,
 1 action, VS (phb 242)
 
-afire bolt
 dire bolt
 fare bolt
 fife bolt
@@ -2760,7 +2721,6 @@ Fire Shield,
 4th level Evocation,
 1 action, VSM (phb 242)
 
-afire shield
 dire shield
 fare shield
 fife shield
@@ -2785,7 +2745,6 @@ Fire Storm,
 7th level Evocation,
 1 action, VS (phb 242)
 
-afire storm
 dire storm
 fare storm
 fife storm
@@ -2814,7 +2773,6 @@ Fireball,
 3rd level Evocation,
 1 action, VSM (phb 241)
 
-afire ball
 dire ball
 fare ball
 fife ball
@@ -2860,7 +2818,6 @@ Flame Arrows,
 3rd level Transmutation,
 1 action, VS<C> (ee 18, xge 156)
 
-aflame arrows
 blame arrows
 flake arrows
 flambe arrows
@@ -2881,7 +2838,6 @@ Flame Blade,
 2nd level Evocation,
 1 bonus action, VSM<C> (phb 242)
 
-aflame blade
 blame blade
 flake blade
 flambe blade
@@ -2905,7 +2861,6 @@ Flame Strike,
 5th level Evocation,
 1 action, VSM (phb 242)
 
-aflame strike
 blame strike
 flake strike
 flambe strike
@@ -2987,7 +2942,6 @@ fig cloud
 flog cloud
 fob cloud
 foe cloud
-fog aloud
 fog cloudy
 fog clout
 fog loud
@@ -3277,7 +3231,6 @@ Evocation Cantrip,
 1 action, VM (scag 143, tce 107)
 
 greed flame blade
-green aflame blade
 green blame blade
 green flake blade
 green flambe blade
@@ -3340,7 +3293,6 @@ guards and warps
 guards and warts
 guards and words
 guards and yards
-guards ans wards
 guards ant wards
 guards any wards
 guards band wards
@@ -3819,7 +3771,6 @@ Incendiary Cloud,
 8th level Conjuration,
 1 action, VS<C> (phb 253)
 
-incendiary aloud
 incendiary cloudy
 incendiary clout
 incendiary loud
@@ -3885,7 +3836,6 @@ Investiture of Flame,
 1 action, VS<C> (ee 19, xge 159)
 
 investiture if flame
-investiture of aflame
 investiture of blame
 investiture of flake
 investiture of flambe
@@ -4107,7 +4057,6 @@ Light,
 Evocation Cantrip,
 1 action, VM (phb 255)
 
-alight
 bight
 blight
 eight
@@ -4249,8 +4198,6 @@ cage armor
 image armor
 mace armor
 made armor
-mage arbor
-mage ardor
 mage armory
 mages armor
 magi armor
@@ -4319,7 +4266,6 @@ Magic Jar,
 6th level Necromancy,
 1 minute, VSMgp (phb 257)
 
-magic ajar
 magic bar
 magic car
 magic ear
@@ -4929,7 +4875,6 @@ goon beam
 loon beam
 moan beam
 mood beam
-moon abeam
 moon bead
 moon beak
 moon beams
@@ -5023,7 +4968,6 @@ Nondetection,
 3rd level Abjuration,
 1 action, VSMgp (phb 263)
 
-anon detection
 con detection
 don detection
 eon detection
@@ -5190,7 +5134,6 @@ Planar Ally,
 6th level Conjuration,
 10 minutes, VS (phb 265)
 
-planar ably
 planar allay
 planar alley
 planar alloy
@@ -5546,7 +5489,6 @@ Produce Flame,
 Conjuration Cantrip,
 1 action, VS (phb 269)
 
-produce aflame
 produce blame
 produce flake
 produce flambe
@@ -5607,7 +5549,6 @@ protection from evil and hood
 protection from evil and mood
 protection from evil and rood
 protection from evil and wood
-protection from evil ans good
 protection from evil ant good
 protection from evil any good
 protection from evil band good
@@ -5653,7 +5594,6 @@ purify food and brink
 purify food and drank
 purify food and drunk
 purify food and rink
-purify food ans drink
 purify food ant drink
 purify food any drink
 purify food band drink
@@ -5933,7 +5873,6 @@ Evocation Cantrip,
 1 action, VS (phb 272)
 
 sacked flame
-sacred aflame
 sacred blame
 sacred flake
 sacred flambe
@@ -6616,7 +6555,6 @@ Stinking Cloud,
 slinking cloud
 sticking cloud
 stinging cloud
-stinking aloud
 stinking cloudy
 stinking clout
 stinking loud
@@ -6821,7 +6759,6 @@ stun beam
 sub beam
 sue beam
 sum beam
-sun abeam
 sun bead
 sun beak
 sun beams
@@ -7449,7 +7386,6 @@ wail of fire
 wale of fire
 walk of fire
 wall if fire
-wall of afire
 wall of dire
 wall of fare
 wall of fife
@@ -7554,7 +7490,6 @@ wail of light
 wale of light
 walk of light
 wall if light
-wall of alight
 wall of bight
 wall of blight
 wall of eight
@@ -7960,7 +7895,6 @@ Witch Bolt,
 1st level Evocation,
 1 action, VSM<C> (phb 289)
 
-aitch bolt
 bitch bolt
 ditch bolt
 hitch bolt
