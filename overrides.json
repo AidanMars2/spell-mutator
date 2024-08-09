@@ -36,6 +36,11 @@
     "snowball": 4,
     "fireball": 4,
     "demiplane": 4,
-    "barkskin": 4
-  }
+    "barkskin": 4,
+    "woodland": 4,
+    "otherworldly": 5,
+    "daylight": 3,
+    "nondetection": 3
+  },
+  "illegal_words": []
 }

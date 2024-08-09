@@ -1,4 +1,4 @@
-use std::collections::HashMap;
+use std::collections::{HashMap, HashSet};
 use serde::{Deserialize, Serialize};
 
 #[derive(Serialize, Deserialize, Eq, PartialEq, Ord, PartialOrd, Debug)]
@@ -59,7 +59,10 @@ impl Spell {
 pub struct Overrides {
     #[serde(default)]
     pub overrides: HashMap<String, Vec<String>>,
-    pub allow_split: HashMap<String, usize>
+    #[serde(default)]
+    pub allow_split: HashMap<String, usize>,
+    #[serde(default)]
+    pub illegal_words: HashSet<String>
 }
 
 #[derive(Serialize, Deserialize)]
@@ -69,5 +72,5 @@ pub struct MutationConfig {
     pub formatted_file: String,
     pub overrides_file: String,
     pub mutation_depth: u8,
-    pub print_frequency: bool
+    pub advanced_diagnostics: bool
 }

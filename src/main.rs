@@ -2,32 +2,30 @@ use std::collections::{HashMap, HashSet};
 use std::fs;
 use zspell::Dictionary;
 use types::{MutationConfig, Overrides, Spell};
+use crate::diagnostics::Diagnostics;
 use crate::mutation::mutate_string;
 
 mod mutation;
+mod diagnostics;
 
 fn main() {
     let (config, mut spells, overrides) = parse_files();
 
-    let initial_spells = spells.len();
-    println!("initial spell count: {initial_spells}");
+    let mut diagnostics = Diagnostics::new();
+    diagnostics.initial_spell_count = spells.len();
 
     let dict = create_dictionary();
     let mut words_mut: HashMap<String, Vec<String>> = HashMap::new();
 
-    let mut index = 0;
     spells.iter_mut().for_each(|spell| {
-        index += 1;
-        println!("mutating {index}/{initial_spells}: {}", spell.name);
-        mutate_spell(spell, &mut words_mut, &dict, &overrides, config.mutation_depth);
+        mutate_spell(
+            spell, &mut words_mut, &dict,
+            &overrides, config.mutation_depth, &mut diagnostics
+        );
     });
-
-    println!("final spell count: {}",
-             spells
-                 .iter()
-                 .map(|spell| spell.mutations.len())
-                 .sum::<usize>()
-    );
+    diagnostics.final_spell_count = spells.iter().map(|spell| spell.mutations.len()).sum();
+    diagnostics.set_final_word_count(&words_mut);
+    diagnostics.print(&config);
 
     fs::write(config.output_file, serde_json::to_string(&spells).unwrap())
         .expect("failed to write output");
@@ -38,15 +36,20 @@ fn mutate_spell(
     words_mut: &mut HashMap<String, Vec<String>>,
     dictionary: &Dictionary,
     overrides: &Overrides,
-    mutation_depth: u8
+    mutation_depth: u8,
+    diagnostics: &mut Diagnostics
 ) {
     let mut result: HashSet<String> = HashSet::new();
     let mut current: Vec<String> = vec![spell.name.to_lowercase()];
     let mut next: HashSet<String> = HashSet::new();
 
-    for _ in 0..mutation_depth {
+    for index in 0..mutation_depth {
+        let initial = index == 0;
         current.drain(..).for_each(|name| {
-            let mutations = mutate_string(&name, dictionary, words_mut, overrides);
+            let mutations = mutate_string(
+                &name, dictionary, words_mut,
+                overrides, diagnostics, initial
+            );
             mutations.into_iter().for_each(|mutation| {
                 next.insert(mutation.clone());
                 result.insert(mutation);

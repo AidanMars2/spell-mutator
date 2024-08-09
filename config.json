@@ -4,5 +4,5 @@
   "formatted_file": "mutated spells.txt",
   "overrides_file": "overrides.json",
   "mutation_depth": 1,
-  "print_frequency": false
+  "advanced_diagnostics": true
 }

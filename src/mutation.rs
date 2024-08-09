@@ -1,12 +1,15 @@
 use std::collections::{HashMap, HashSet};
 use zspell::Dictionary;
 use types::Overrides;
+use crate::diagnostics::Diagnostics;
 
 pub fn mutate_string(
     string: &str,
     dictionary: &Dictionary,
     words: &mut HashMap<String, Vec<String>>,
-    overrides: &Overrides
+    overrides: &Overrides,
+    diagnostics: &mut Diagnostics,
+    initial: bool
 ) -> Vec<String> {
     if let Some(words) = overrides.overrides.get(string) {
         return words.clone()
@@ -18,6 +21,12 @@ pub fn mutate_string(
         .flatten()
         .collect::<Vec<_>>();
 
+    if initial {
+        for word in string_split.iter() {
+            diagnostics.use_initial_word(word)
+        }
+    }
+
     let mut result: HashSet<String> = HashSet::new();
     let mut split_mut: Vec<String> = string_split.iter().map(|it| it.to_string()).collect();
 
@@ -25,7 +34,7 @@ pub fn mutate_string(
         let word: &str = &string_split[index];
 
         if !words.contains_key(word) {
-            let mutated = get_mutated_words(word, dictionary, words, overrides);
+            let mutated = get_mutated_words(word, dictionary, words, overrides, diagnostics);
             words.insert(word.to_string(), mutated);
         }
         let mutated_word = words.get(word).unwrap();
@@ -50,7 +59,8 @@ fn get_mutated_words(
     word: &str,
     dictionary: &Dictionary,
     words: &mut HashMap<String, Vec<String>>,
-    overrides: &Overrides
+    overrides: &Overrides,
+    diagnostics: &mut Diagnostics
 ) -> Vec<String> {
     if !word.contains(char::is_alphanumeric) {
         return vec![]
@@ -68,13 +78,11 @@ fn get_mutated_words(
     result.extend(mutate_add_char(word, dictionary));
     result.extend(mutate_remove_char(word, dictionary));
     result.extend(mutate_change_char(word, dictionary));
-    result.extend(mutate_split_word(word, dictionary));
+    result.extend(mutate_split_word(word, dictionary, diagnostics, overrides));
     result.remove(word);
+    result.remove(&(word.to_owned() + "s"));
 
-    let mut result_vec = result.into_iter().collect::<Vec<_>>();
-    result_vec.shrink_to_fit();
-
-    result_vec
+    result.into_iter().collect::<Vec<_>>()
 }
 
 fn mutate_add_char(
@@ -156,7 +164,9 @@ fn mutate_remove_char(
 
 fn mutate_split_word(
     word: &str,
-    dictionary: &Dictionary
+    dictionary: &Dictionary,
+    diagnostics: &mut Diagnostics,
+    overrides: &Overrides
 ) -> Vec<String> {
     let mut result: HashSet<String> = HashSet::new();
 
@@ -166,15 +176,25 @@ fn mutate_split_word(
 
     let chars = word.chars().collect::<Vec<_>>();
 
+    let option_skip_index = overrides.allow_split.get(word);
+
     // split words must be at least 3 letters long
     for index in 3..chars.len() - 3 {
+        if let Some(skip_index) = option_skip_index {
+            if index == *skip_index {
+                continue
+            }
+        }
+
         let word_one = chars[..index].into_iter().collect::<String>();
         let word_two = chars[index..].into_iter().collect::<String>();
 
         if !(dictionary.check_word(&word_one) && dictionary.check_word(&word_two)) {
             continue
         }
-        result.insert(format!("{word_one} {word_two}"));
+        let split = format!("{word_one} {word_two}");
+        diagnostics.procedural_split_word(word, &split);
+        result.insert(split);
     }
 
     result.into_iter().collect()
