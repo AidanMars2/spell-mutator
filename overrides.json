@@ -1,19 +1,16 @@
 {
   "overrides": {
-    "of": [
-      "or",
-      "on",
-      "if"
-    ],
+    "of": ["or", "on", "if"],
     "or": [
-      "for",
-      "nor",
-      "of",
-      "on",
-      "xor",
-      "our"
+      "for", "nor", "of",
+      "on", "xor", "our"
     ],
-    "summon": []
+    "to": [
+      "do", "go", "no",
+      "so", "toy", "two"
+    ],
+    "summon": [],
+    "the": []
   },
   "allow_split": {
     "skywrite": 3,
@@ -52,6 +49,10 @@
     "shadowspawn": 6
   },
   "illegal_words": [
-    "dis"
+    "dis", "coon", "barf", "bong",
+    "dding", "dink", "dong", "fag",
+    "gook", "ho", "mams", "puss",
+    "sexing", "whiz", "whop", "yid",
+    "wog"
   ]
 }

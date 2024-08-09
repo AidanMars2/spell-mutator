@@ -27,6 +27,9 @@ impl Spellchecker {
     }
 
     pub fn check_word(&self, word: &str) -> bool {
-        !self.illegal_words.contains(word) && self.dictionary.check_word(word)
+        word.len() > 1 &&
+            word.chars().any(|char| "aeuio".contains(char)) &&
+            !self.illegal_words.contains(word) &&
+            self.dictionary.check_word(word)
     }
 }

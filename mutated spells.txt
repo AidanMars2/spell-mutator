@@ -71,7 +71,6 @@ paid
 raid
 rid
 said
-yid
 
 Alarm,
 1st level Abjuration,
@@ -420,7 +419,6 @@ bank skin
 barb skin
 bard skin
 bare skin
-barf skin
 bark akin
 bark kin
 bark shin
@@ -483,7 +481,6 @@ beast blond
 beast bold
 beast bone
 beast boned
-beast bong
 beast bonk
 beast bony
 beast bound
@@ -598,7 +595,6 @@ Blade of Disaster,
 1 bonus action, VS<C> (tce 106)
 
 blade if disaster
-blade of dis aster
 blade on disaster
 blade or disaster
 bladed of disaster
@@ -687,21 +683,9 @@ boned of the earth
 boner of the earth
 boners of the earth
 bones if the earth
-bones of he earth
-bones of she earth
-bones of tee earth
 bones of the dearth
 bones of the earthy
 bones of the hearth
-bones of thee earth
-bones of them earth
-bones of then earth
-bones of thew earth
-bones of they earth
-bones of tho earth
-bones of thy earth
-bones of tie earth
-bones of toe earth
 bones on the earth
 bones or the earth
 bongs of the earth
@@ -1205,9 +1189,6 @@ conjure fen
 conjure fer
 conjure few
 conjure fez
-conjure fly
-conjure fry
-conjure fwy
 conjure hey
 conjure key
 conjured fey
@@ -1715,7 +1696,6 @@ day tight
 day wight
 days light
 dray light
-dry light
 fay light
 gay light
 hay light
@@ -1870,7 +1850,6 @@ detect evil and goad
 detect evil and gold
 detect evil and goody
 detect evil and goof
-detect evil and gook
 detect evil and goon
 detect evil and goop
 detect evil and hood
@@ -1954,7 +1933,6 @@ Disguise Self,
 1st level Illusion,
 1 action, VS (phb 233)
 
-dis guise self
 disguise elf
 disguise pelf
 disguise sell
@@ -1967,7 +1945,6 @@ Disintegrate,
 6th level Transmutation,
 1 action, VSM (phb 233)
 
-dis integrate
 disintegrated
 
 Dispel Evil and Good,
@@ -1982,7 +1959,6 @@ dispel evil and goad
 dispel evil and gold
 dispel evil and goody
 dispel evil and goof
-dispel evil and gook
 dispel evil and goon
 dispel evil and goop
 dispel evil and hood
@@ -2133,9 +2109,6 @@ bream of the blue veil
 cream of the blue veil
 dread of the blue veil
 dream if the blue veil
-dream of he blue veil
-dream of she blue veil
-dream of tee blue veil
 dream of the blue veal
 dream of the blue vein
 dream of the blued veil
@@ -2147,15 +2120,6 @@ dream of the clue veil
 dream of the flue veil
 dream of the glue veil
 dream of the slue veil
-dream of thee blue veil
-dream of them blue veil
-dream of then blue veil
-dream of thew blue veil
-dream of they blue veil
-dream of tho blue veil
-dream of thy blue veil
-dream of tie blue veil
-dream of toe blue veil
 dream on the blue veil
 dream or the blue veil
 dreams of the blue veil
@@ -2487,7 +2451,6 @@ car step
 ear step
 fab step
 fad step
-fag step
 fair step
 fan step
 far seep
@@ -2712,9 +2675,6 @@ Find the Path,
 bind the path
 fend the path
 fiend the path
-find he path
-find she path
-find tee path
 find the bath
 find the hath
 find the lath
@@ -2724,15 +2684,6 @@ find the patch
 find the pate
 find the pats
 find the pith
-find thee path
-find them path
-find then path
-find thew path
-find they path
-find tho path
-find thy path
-find tie path
-find toe path
 finds the path
 fine the path
 fined the path
@@ -2995,20 +2946,10 @@ Flesh to Stone,
 1 action, VSM<C> (phb 243)
 
 flash to stone
-flesh co stone
 flesh do stone
 flesh go stone
-flesh ho stone
-flesh lo stone
-flesh mo stone
 flesh no stone
-flesh o stone
 flesh so stone
-flesh ta stone
-flesh tb stone
-flesh tho stone
-flesh ti stone
-flesh tn stone
 flesh to atone
 flesh to scone
 flesh to shone
@@ -3020,20 +2961,8 @@ flesh to stony
 flesh to store
 flesh to stove
 flesh to tone
-flesh toe stone
-flesh tog stone
-flesh tom stone
-flesh ton stone
-flesh too stone
-flesh top stone
-flesh tor stone
-flesh tot stone
-flesh tow stone
 flesh toy stone
-flesh tr stone
-flesh ts stone
 flesh two stone
-flesh yo stone
 fleshy to stone
 flush to stone
 fresh to stone
@@ -3045,12 +2974,7 @@ Fly,
 fay
 fey
 flay
-flt
 flu
-fry
-fwy
-ply
-sly
 
 Fog Cloud,
 1st level Conjuration,
@@ -3059,7 +2983,6 @@ Fog Cloud,
 bog cloud
 cog cloud
 dog cloud
-fag cloud
 fig cloud
 flog cloud
 fob cloud
@@ -3081,7 +3004,6 @@ hog cloud
 jog cloud
 log cloud
 tog cloud
-wog cloud
 
 Forbiddance,
 6th level Abjuration,
@@ -3294,7 +3216,6 @@ good terry
 goods berry
 goody berry
 goof berry
-gook berry
 goon berry
 goop berry
 hood berry
@@ -4130,7 +4051,6 @@ leomund's tiny cut
 leomund's tiny fut
 leomund's tiny gut
 leomund's tiny hat
-leomund's tiny hgt
 leomund's tiny hit
 leomund's tiny hot
 leomund's tiny hub
@@ -4296,8 +4216,6 @@ Longstrider,
 1 action, VSM (phb 256)
 
 along strider
-bong strider
-dong strider
 gong strider
 ling strider
 lone strider
@@ -4489,7 +4407,6 @@ lass cure wounds
 macs cure wounds
 mads cure wounds
 mags cure wounds
-mams cure wounds
 mans cure wounds
 maps cure wounds
 mars cure wounds
@@ -4546,7 +4463,6 @@ lass heal
 macs heal
 mads heal
 mags heal
-mams heal
 mans heal
 maps heal
 mars heal
@@ -4592,7 +4508,6 @@ lass healing word
 macs healing word
 mads healing word
 mags healing word
-mams healing word
 mans healing word
 maps healing word
 mars healing word
@@ -4646,7 +4561,6 @@ lass polymorph
 macs polymorph
 mads polymorph
 mags polymorph
-mams polymorph
 mans polymorph
 maps polymorph
 mars polymorph
@@ -4677,7 +4591,6 @@ lass suggestion
 macs suggestion
 mads suggestion
 mags suggestion
-mams suggestion
 mans suggestion
 maps suggestion
 mars suggestion
@@ -5012,7 +4925,6 @@ Moonbeam,
 1 action, VSM<C> (phb 261)
 
 boon beam
-coon beam
 goon beam
 loon beam
 moan beam
@@ -5201,7 +5113,6 @@ paws without trace
 pays without trace
 piss without trace
 poss without trace
-puss without trace
 sass without trace
 
 Passwall,
@@ -5241,7 +5152,6 @@ paws wall
 pays wall
 piss wall
 poss wall
-puss wall
 sass wall
 
 Phantasmal Force,
@@ -5691,7 +5601,6 @@ protection from evil and goad
 protection from evil and gold
 protection from evil and goody
 protection from evil and goof
-protection from evil and gook
 protection from evil and goon
 protection from evil and goop
 protection from evil and hood
@@ -5806,7 +5715,6 @@ rary's telepathic blond
 rary's telepathic bold
 rary's telepathic bone
 rary's telepathic boned
-rary's telepathic bong
 rary's telepathic bonk
 rary's telepathic bony
 rary's telepathic bound
@@ -6357,7 +6265,6 @@ Skywrite,
 1 action, VS<CR> (ee 22, xge 165)
 
 say write
-shy write
 ska write
 ski write
 sky rite
@@ -6368,10 +6275,7 @@ sky writes
 sky writhe
 sky writs
 sky wrote
-sly write
 soy write
-spy write
-sty write
 
 Sleep,
 1st level Enchantment,
@@ -6521,10 +6425,6 @@ snare the dying
 space the dying
 spade the dying
 spake the dying
-spare he dying
-spare she dying
-spare tee dying
-spare the dding
 spare the doing
 spare the drying
 spare the dyeing
@@ -6532,15 +6432,6 @@ spare the hying
 spare the lying
 spare the tying
 spare the vying
-spare thee dying
-spare them dying
-spare then dying
-spare thew dying
-spare they dying
-spare tho dying
-spare thy dying
-spare tie dying
-spare toe dying
 spared the dying
 sparer the dying
 spares the dying
@@ -6860,9 +6751,6 @@ summon fen
 summon fer
 summon few
 summon fez
-summon fly
-summon fry
-summon fwy
 summon hey
 summon key
 
@@ -6950,7 +6838,6 @@ sung beam
 sunk beam
 suns beam
 sup beam
-syn beam
 tun beam
 
 Sunburst,
@@ -6984,7 +6871,6 @@ sung burst
 sunk burst
 suns burst
 sup burst
-syn burst
 tun burst
 
 Swift Quiver,
@@ -7062,8 +6948,6 @@ tasha's mind ship
 tasha's mind whim
 tasha's mind whir
 tasha's mind whit
-tasha's mind whiz
-tasha's mind whop
 tasha's mind whup
 tasha's minds whip
 tasha's mine whip
@@ -7118,9 +7002,6 @@ Temple of the Gods,
 1 hour, VSMgp (xge 167)
 
 temple if the gods
-temple of he gods
-temple of she gods
-temple of tee gods
 temple of the bods
 temple of the cods
 temple of the gads
@@ -7135,15 +7016,6 @@ temple of the nods
 temple of the pods
 temple of the rods
 temple of the sods
-temple of thee gods
-temple of them gods
-temple of then gods
-temple of thew gods
-temple of they gods
-temple of tho gods
-temple of thy gods
-temple of tie gods
-temple of toe gods
 temple on the gods
 temple or the gods
 temples of the gods
@@ -7158,7 +7030,6 @@ tender's floating disk
 tenser's bloating disk
 tenser's floating desk
 tenser's floating dick
-tenser's floating dink
 tenser's floating dirk
 tenser's floating disc
 tenser's floating dish
@@ -7193,8 +7064,6 @@ thorn ship
 thorn whim
 thorn whir
 thorn whit
-thorn whiz
-thorn whop
 thorn whup
 thorns whip
 thorny whip
@@ -7370,9 +7239,6 @@ till the dead
 toil the dead
 told the dead
 tole the dead
-toll he dead
-toll she dead
-toll tee dead
 toll the bead
 toll the deaf
 toll the deal
@@ -7384,15 +7250,6 @@ toll the head
 toll the lead
 toll the mead
 toll the read
-toll thee dead
-toll them dead
-toll then dead
-toll thew dead
-toll they dead
-toll tho dead
-toll thy dead
-toll tie dead
-toll toe dead
 tolls the dead
 tool the dead
 troll the dead
@@ -7511,7 +7368,6 @@ true seeking
 true seeming
 true seeping
 true sewing
-true sexing
 true teeing
 true weeing
 trued seeing
@@ -7872,7 +7728,6 @@ warding blond
 warding bold
 warding bone
 warding boned
-warding bong
 warding bonk
 warding bony
 warding bound

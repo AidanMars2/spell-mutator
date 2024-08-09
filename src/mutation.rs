@@ -30,9 +30,10 @@ pub fn mutate_string(
         let word: &str = &spell_words[index];
 
         if !words.contains_key(word) {
-            let mutated = get_mutated_words(word, spellchecker, overrides, diagnostics);
+            let mutated = mutate_word(word, spellchecker, overrides, diagnostics);
             words.insert(word.to_string(), mutated);
         }
+        // we always have a key here, as it is added 3 lines before
         let mutated_word = words.get(word).unwrap();
 
         for word_mut in mutated_word {
@@ -53,7 +54,7 @@ pub fn mutate_string(
     result.into_iter().collect::<Vec<_>>()
 }
 
-fn get_mutated_words(
+fn mutate_word(
     word: &str,
     spellchecker: &Spellchecker,
     overrides: &Overrides,
