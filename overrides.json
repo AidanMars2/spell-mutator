@@ -5,6 +5,14 @@
       "on",
       "if"
     ],
+    "or": [
+      "for",
+      "nor",
+      "of",
+      "on",
+      "xor",
+      "our"
+    ],
     "summon": []
   },
   "allow_split": {
@@ -40,7 +48,10 @@
     "woodland": 4,
     "otherworldly": 5,
     "daylight": 3,
-    "nondetection": 3
+    "nondetection": 3,
+    "shadowspawn": 6
   },
-  "illegal_words": []
+  "illegal_words": [
+    "dis"
+  ]
 }

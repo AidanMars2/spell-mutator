@@ -3,6 +3,9 @@
   "output_file": "spells_mutated.json",
   "formatted_file": "mutated spells.txt",
   "overrides_file": "overrides.json",
+  "diagnostics_file": "diagnostics.txt",
+  "dic_file": "lang_en_US_DICT.dic",
+  "aff_file": "lang_en_US.aff",
   "mutation_depth": 1,
   "advanced_diagnostics": true
 }

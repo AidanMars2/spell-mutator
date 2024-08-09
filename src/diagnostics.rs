@@ -5,7 +5,7 @@ pub struct Diagnostics {
     pub initial_spell_count: usize,
     initial_word_count: usize,
     initial_word_usage: HashMap<String, usize>,
-    word_splits: HashMap<String, String>,
+    word_splits: HashMap<String, HashSet<String>>,
     pub final_spell_count: usize,
     pub final_word_count: usize,
 }
@@ -42,37 +42,92 @@ impl Diagnostics {
         self.final_word_count = unique_words.len();
     }
 
-    pub fn procedural_split_word(&mut self, original: &str, split: &str) {
-        self.word_splits.insert(original.to_string(), split.to_string());
+    pub fn procedural_split_word(&mut self, original: String, split: String) {
+        if let Some(split_words) = self.word_splits.get_mut(&original) {
+            split_words.insert(split);
+        } else {
+            let mut set = HashSet::<String>::new();
+            set.insert(split);
+            self.word_splits.insert(original.to_string(), set);
+        }
     }
 
-    pub fn print(&self, config: &MutationConfig) {
-        println!("initial spell count: {}", self.initial_spell_count);
-        println!("initial word count: {}", self.initial_word_count);
-        if config.advanced_diagnostics {
-            println!("\nmost used words:");
-            let mut usage = self.initial_word_usage
-                .iter()
-                .filter(|entry| *entry.1 > 4)
-                .collect::<Vec<_>>();
-            usage.sort_unstable_by(|first, second| {
-                second.1.cmp(first.1)
-            });
-            for (word, count) in usage {
-                println!("- {word}: {count}")
-            }
+    pub fn stringify(&self, config: &MutationConfig, verbose: bool) -> String {
+        let mut lines: Vec<String> = vec![];
 
-            println!("\nprocedural word splits:");
-            let mut splits = self.word_splits.iter().collect::<Vec<_>>();
-            splits.sort_unstable_by(|first, second| {
-                first.0.cmp(second.0)
-            });
-            for (original, new) in splits {
-                println!("- {original}: {new}")
-            }
-            println!()
+        lines.push(format!("initial spell count: {}", self.initial_spell_count));
+        lines.push(format!("initial word count: {}", self.initial_word_count));
+        if config.advanced_diagnostics {
+            self.advanced_diagnostics(&mut lines, verbose);
         }
-        println!("final word count: {}", self.final_word_count);
-        println!("final spell count: {}", self.final_spell_count);
+        lines.push(format!("final word count: {}", self.final_word_count));
+        lines.push(format!("final spell count: {}", self.final_spell_count));
+
+        lines.join("\n")
+    }
+
+    fn advanced_diagnostics(&self, lines: &mut Vec<String>, verbose: bool) {
+        let mut words_by_count = HashMap::<usize, Vec<String>>::new();
+        for (word, count) in self.initial_word_usage.iter() {
+            if let Some(in_count) = words_by_count.get_mut(&count) {
+                in_count.push(word.clone())
+            } else {
+                words_by_count.insert(*count, vec![word.clone()]);
+            }
+        }
+        let mut words_by_count = words_by_count.into_iter().collect::<Vec<_>>();
+        words_by_count.sort_unstable_by(|first, second|
+            second.0.cmp(&first.0));
+
+        lines.push("\nmost used words:".to_string());
+
+        let mut total_vertical = 0;
+        for (count, words) in words_by_count {
+            if total_vertical >= 10 {
+                if verbose {
+                    compressed_count(lines, count, words)
+                }
+                continue
+            }
+            total_vertical += words.len();
+            vertical_count(lines, count, words)
+        }
+
+        lines.push("\nprocedurally split words:".to_string());
+        for (original, split) in self.word_splits.iter() {
+            split_words(lines, original, split)
+        }
+    }
+}
+
+fn vertical_count(lines: &mut Vec<String>, count: usize, words: Vec<String>) {
+    for word in words {
+        lines.push(format!("- {word}: {count}"))
+    }
+}
+
+fn compressed_count(lines: &mut Vec<String>, count: usize, words: Vec<String>) {
+    const MAX_LINE_LENGTH: usize = 80;
+    lines.push(format!("words used {count} times:"));
+    let mut line_words: Vec<String> = vec![];
+    let mut line_len = 0;
+    for word in words {
+        line_len += word.len();
+        line_len += 2;
+        if line_len >= MAX_LINE_LENGTH {
+            lines.push(format!("- {},", line_words.join(", ")));
+            line_words.clear();
+            line_len = 0;
+        }
+        line_words.push(word);
+    }
+    if !line_words.is_empty() {
+        lines.push(format!("- {}", line_words.join(", ")));
+    }
+}
+
+fn split_words(lines: &mut Vec<String>, original: &str, split: &HashSet<String>) {
+    for split_word in split {
+        lines.push(format!("- {original}: {split_word}"))
     }
 }
