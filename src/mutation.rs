@@ -1,4 +1,5 @@
 use std::collections::{HashMap, HashSet};
+use itertools::Itertools;
 use types::Overrides;
 use crate::diagnostics::Diagnostics;
 use crate::spellcheck::Spellchecker;
@@ -38,18 +39,13 @@ pub fn mutate_string(
 
         for word_mut in mutated_word {
             split_mut[index] = word_mut.clone();
-            result.insert(
-                split_mut.iter()
-                    .map(|word| word.trim().to_string() + " ")
-                    .collect::<String>()
-                    .trim()
-                    .to_string()
-            );
+            result.insert(split_mut.iter().join(" "));
         }
         split_mut[index] = spell_words[index].to_string();
     }
-    result.remove(string);
-    result.remove(&(string.to_string() + "s"));
+    let original = spell_words.iter().join(" ");
+    result.remove(&original);
+    result.remove(&(original + "s"));
 
     result.into_iter().collect::<Vec<_>>()
 }
@@ -93,15 +89,19 @@ fn mutate_add_char(
 
     let last_index = chars.len() - 1;
     for index in 0..chars.len() {
+        let is_last = index >= last_index;
         for letter in 'a'..='z' {
             chars[index] = letter;
-            let word = chars.iter().collect::<String>();
-            if spellchecker.check_word(&word) {
-                result.push(word);
+            let mutated = chars.iter().collect::<String>();
+            if spellchecker.check_word(&mutated) {
+                if is_last && "sy".contains(letter) {
+                    continue
+                }
+                result.push(mutated)
             }
         }
 
-        if index < last_index {
+        if !is_last {
             chars[index] = chars[index + 1];
         }
     }
