@@ -5,7 +5,8 @@ use types::{MutationConfig, Overrides};
 
 pub struct Spellchecker {
     dictionary: Dictionary,
-    illegal_words: HashSet<String>
+    illegal_words: HashSet<String>,
+    force_allow: HashSet<String>
 }
 
 impl Spellchecker {
@@ -22,14 +23,20 @@ impl Spellchecker {
             .expect("failed to init language");
 
         let illegal_words = overrides.illegal_words.clone();
+        let force_allow = overrides.force_allow.clone();
 
-        Self { dictionary, illegal_words }
+        Self { dictionary, illegal_words, force_allow }
     }
 
     pub fn check_word(&self, word: &str) -> bool {
-        word.len() > 1 &&
-            word.chars().any(|char| "aeuio".contains(char)) &&
-            !self.illegal_words.contains(word) &&
-            self.dictionary.check_word(word)
+        self.force_allow.contains(word) ||
+            (word.len() > 1 &&
+                word.chars().any(|char| "aeuio".contains(char)) &&
+                !self.illegal_words.contains(word) &&
+                self.dictionary.check_word(word))
+    }
+
+    pub fn force_allowed(&self, word: &str) -> bool {
+        self.force_allow.contains(word)
     }
 }

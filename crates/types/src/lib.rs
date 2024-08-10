@@ -62,7 +62,9 @@ pub struct Overrides {
     #[serde(default)]
     pub allow_split: HashMap<String, usize>,
     #[serde(default)]
-    pub illegal_words: HashSet<String>
+    pub illegal_words: HashSet<String>,
+    #[serde(default)]
+    pub force_allow: HashSet<String>
 }
 
 #[derive(Serialize, Deserialize)]

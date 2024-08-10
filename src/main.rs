@@ -1,5 +1,7 @@
 use std::collections::{HashMap, HashSet};
 use std::fs;
+use std::time::Instant;
+use humantime::format_duration;
 use types::{MutationConfig, Overrides, Spell};
 use crate::diagnostics::Diagnostics;
 use crate::mutation::mutate_string;
@@ -10,17 +12,18 @@ mod diagnostics;
 mod spellcheck;
 
 fn main() {
+    let start_time = Instant::now();
     let (config, mut spells, overrides) = parse_files();
 
     let mut diagnostics = Diagnostics::new();
     diagnostics.initial_spell_count = spells.len();
 
     let spellchecker = Spellchecker::load(&config, &overrides);
-    let mut words_mut: HashMap<String, Vec<String>> = HashMap::new();
+    let mut word_cache: HashMap<String, Vec<String>> = HashMap::new();
 
     spells.iter_mut().for_each(|spell| {
         mutate_spell(
-            spell, &mut words_mut, &spellchecker,
+            spell, &mut word_cache, &spellchecker,
             &overrides, config.mutation_depth, &mut diagnostics
         );
     });
@@ -36,6 +39,8 @@ fn main() {
 
     fs::write(&config.mutated_words_file, diagnostics.mutated_words())
         .expect("failed to write mutated words");
+    let duration = Instant::now().duration_since(start_time);
+    println!("completed mutation in {}", format_duration(duration))
 }
 
 fn mutate_spell(

@@ -45,7 +45,6 @@ pub fn mutate_string(
     }
     let original = spell_words.iter().join(" ");
     result.remove(&original);
-    result.remove(&(original + "s"));
 
     result.into_iter().collect::<Vec<_>>()
 }
@@ -67,7 +66,7 @@ fn mutate_word(
     }
 
     let mut result: HashSet<String> = HashSet::new();
-    result.extend(mutate_add_char(word, spellchecker));
+    result.extend(mutate_add_char(word, spellchecker, diagnostics));
     result.extend(mutate_remove_char(word, spellchecker));
     result.extend(mutate_change_char(word, spellchecker));
     result.extend(mutate_split_word(word, spellchecker, diagnostics, overrides));
@@ -80,7 +79,8 @@ fn mutate_word(
 
 fn mutate_add_char(
     word: &str,
-    spellchecker: &Spellchecker
+    spellchecker: &Spellchecker,
+    diagnostics: &mut Diagnostics
 ) -> Vec<String> {
     let mut result: Vec<String> = vec![];
 
@@ -94,7 +94,8 @@ fn mutate_add_char(
             chars[index] = letter;
             let mutated = chars.iter().collect::<String>();
             if spellchecker.check_word(&mutated) {
-                if is_last && "sy".contains(letter) {
+                if is_last && "sy".contains(letter) && !spellchecker.force_allowed(&mutated) {
+                    diagnostics.filter_word(mutated);
                     continue
                 }
                 result.push(mutated)

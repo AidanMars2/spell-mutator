@@ -71,5 +71,8 @@
     "beery", "belayed", "bide", "blacks",
     "bladed", "bony", "bursa", "calla",
     "causer", "caustics"
+  ],
+  "force_allow": [
+    "growths", "eyes"
   ]
 }
