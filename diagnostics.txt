@@ -1,5 +1,5 @@
 initial spell count: 478
-initial word count: 583
+initial word count: 584
 
 most used words:
 - of: 49
@@ -9,14 +9,14 @@ most used words:
 - word: 9
 - conjure: 8
 - flame: 8
-- fire: 7
-- smite: 7
+- and: 7
 - wind: 7
-- earth: 7
-- stone: 7
 - water: 7
 - blade: 7
-- and: 7
+- stone: 7
+- smite: 7
+- fire: 7
+- earth: 7
 
 words used 6 times:
 - sphere, the
@@ -31,9 +31,9 @@ words used 4 times:
 
 words used 3 times:
 - animal, animals, ball, bond, dominate, evil, force, from, heal, invisibility,
-- light, locate, monster, nature, person, plane, plants, poison, polymorph, protection,
-- shadow, shape, shield, speak, spirit, spray, steed, step, thunder, ward, warding,
-- wave, wounds
+- light, locate, monster, morph, nature, person, plane, plants, poison, poly,
+- protection, shadow, shape, shield, speak, spirit, spray, steed, step, thunder, ward,
+- warding, wave, wounds
 
 words used 2 times:
 - acid, animate, anti, armor, arrow, arrows, bane, beam, bite, blast, burst,
@@ -92,18 +92,17 @@ words used 1 times:
 - without, wood, worldly, wrath, wrathful, write, zephyr, zone
 
 procedurally split words:
-- transformation: trans formation
 - restoration: rest oration
-- confusion: con fusion
-- polymorph: poly morph
+- foresight: fore sight
+- freezing: free zing
+- friendship: friend ship
 - fortress: for tress
-- transport: trans port
+- confusion: con fusion
 - forbiddance: forbid dance
 - transmute: trans mute
-- freezing: free zing
-- foresight: fore sight
-- friendship: friend ship
+- transformation: trans formation
 - branding: bran ding
+- transport: trans port
 
-final word count: 2150
-final spell count: 5197
+final word count: 2207
+final spell count: 5329

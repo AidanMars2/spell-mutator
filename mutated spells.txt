@@ -12,8 +12,15 @@ abi dalzim's horrid welting
 abi dalzim's horrid willing
 abi dalzim's horrid witting
 abi dalzim's torrid wilting
+abs dalzim's horrid wilting
 bi dalzim's horrid wilting
 obi dalzim's horrid wilting
+
+Absorb Elements,
+1st level Abjuration,
+1 reaction, S (ee 15, xge 150)
+
+adsorb elements
 
 Acid Splash,
 Conjuration Cantrip,
@@ -75,6 +82,7 @@ alter sell
 alter serf
 alter shelf
 apter self
+aster self
 falter self
 halter self
 salter self
@@ -147,6 +155,7 @@ Antimagic Field,
 8th level Abjuration,
 1 action, VSM<C> (phb 213)
 
+anti magic afield
 anti magic fiend
 anti magic wield
 anti magic yield
@@ -176,6 +185,7 @@ Arcane Gate,
 
 arcade gate
 arcane agate
+arcane ate
 arcane bate
 arcane date
 arcane fate
@@ -228,6 +238,8 @@ Armor of Agathys,
 1st level Abjuration,
 1 action, VSM (phb 215)
 
+arbor of agathys
+ardor of agathys
 armor if agathys
 armor on agathys
 armor or agathys
@@ -254,6 +266,12 @@ astral protection
 astray projection
 austral projection
 
+Augury,
+2nd level Divination,
+1 minute, VSMgp<R> (phb 215)
+
+augurs
+
 Aura of Life,
 4th level Abjuration,
 1 action, V<C> (phb 216)
@@ -273,6 +291,7 @@ aura of rife
 aura of wife
 aura on life
 aura or life
+aural of life
 
 Aura of Purity,
 4th level Abjuration,
@@ -283,6 +302,7 @@ aura of parity
 aura of purify
 aura on purity
 aura or purity
+aural of purity
 
 Aura of Vitality,
 3rd level Evocation,
@@ -291,6 +311,7 @@ Aura of Vitality,
 aura if vitality
 aura on vitality
 aura or vitality
+aural of vitality
 
 Awaken,
 5th level Transmutation,
@@ -310,7 +331,9 @@ bake
 bale
 band
 bang
+bani
 bank
+bans
 bare
 base
 bate
@@ -406,6 +429,7 @@ beast bold
 beast bone
 beast boned
 beast bonk
+beast bony
 beast bound
 beast fond
 beast pond
@@ -469,6 +493,7 @@ blade carrier
 blade farrier
 blade harrier
 blade tarrier
+bladed barrier
 blame barrier
 blare barrier
 blase barrier
@@ -497,6 +522,7 @@ blade wart
 blade wary
 blade word
 blade yard
+bladed ward
 blame ward
 blare ward
 blase ward
@@ -512,6 +538,7 @@ Blade of Disaster,
 blade if disaster
 blade on disaster
 blade or disaster
+bladed of disaster
 blame of disaster
 blare of disaster
 blase of disaster
@@ -531,6 +558,7 @@ Blight,
 4th level Necromancy,
 1 action, VS (phb 219)
 
+alight
 bright
 flight
 light
@@ -618,6 +646,7 @@ Evocation Cantrip,
 blooming blade
 boobing blade
 booking blade
+booming bladed
 booming blame
 booming blare
 booming blase
@@ -672,6 +701,7 @@ ball lightning
 calf lightning
 calk lightning
 call lightening
+calla lightning
 calm lightning
 cell lightning
 coll lightning
@@ -721,6 +751,7 @@ cause tear
 cause wear
 cause year
 caused fear
+causer fear
 cayuse fear
 clause fear
 cruse fear
@@ -860,6 +891,7 @@ Cloud of Daggers,
 2nd level Conjuration,
 1 action, VSM<C> (phb 222)
 
+aloud of daggers
 cloud if daggers
 cloud of dangers
 cloud of diggers
@@ -874,6 +906,7 @@ Cloudkill,
 5th level Conjuration,
 1 action, VS<C> (phb 222)
 
+aloud kill
 cloud bill
 cloud dill
 cloud fill
@@ -1046,6 +1079,9 @@ conjure fen
 conjure fer
 conjure few
 conjure fez
+conjure fly
+conjure fry
+conjure fwy
 conjure hey
 conjure key
 conjured fey
@@ -1128,6 +1164,7 @@ Continual Flame,
 2nd level Evocation,
 1 action, VSMgp (phb 227)
 
+continual aflame
 continual blame
 continual flake
 continual flambe
@@ -1256,6 +1293,7 @@ create food and wager
 create food and waiter
 create food and waster
 create food and waver
+create food ans water
 create food ant water
 create food any water
 create food band water
@@ -1421,6 +1459,7 @@ Dancing Lights,
 Evocation Cantrip,
 1 action, VSM<C> (phb 230)
 
+dancing alights
 dancing bights
 dancing blights
 dancing eights
@@ -1472,6 +1511,7 @@ Dawn,
 5th level Evocation,
 1 action, VSMgp<C> (xge 153)
 
+awn
 damn
 darn
 down
@@ -1491,6 +1531,7 @@ dab light
 dad light
 dag light
 dam light
+day alight
 day bight
 day blight
 day eight
@@ -1505,6 +1546,7 @@ day slight
 day tight
 day wight
 dray light
+dry light
 fay light
 gay light
 hay light
@@ -1546,9 +1588,11 @@ Delayed Blast Fireball,
 7th level Evocation,
 1 action, VSM<C> (phb 230)
 
+belayed blast fire ball
 decayed blast fire ball
 delayed beast fire ball
 delayed blase fire ball
+delayed blast afire ball
 delayed blast dire ball
 delayed blast fare ball
 delayed blast fife ball
@@ -1556,6 +1600,7 @@ delayed blast file ball
 delayed blast fine ball
 delayed blast fire all
 delayed blast fire bail
+delayed blast fire bald
 delayed blast fire bale
 delayed blast fire balk
 delayed blast fire balm
@@ -1611,6 +1656,7 @@ Destructive Wave,
 5th level Evocation,
 1 action, V (phb 231)
 
+destructive ave
 destructive cave
 destructive eave
 destructive fave
@@ -1654,6 +1700,7 @@ detect evil and hood
 detect evil and mood
 detect evil and rood
 detect evil and wood
+detect evil ans good
 detect evil ant good
 detect evil any good
 detect evil band good
@@ -1684,6 +1731,7 @@ deject poison and disease
 detect poison add disease
 detect poison aid disease
 detect poison and diseased
+detect poison ans disease
 detect poison ant disease
 detect poison any disease
 detect poison band disease
@@ -1752,6 +1800,7 @@ dispel evil and hood
 dispel evil and mood
 dispel evil and rood
 dispel evil and wood
+dispel evil ans good
 dispel evil ant good
 dispel evil any good
 dispel evil band good
@@ -1988,7 +2037,9 @@ elemental bake
 elemental bale
 elemental band
 elemental bang
+elemental bani
 elemental bank
+elemental bans
 elemental bare
 elemental base
 elemental bate
@@ -2005,6 +2056,7 @@ Enemies Abound,
 3rd level Enchantment,
 1 action, VS<C> (xge 155)
 
+enemies around
 enemies bound
 
 Enhance Ability,
@@ -2060,6 +2112,7 @@ Evard's Black Tentacles,
 4th level Conjuration,
 1 action, VSM<C> (phb 238)
 
+evard's alack tentacles
 evard's black pentacles
 evard's black tentacled
 evard's blank tentacles
@@ -2088,6 +2141,7 @@ ere bite
 eve bite
 ewe bite
 eye bate
+eye bide
 eye bike
 eye bile
 eye biter
@@ -2117,6 +2171,7 @@ Faerie Fire,
 1 action, V<C> (phb 239)
 
 aerie fire
+faerie afire
 faerie dire
 faerie fare
 faerie fife
@@ -2159,6 +2214,7 @@ Far Step,
 5th level Conjuration,
 1 bonus action, V<C> (xge 155)
 
+afar step
 bar step
 car step
 ear step
@@ -2425,6 +2481,7 @@ Fire Bolt,
 Evocation Cantrip,
 1 action, VS (phb 242)
 
+afire bolt
 dire bolt
 fare bolt
 fife bolt
@@ -2461,6 +2518,7 @@ Fire Shield,
 4th level Evocation,
 1 action, VSM (phb 242)
 
+afire shield
 dire shield
 fare shield
 fife shield
@@ -2484,6 +2542,7 @@ Fire Storm,
 7th level Evocation,
 1 action, VS (phb 242)
 
+afire storm
 dire storm
 fare storm
 fife storm
@@ -2510,6 +2569,7 @@ Fireball,
 3rd level Evocation,
 1 action, VSM (phb 241)
 
+afire ball
 dire ball
 fare ball
 fife ball
@@ -2517,6 +2577,7 @@ file ball
 fine ball
 fire all
 fire bail
+fire bald
 fire bale
 fire balk
 fire balm
@@ -2551,6 +2612,7 @@ Flame Arrows,
 3rd level Transmutation,
 1 action, VS<C> (ee 18, xge 156)
 
+aflame arrows
 blame arrows
 flake arrows
 flambe arrows
@@ -2570,9 +2632,11 @@ Flame Blade,
 2nd level Evocation,
 1 bonus action, VSM<C> (phb 242)
 
+aflame blade
 blame blade
 flake blade
 flambe blade
+flame bladed
 flame blame
 flame blare
 flame blase
@@ -2591,6 +2655,7 @@ Flame Strike,
 5th level Evocation,
 1 action, VSM (phb 242)
 
+aflame strike
 blame strike
 flake strike
 flambe strike
@@ -2657,6 +2722,10 @@ fay
 fey
 flay
 flu
+fry
+fwy
+ply
+sly
 
 Fog Cloud,
 1st level Conjuration,
@@ -2669,6 +2738,7 @@ fig cloud
 flog cloud
 fob cloud
 foe cloud
+fog aloud
 fog clout
 fog loud
 fol cloud
@@ -2736,6 +2806,7 @@ Evocation Cantrip,
 front bite
 frosh bite
 frost bate
+frost bide
 frost bike
 frost bile
 frost biter
@@ -2772,6 +2843,7 @@ Gate,
 1 action, VSMgp<C> (phb 244)
 
 agate
+ate
 bate
 date
 fate
@@ -2865,6 +2937,7 @@ Goodberry,
 food berry
 goad berry
 gold berry
+good beery
 good ferry
 good merry
 good terry
@@ -2930,9 +3003,11 @@ Evocation Cantrip,
 1 action, VM (scag 143, tce 107)
 
 greed flame blade
+green aflame blade
 green blame blade
 green flake blade
 green flambe blade
+green flame bladed
 green flame blame
 green flame blare
 green flame blase
@@ -2986,6 +3061,7 @@ guards and warps
 guards and warts
 guards and words
 guards and yards
+guards ans wards
 guards ant wards
 guards any wards
 guards band wards
@@ -3317,6 +3393,7 @@ hole aura
 holey aura
 holly aura
 hols aura
+holy aural
 hotly aura
 poly aura
 
@@ -3429,6 +3506,7 @@ Incendiary Cloud,
 8th level Conjuration,
 1 action, VS<C> (phb 253)
 
+incendiary aloud
 incendiary clout
 incendiary loud
 
@@ -3485,6 +3563,7 @@ Investiture of Flame,
 1 action, VS<C> (ee 19, xge 159)
 
 investiture if flame
+investiture of aflame
 investiture of blame
 investiture of flake
 investiture of flambe
@@ -3687,6 +3766,7 @@ Light,
 Evocation Cantrip,
 1 action, VM (phb 255)
 
+alight
 bight
 blight
 eight
@@ -3816,6 +3896,8 @@ cage armor
 image armor
 mace armor
 made armor
+mage arbor
+mage ardor
 magi armor
 mags armor
 make armor
@@ -3879,6 +3961,7 @@ Magic Jar,
 6th level Necromancy,
 1 minute, VSMgp (phb 257)
 
+magic ajar
 magic bar
 magic car
 magic ear
@@ -4104,31 +4187,39 @@ Mass Polymorph,
 9th level Transmutation,
 1 action, VSM<C> (xge 160)
 
-amass polymorph
-ass polymorph
-bass polymorph
-lass polymorph
-macs polymorph
-mads polymorph
-mags polymorph
-mans polymorph
-maps polymorph
-mars polymorph
-masc polymorph
-mash polymorph
-mask polymorph
-masks polymorph
-mass poly morph
-mast polymorph
-masts polymorph
-mats polymorph
-maws polymorph
-mess polymorph
-miss polymorph
-moss polymorph
-muss polymorph
-pass polymorph
-sass polymorph
+amass poly morph
+ass poly morph
+bass poly morph
+lass poly morph
+macs poly morph
+mads poly morph
+mags poly morph
+mans poly morph
+maps poly morph
+mars poly morph
+masc poly morph
+mash poly morph
+mask poly morph
+masks poly morph
+mass holy morph
+mass poky morph
+mass pole morph
+mass poll morph
+mass polo morph
+mass pols morph
+mass polyp morph
+mass pony morph
+mass posy morph
+mast poly morph
+masts poly morph
+mats poly morph
+maws poly morph
+mess poly morph
+miss poly morph
+moss poly morph
+muss poly morph
+pass poly morph
+sass poly morph
 
 Mass Suggestion,
 6th level Enchantment,
@@ -4466,6 +4557,7 @@ goon beam
 loon beam
 moan beam
 mood beam
+moon abeam
 moon bead
 moon beak
 moon bean
@@ -4547,6 +4639,7 @@ Nondetection,
 3rd level Abjuration,
 1 action, VSMgp (phb 263)
 
+anon detection
 con detection
 don detection
 eon detection
@@ -4576,6 +4669,7 @@ Nystul's Magic Aura,
 2nd level Illusion,
 1 action, VSM (phb 263)
 
+nystul's magic aural
 nystul's manic aura
 
 Otiluke's Freezing Sphere,
@@ -4703,8 +4797,11 @@ Planar Ally,
 6th level Conjuration,
 10 minutes, VS (phb 265)
 
+planar ably
+planar allay
 planar alley
 planar alloy
+planar bally
 planar dally
 planar pally
 planar rally
@@ -4777,7 +4874,15 @@ Polymorph,
 4th level Transmutation,
 1 action, VSM<C> (phb 266)
 
-poly morph
+holy morph
+poky morph
+pole morph
+poll morph
+polo morph
+pols morph
+polyp morph
+pony morph
+posy morph
 
 Power Word Heal,
 9th level Evocation,
@@ -5034,6 +5139,7 @@ Produce Flame,
 Conjuration Cantrip,
 1 action, VS (phb 269)
 
+produce aflame
 produce blame
 produce flake
 produce flambe
@@ -5090,6 +5196,7 @@ protection from evil and hood
 protection from evil and mood
 protection from evil and rood
 protection from evil and wood
+protection from evil ans good
 protection from evil ant good
 protection from evil any good
 protection from evil band good
@@ -5131,6 +5238,7 @@ purify food and brink
 purify food and drank
 purify food and drunk
 purify food and rink
+purify food ans drink
 purify food ant drink
 purify food any drink
 purify food band drink
@@ -5191,6 +5299,7 @@ rary's telepathic bold
 rary's telepathic bone
 rary's telepathic boned
 rary's telepathic bonk
+rary's telepathic bony
 rary's telepathic bound
 rary's telepathic fond
 rary's telepathic pond
@@ -5384,6 +5493,7 @@ Evocation Cantrip,
 1 action, VS (phb 272)
 
 sacked flame
+sacred aflame
 sacred blame
 sacred flake
 sacred flambe
@@ -5546,6 +5656,7 @@ Shadow Blade,
 2nd level Illusion,
 1 bonus action, VS<C> (xge 164)
 
+shadow bladed
 shadow blame
 shadow blare
 shadow blase
@@ -5677,6 +5788,7 @@ Skywrite,
 1 action, VS<CR> (ee 22, xge 165)
 
 say write
+shy write
 ska write
 ski write
 sky rite
@@ -5686,7 +5798,10 @@ sky writer
 sky writhe
 sky writs
 sky wrote
+sly write
 soy write
+spy write
+sty write
 
 Sleep,
 1st level Enchantment,
@@ -5765,6 +5880,7 @@ snilloc's snog ball swarm
 snilloc's snot ball swarm
 snilloc's snow all swarm
 snilloc's snow bail swarm
+snilloc's snow bald swarm
 snilloc's snow bale swarm
 snilloc's snow balk swarm
 snilloc's snow ball sward
@@ -5987,6 +6103,7 @@ Stinking Cloud,
 slinking cloud
 sticking cloud
 stinging cloud
+stinking aloud
 stinking clout
 stinking loud
 stinting cloud
@@ -6093,6 +6210,9 @@ summon fen
 summon fer
 summon few
 summon fez
+summon fly
+summon fry
+summon fwy
 summon hey
 summon key
 
@@ -6160,6 +6280,7 @@ stun beam
 sub beam
 sue beam
 sum beam
+sun abeam
 sun bead
 sun beak
 sun bean
@@ -6174,6 +6295,7 @@ sun team
 sung beam
 sunk beam
 sup beam
+syn beam
 tun beam
 
 Sunburst,
@@ -6199,11 +6321,13 @@ sub burst
 sue burst
 sum burst
 sun burnt
+sun bursa
 sun durst
 sun wurst
 sung burst
 sunk burst
 sup burst
+syn burst
 tun burst
 
 Swift Quiver,
@@ -6219,6 +6343,7 @@ Conjuration Cantrip,
 
 sward burst
 sword burnt
+sword bursa
 sword durst
 sword wurst
 swore burst
@@ -6414,6 +6539,7 @@ Thunderwave,
 1 action, VS (phb 282)
 
 chunder wave
+thunder ave
 thunder cave
 thunder eave
 thunder fave
@@ -6442,6 +6568,7 @@ Tidal Wave,
 3rd level Conjuration,
 1 action, VSM (ee 22, xge 168)
 
+tidal ave
 tidal cave
 tidal eave
 tidal fave
@@ -6477,6 +6604,7 @@ rime stop
 tame stop
 tide stop
 tile stop
+time atop
 time shop
 time slop
 time step
@@ -6509,6 +6637,7 @@ Toll the Dead,
 Necromancy Cantrip,
 1 action, VS (xge 169)
 
+atoll the dead
 boll the dead
 coll the dead
 doll the dead
@@ -6592,6 +6721,7 @@ Tree Stride,
 free stride
 thee stride
 three stride
+tree astride
 tree striae
 tree strife
 tree strike
@@ -6608,14 +6738,22 @@ True Polymorph,
 9th level Transmutation,
 1 action, VSM<C> (phb 283)
 
-grue polymorph
-rue polymorph
-tree polymorph
-truce polymorph
-true poly morph
-trued polymorph
-truer polymorph
-trug polymorph
+grue poly morph
+rue poly morph
+tree poly morph
+truce poly morph
+true holy morph
+true poky morph
+true pole morph
+true poll morph
+true polo morph
+true pols morph
+true polyp morph
+true pony morph
+true posy morph
+trued poly morph
+truer poly morph
+trug poly morph
 
 True Resurrection,
 9th level Necromancy,
@@ -6707,6 +6845,7 @@ wail of fire
 wale of fire
 walk of fire
 wall if fire
+wall of afire
 wall of dire
 wall of fare
 wall of fife
@@ -6805,6 +6944,7 @@ wail of light
 wale of light
 walk of light
 wall if light
+wall of alight
 wall of bight
 wall of blight
 wall of eight
@@ -6967,6 +7107,7 @@ warding bold
 warding bone
 warding boned
 warding bonk
+warding bony
 warding bound
 warding fond
 warding pond
@@ -7184,6 +7325,7 @@ Witch Bolt,
 1st level Evocation,
 1 action, VSM<C> (phb 289)
 
+aitch bolt
 bitch bolt
 ditch bolt
 hitch bolt

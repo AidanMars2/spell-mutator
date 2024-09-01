@@ -51,26 +51,15 @@
     "otherworldly": 5,
     "daylight": 3,
     "nondetection": 3,
-    "shadowspawn": 6
+    "shadowspawn": 6,
+    "polymorph": 4
   },
   "illegal_words": [
     "dis", "coon", "barf", "bong",
     "dding", "dink", "dong", "fag",
     "gook", "ho", "mams", "puss",
     "sexing", "whiz", "whop", "yid",
-    "wog", "abounds", "allay",
-
-    "abeam", "ably", "abs", "adsorb",
-    "afar", "afield", "afire", "aflame",
-    "aitch", "ajar", "alack", "alight",
-    "alights", "aloud", "anon", "ans",
-    "arbor", "ardor", "around", "aster",
-    "astride", "atoll", "ate", "atop",
-    "augurs", "aural", "ave", "awn",
-    "bally", "bald", "bani", "bans",
-    "beery", "belayed", "bide", "blacks",
-    "bladed", "bony", "bursa", "calla",
-    "causer", "caustics"
+    "wog"
   ],
   "force_allow": [
     "growths", "eyes"
