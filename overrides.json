@@ -62,6 +62,6 @@
     "wog"
   ],
   "force_allow": [
-    "growths", "eyes"
+    "growths", "eyes", "amaze"
   ]
 }

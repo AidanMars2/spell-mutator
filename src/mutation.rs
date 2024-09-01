@@ -94,7 +94,8 @@ fn mutate_add_char(
             chars[index] = letter;
             let mutated = chars.iter().collect::<String>();
             if spellchecker.check_word(&mutated) {
-                if is_last && "sy".contains(letter) && !spellchecker.force_allowed(&mutated) {
+                if ((is_last && "sy".contains(letter)) || (index == 0 && letter == 'a'))
+                    && !spellchecker.force_allowed(&mutated) {
                     diagnostics.filter_word(mutated);
                     continue
                 }

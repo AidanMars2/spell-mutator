@@ -9,14 +9,14 @@ most used words:
 - word: 9
 - conjure: 8
 - flame: 8
-- and: 7
+- fire: 7
 - wind: 7
-- water: 7
 - blade: 7
+- earth: 7
+- water: 7
 - stone: 7
 - smite: 7
-- fire: 7
-- earth: 7
+- and: 7
 
 words used 6 times:
 - sphere, the
@@ -92,17 +92,17 @@ words used 1 times:
 - without, wood, worldly, wrath, wrathful, write, zephyr, zone
 
 procedurally split words:
-- restoration: rest oration
-- foresight: fore sight
-- freezing: free zing
 - friendship: friend ship
-- fortress: for tress
-- confusion: con fusion
-- forbiddance: forbid dance
 - transmute: trans mute
 - transformation: trans formation
-- branding: bran ding
 - transport: trans port
+- branding: bran ding
+- foresight: fore sight
+- forbiddance: forbid dance
+- confusion: con fusion
+- restoration: rest oration
+- freezing: free zing
+- fortress: for tress
 
-final word count: 2207
-final spell count: 5329
+final word count: 2188
+final spell count: 5284

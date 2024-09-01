@@ -155,7 +155,6 @@ Antimagic Field,
 8th level Abjuration,
 1 action, VSM<C> (phb 213)
 
-anti magic afield
 anti magic fiend
 anti magic wield
 anti magic yield
@@ -184,7 +183,6 @@ Arcane Gate,
 1 action, VS<C> (phb 214)
 
 arcade gate
-arcane agate
 arcane ate
 arcane bate
 arcane date
@@ -506,7 +504,6 @@ Blade Ward,
 Abjuration Cantrip,
 1 action, VS (phb 218)
 
-blade award
 blade bard
 blade card
 blade hard
@@ -834,7 +831,6 @@ Chromatic Orb,
 1st level Evocation,
 1 action, VSMgp (phb 221)
 
-achromatic orb
 chromatic orc
 chromatic ore
 chromatic org
@@ -1164,7 +1160,6 @@ Continual Flame,
 2nd level Evocation,
 1 action, VSMgp (phb 227)
 
-continual aflame
 continual blame
 continual flake
 continual flambe
@@ -1459,7 +1454,6 @@ Dancing Lights,
 Evocation Cantrip,
 1 action, VSM<C> (phb 230)
 
-dancing alights
 dancing bights
 dancing blights
 dancing eights
@@ -1531,7 +1525,6 @@ dab light
 dad light
 dag light
 dam light
-day alight
 day bight
 day blight
 day eight
@@ -1564,7 +1557,6 @@ Death Ward,
 1 action, VS (phb 230)
 
 dearth ward
-death award
 death bard
 death card
 death hard
@@ -1592,7 +1584,6 @@ belayed blast fire ball
 decayed blast fire ball
 delayed beast fire ball
 delayed blase fire ball
-delayed blast afire ball
 delayed blast dire ball
 delayed blast fare ball
 delayed blast fife ball
@@ -2171,7 +2162,6 @@ Faerie Fire,
 1 action, V<C> (phb 239)
 
 aerie fire
-faerie afire
 faerie dire
 faerie fare
 faerie fife
@@ -2214,7 +2204,6 @@ Far Step,
 5th level Conjuration,
 1 bonus action, V<C> (xge 155)
 
-afar step
 bar step
 car step
 ear step
@@ -2481,7 +2470,6 @@ Fire Bolt,
 Evocation Cantrip,
 1 action, VS (phb 242)
 
-afire bolt
 dire bolt
 fare bolt
 fife bolt
@@ -2518,7 +2506,6 @@ Fire Shield,
 4th level Evocation,
 1 action, VSM (phb 242)
 
-afire shield
 dire shield
 fare shield
 fife shield
@@ -2542,7 +2529,6 @@ Fire Storm,
 7th level Evocation,
 1 action, VS (phb 242)
 
-afire storm
 dire storm
 fare storm
 fife storm
@@ -2569,7 +2555,6 @@ Fireball,
 3rd level Evocation,
 1 action, VSM (phb 241)
 
-afire ball
 dire ball
 fare ball
 fife ball
@@ -2612,7 +2597,6 @@ Flame Arrows,
 3rd level Transmutation,
 1 action, VS<C> (ee 18, xge 156)
 
-aflame arrows
 blame arrows
 flake arrows
 flambe arrows
@@ -2632,7 +2616,6 @@ Flame Blade,
 2nd level Evocation,
 1 bonus action, VSM<C> (phb 242)
 
-aflame blade
 blame blade
 flake blade
 flambe blade
@@ -2655,7 +2638,6 @@ Flame Strike,
 5th level Evocation,
 1 action, VSM (phb 242)
 
-aflame strike
 blame strike
 flake strike
 flambe strike
@@ -2842,7 +2824,6 @@ Gate,
 9th level Conjuration,
 1 action, VSMgp<C> (phb 244)
 
-agate
 ate
 bate
 date
@@ -2918,7 +2899,6 @@ Glyph of Warding,
 1 hour, VSMgp (phb 245)
 
 glyph if warding
-glyph of awarding
 glyph of carding
 glyph of larding
 glyph of wadding
@@ -3003,7 +2983,6 @@ Evocation Cantrip,
 1 action, VM (scag 143, tce 107)
 
 greed flame blade
-green aflame blade
 green blame blade
 green flake blade
 green flambe blade
@@ -3048,7 +3027,6 @@ Guards and Wards,
 
 guards add wards
 guards aid wards
-guards and awards
 guards and bards
 guards and cards
 guards and lards
@@ -3563,7 +3541,6 @@ Investiture of Flame,
 1 action, VS<C> (ee 19, xge 159)
 
 investiture if flame
-investiture of aflame
 investiture of blame
 investiture of flake
 investiture of flambe
@@ -3766,7 +3743,6 @@ Light,
 Evocation Cantrip,
 1 action, VM (phb 255)
 
-alight
 bight
 blight
 eight
@@ -3868,7 +3844,6 @@ Longstrider,
 1st level Transmutation,
 1 action, VSM (phb 256)
 
-along strider
 gong strider
 ling strider
 lone strider
@@ -3961,7 +3936,6 @@ Magic Jar,
 6th level Necromancy,
 1 minute, VSMgp (phb 257)
 
-magic ajar
 magic bar
 magic car
 magic ear
@@ -4035,7 +4009,6 @@ Mass Cure Wounds,
 5th level Evocation,
 1 action, VS (phb 258)
 
-amass cure wounds
 ass cure wounds
 bass cure wounds
 lass cure wounds
@@ -4090,7 +4063,6 @@ Mass Heal,
 9th level Evocation,
 1 action, VS (phb 258)
 
-amass heal
 ass heal
 bass heal
 lass heal
@@ -4135,7 +4107,6 @@ Mass Healing Word,
 3rd level Evocation,
 1 bonus action, V (phb 258)
 
-amass healing word
 ass healing word
 bass healing word
 lass healing word
@@ -4187,7 +4158,6 @@ Mass Polymorph,
 9th level Transmutation,
 1 action, VSM<C> (xge 160)
 
-amass poly morph
 ass poly morph
 bass poly morph
 lass poly morph
@@ -4225,7 +4195,6 @@ Mass Suggestion,
 6th level Enchantment,
 1 action, VM (phb 258)
 
-amass suggestion
 ass suggestion
 bass suggestion
 lass suggestion
@@ -4349,7 +4318,6 @@ Mending,
 Transmutation Cantrip,
 1 minute, VSM (phb 259)
 
-amending
 bending
 emending
 ending
@@ -4557,7 +4525,6 @@ goon beam
 loon beam
 moan beam
 mood beam
-moon abeam
 moon bead
 moon beak
 moon bean
@@ -4639,7 +4606,6 @@ Nondetection,
 3rd level Abjuration,
 1 action, VSMgp (phb 263)
 
-anon detection
 con detection
 don detection
 eon detection
@@ -5090,7 +5056,6 @@ Primordial Ward,
 6th level Abjuration,
 1 action, VS<C> (ee 21, xge 163)
 
-primordial award
 primordial bard
 primordial card
 primordial hard
@@ -5139,7 +5104,6 @@ Produce Flame,
 Conjuration Cantrip,
 1 action, VS (phb 269)
 
-produce aflame
 produce blame
 produce flake
 produce flambe
@@ -5493,7 +5457,6 @@ Evocation Cantrip,
 1 action, VS (phb 272)
 
 sacked flame
-sacred aflame
 sacred blame
 sacred flake
 sacred flambe
@@ -5807,7 +5770,6 @@ Sleep,
 1st level Enchantment,
 1 action, VSM (phb 276)
 
-asleep
 bleep
 sheep
 sleek
@@ -6280,7 +6242,6 @@ stun beam
 sub beam
 sue beam
 sum beam
-sun abeam
 sun bead
 sun beak
 sun bean
@@ -6637,7 +6598,6 @@ Toll the Dead,
 Necromancy Cantrip,
 1 action, VS (xge 169)
 
-atoll the dead
 boll the dead
 coll the dead
 doll the dead
@@ -6721,7 +6681,6 @@ Tree Stride,
 free stride
 thee stride
 three stride
-tree astride
 tree striae
 tree strife
 tree strike
@@ -6845,7 +6804,6 @@ wail of fire
 wale of fire
 walk of fire
 wall if fire
-wall of afire
 wall of dire
 wall of fare
 wall of fife
@@ -6944,7 +6902,6 @@ wail of light
 wale of light
 walk of light
 wall if light
-wall of alight
 wall of bight
 wall of blight
 wall of eight
@@ -7095,7 +7052,6 @@ Warding Bond,
 2nd level Abjuration,
 1 action, VSMgp (phb 287)
 
-awarding bond
 carding bond
 larding bond
 wadding bond
@@ -7121,7 +7077,6 @@ Warding Wind,
 2nd level Evocation,
 1 action, V<C> (ee 23, xge 170)
 
-awarding wind
 carding wind
 larding wind
 wadding wind
