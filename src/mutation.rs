@@ -1,4 +1,5 @@
 use std::collections::{HashMap, HashSet};
+use std::mem;
 use itertools::Itertools;
 use types::Overrides;
 use crate::diagnostics::Diagnostics;
@@ -14,8 +15,6 @@ pub fn mutate_string(
 ) -> Vec<String> {
     let spell_words = string
         .split(|char: char| { !char.is_alphanumeric() && char != '\'' })
-        .map(|word| process_split(word, overrides))
-        .flatten()
         .collect::<Vec<_>>();
 
     if initial {
@@ -31,7 +30,7 @@ pub fn mutate_string(
         let word: &str = &spell_words[index];
 
         if !words.contains_key(word) {
-            let mutated = mutate_word(word, spellchecker, overrides, diagnostics);
+            let mutated = process_word(word, spellchecker, overrides, diagnostics);
             words.insert(word.to_string(), mutated);
         }
         // we always have a key here, as it is added 3 lines before
@@ -49,7 +48,41 @@ pub fn mutate_string(
     result.into_iter().collect::<Vec<_>>()
 }
 
-fn mutate_word(
+fn process_word(
+    word: &str,
+    spellchecker: &Spellchecker,
+    overrides: &Overrides,
+    diagnostics: &mut Diagnostics
+) -> Vec<String> {
+    let mut result = simple_mutate_word(word, spellchecker, overrides, diagnostics);
+
+    let mut split = process_split(word, overrides);
+    let split_mutated = split.iter()
+        .map(|it| simple_mutate_word(it, spellchecker, overrides, diagnostics))
+        .collect_vec();
+
+    for (index, mutated) in split_mutated.into_iter().enumerate() {
+        let mut original: Option<String> = None;
+        let mut mutated = mutated.into_iter();
+        // replace original with mutations and save mutations
+        if let Some(word) = mutated.next() {
+            original = Some(mem::replace(&mut split[index], word));
+            result.push(split.iter().join(" "));
+        }
+        for word in mutated {
+            split[index] = word;
+            result.push(split.iter().join(" "));
+        }
+        // put back original
+        if let Some(original) = original {
+            split[index] = original;
+        }
+    }
+
+    result
+}
+
+fn simple_mutate_word(
     word: &str,
     spellchecker: &Spellchecker,
     overrides: &Overrides,
@@ -167,11 +200,11 @@ fn mutate_split_word(
     diagnostics: &mut Diagnostics,
     overrides: &Overrides
 ) -> Vec<String> {
-    let mut result: HashSet<String> = HashSet::new();
-
     if word.len() < 8 {
-        return result.into_iter().collect()
+        return vec![]
     }
+
+    let mut result: Vec<String> = vec![];
 
     let chars = word.chars().collect::<Vec<_>>();
 
@@ -193,7 +226,7 @@ fn mutate_split_word(
         }
         let split = format!("{word_one} {word_two}");
         diagnostics.procedural_split_word(word.to_string(), split.clone());
-        result.insert(split);
+        result.push(split);
     }
 
     result.into_iter().collect()

@@ -133,13 +133,6 @@ Antilife Shell,
 
 anti fife shell
 anti lice shell
-anti life hell
-anti life shall
-anti life shelf
-anti life shill
-anti life smell
-anti life spell
-anti life swell
 anti lifer shell
 anti lift shell
 anti like shell
@@ -150,15 +143,22 @@ anti lite shell
 anti live shell
 anti rife shell
 anti wife shell
+antilife hell
+antilife shall
+antilife shelf
+antilife shill
+antilife smell
+antilife spell
+antilife swell
 
 Antimagic Field,
 8th level Abjuration,
 1 action, VSM<C> (phb 213)
 
-anti magic fiend
-anti magic wield
-anti magic yield
 anti manic field
+antimagic fiend
+antimagic wield
+antimagic yield
 
 Arcane Eye,
 4th level Divination,
@@ -1118,7 +1118,6 @@ conjure wood eland beings
 conjure wood gland beings
 conjure wood hand beings
 conjure wood laid beings
-conjure wood land brings
 conjure wood lane beings
 conjure wood lank beings
 conjure wood lard beings
@@ -1127,13 +1126,14 @@ conjure wood lend beings
 conjure wood rand beings
 conjure wood sand beings
 conjure wood wand beings
+conjure woodland brings
 conjure wooed land beings
 conjure woof land beings
 conjure wool land beings
 conjure woos land beings
 conjure word land beings
-conjured wood land beings
-conjurer wood land beings
+conjured woodland beings
+conjurer woodland beings
 
 Contact Other Plane,
 5th level Divination,
@@ -1580,10 +1580,10 @@ Delayed Blast Fireball,
 7th level Evocation,
 1 action, VSM<C> (phb 230)
 
-belayed blast fire ball
-decayed blast fire ball
-delayed beast fire ball
-delayed blase fire ball
+belayed blast fireball
+decayed blast fireball
+delayed beast fireball
+delayed blase fireball
 delayed blast dire ball
 delayed blast fare ball
 delayed blast fife ball
@@ -1610,6 +1610,7 @@ delayed blast fire tall
 delayed blast fire wall
 delayed blast fired ball
 delayed blast firer ball
+delayed blast firewall
 delayed blast firm ball
 delayed blast firs ball
 delayed blast five ball
@@ -1621,10 +1622,10 @@ delayed blast mire ball
 delayed blast sire ball
 delayed blast tire ball
 delayed blast wire ball
-delayed boast fire ball
-delayed last fire ball
-delayer blast fire ball
-relayed blast fire ball
+delayed boast fireball
+delayed last fireball
+delayer blast fireball
+relayed blast fireball
 
 Demiplane,
 8th level Conjuration,
@@ -2581,6 +2582,7 @@ fire tall
 fire wall
 fired ball
 firer ball
+firewall
 firm ball
 firs ball
 five ball
@@ -4158,19 +4160,19 @@ Mass Polymorph,
 9th level Transmutation,
 1 action, VSM<C> (xge 160)
 
-ass poly morph
-bass poly morph
-lass poly morph
-macs poly morph
-mads poly morph
-mags poly morph
-mans poly morph
-maps poly morph
-mars poly morph
-masc poly morph
-mash poly morph
-mask poly morph
-masks poly morph
+ass polymorph
+bass polymorph
+lass polymorph
+macs polymorph
+mads polymorph
+mags polymorph
+mans polymorph
+maps polymorph
+mars polymorph
+masc polymorph
+mash polymorph
+mask polymorph
+masks polymorph
 mass holy morph
 mass poky morph
 mass pole morph
@@ -4180,16 +4182,16 @@ mass pols morph
 mass polyp morph
 mass pony morph
 mass posy morph
-mast poly morph
-masts poly morph
-mats poly morph
-maws poly morph
-mess poly morph
-miss poly morph
-moss poly morph
-muss poly morph
-pass poly morph
-sass poly morph
+mast polymorph
+masts polymorph
+mats polymorph
+maws polymorph
+mess polymorph
+miss polymorph
+moss polymorph
+muss polymorph
+pass polymorph
+sass polymorph
 
 Mass Suggestion,
 6th level Enchantment,
@@ -5761,6 +5763,7 @@ sky writer
 sky writhe
 sky writs
 sky wrote
+skywriter
 sly write
 soy write
 spy write
@@ -5845,8 +5848,6 @@ snilloc's snow bail swarm
 snilloc's snow bald swarm
 snilloc's snow bale swarm
 snilloc's snow balk swarm
-snilloc's snow ball sward
-snilloc's snow ball warm
 snilloc's snow balm swarm
 snilloc's snow bawl swarm
 snilloc's snow bell swarm
@@ -5861,6 +5862,9 @@ snilloc's snow mall swarm
 snilloc's snow pall swarm
 snilloc's snow tall swarm
 snilloc's snow wall swarm
+snilloc's snowball sward
+snilloc's snowball warm
+snilloc's snowfall swarm
 snilloc's stow ball swarm
 
 Soul Cage,
@@ -6213,6 +6217,7 @@ Summon Shadowspawn,
 1 action, VSM<C> (tce 113)
 
 summon shadow pawn
+summon shadows pawn
 
 Summon Undead,
 3rd level Necromancy,
@@ -6371,13 +6376,13 @@ Tasha's Otherworldly Guise,
 6th level Transmutation,
 1 bonus action, VSM<C> (tce 116)
 
-pasha's other worldly guise
+pasha's otherworldly guise
 tasha's bother worldly guise
 tasha's ether worldly guise
 tasha's mother worldly guise
 tasha's ocher worldly guise
-tasha's other worldly guide
-tasha's other worldly guile
+tasha's otherworldly guide
+tasha's otherworldly guile
 tasha's otter worldly guise
 tasha's pother worldly guise
 
@@ -6697,10 +6702,10 @@ True Polymorph,
 9th level Transmutation,
 1 action, VSM<C> (phb 283)
 
-grue poly morph
-rue poly morph
-tree poly morph
-truce poly morph
+grue polymorph
+rue polymorph
+tree polymorph
+truce polymorph
 true holy morph
 true poky morph
 true pole morph
@@ -6710,9 +6715,9 @@ true pols morph
 true polyp morph
 true pony morph
 true posy morph
-trued poly morph
-truer poly morph
-trug poly morph
+trued polymorph
+truer polymorph
+trug polymorph
 
 True Resurrection,
 9th level Necromancy,

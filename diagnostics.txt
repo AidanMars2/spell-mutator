@@ -1,108 +1,106 @@
 initial spell count: 478
-initial word count: 584
+initial word count: 582
 
 most used words:
 - of: 49
-- wall: 11
 - summon: 11
-- magic: 10
+- wall: 10
 - word: 9
+- magic: 9
 - conjure: 8
 - flame: 8
-- fire: 7
-- wind: 7
-- blade: 7
-- earth: 7
-- water: 7
-- stone: 7
-- smite: 7
 - and: 7
+- water: 7
+- blade: 7
+- smite: 7
 
 words used 6 times:
-- sphere, the
+- sphere, stone, the, wind
 
 words used 5 times:
-- arcane, aura, bolt, cloud, create, find, lightning, mass, mind, power, storm,
+- arcane, aura, bolt, create, earth, find, fire, lightning, mass, power, storm,
 - strike, weapon
 
 words used 4 times:
-- beast, circle, control, dead, death, detect, elemental, good, greater,
-- healing, ice, image, investiture, life, mordenkainen's, ray, tasha's, true, with
+- beast, circle, cloud, control, dead, death, detect, elemental, greater,
+- healing, ice, image, investiture, mind, mordenkainen's, ray, tasha's, true, with
 
 words used 3 times:
-- animal, animals, ball, bond, dominate, evil, force, from, heal, invisibility,
-- light, locate, monster, morph, nature, person, plane, plants, poison, poly,
-- protection, shadow, shape, shield, speak, spirit, spray, steed, step, thunder, ward,
-- warding, wave, wounds
+- animal, animals, bond, dominate, evil, from, good, heal, invisibility, life,
+- locate, monster, nature, person, plants, poison, polymorph, protection, shield, speak,
+- spirit, spray, steed, step, ward, warding, wounds
 
 words used 2 times:
-- acid, animate, anti, armor, arrow, arrows, bane, beam, bite, blast, burst,
-- cage, celestial, charm, commune, crown, cure, curse, darkness, dispel, divine,
-- dream, druid, energy, eye, faith, fear, fey, food, fortress, frost, gate, grasp,
-- growth, guardian, gust, hadar, hand, hold, holy, illusion, illusory, insect,
-- invulnerability, kill, leomund's, lesser, mage, melf's, minor, or, other, otiluke's, pass,
-- phantasmal, planar, prismatic, radiance, restoration, resurrection, self, servant, skin,
-- spike, suggestion, sun, swarm, sword, tenser's, thorns, tiny, touch, undead, walk,
-- whip
+- acid, animate, armor, arrow, arrows, bane, blast, celestial, charm, commune,
+- crown, cure, curse, darkness, dispel, divine, dream, energy, faith, fear, fey,
+- fireball, food, force, fortress, gate, grasp, growth, guardian, gust, hadar, hand, hold,
+- holy, illusion, illusory, insect, invulnerability, leomund's, lesser, light, mage,
+- melf's, minor, or, otiluke's, phantasmal, planar, plane, prismatic, radiance,
+- restoration, resurrection, self, servant, shadow, shape, spike, suggestion, swarm, sword,
+- tenser's, thorns, tiny, touch, undead, walk, wave, whip
 
 words used 1 times:
 - aberration, abi, ability, abound, absorb, aganazzar's, agathys, aid, alarm,
-- ally, alter, antipathy, arms, astral, augury, awaken, banishing, banishment, bark,
-- barrage, barrier, beacon, beings, berry, bestow, bigby's, bind, binding, black, blank,
-- bless, blight, blinding, blindness, blink, blue, blur, bones, bonfire, booming,
-- branding, breath, breathing, brew, burning, call, calling, calm, catapult, catnap,
-- cause, caustic, ceremony, chain, change, chaos, chest, chill, chromatic,
-- clairvoyance, clap, climb, clone, cold, color, command, compelled, comprehend, compulsion,
-- cone, confusion, construct, contact, contagion, contingency, continual, cordon,
-- counter, craft, creation, creature, crusader's, daggers, dalzim's, dance, dancing,
-- danse, dark, dawn, day, deafness, delayed, demi, demon, demons, destroy, destructive,
-- detection, devil, dimension, disaster, disease, disguise, disintegrate, disk, dissonant,
-- divination, door, dragon, dragon's, drawmij's, drink, duel, dust, dying, earthen,
-- eldritch, elementals, elements, emotions, empowerment, enemies, enervation,
-- enfeeblement, enhance, enlarge, ensnaring, entangle, enthrall, erupting, etherealness,
-- evard's, expeditious, fabricate, faerie, faithful, fall, false, familiar, far, favor,
-- feast, feather, feeble, feign, field, fiend, finger, flames, flaming, flesh,
-- floating, flood, fly, fog, forbiddance, foresight, form, freedom, freezing, friends,
-- friendship, gaseous, geas, gentle, giant, glibness, globe, glyph, gods, grasping, gravity,
-- grease, green, grove, guardians, guards, guidance, guiding, guise, hail, hallow,
-- hallucinatory, hands, harm, haste, heat, hellish, heroes', heroism, hex, hideous, homunculus,
-- hope, horrid, hound, hunger, hunter's, hut, hypnotic, identify, immolation,
-- imprisonment, incendiary, infernal, infestation, inflict, instant, intellect, into,
-- irresistible, jar, jump, killer, knife, knock, land, languages, laughter, legend, levitate,
-- lights, lock, long, lore, lure, macabre, maddening, madness, maelstrom, magnificent,
-- major, mansion, mantle, mark, maximilian's, maze, meld, memory, mending, mental,
-- message, messenger, metal, meteor, meteors, mighty, minute, mirage, mirror, mislead,
-- missile, misty, mockery, modify, moil, mold, moon, mouth, move, movement, negative,
-- non, nystul's, object, objects, orb, otto's, pain, path, pattern, phantom, plague,
+- ally, alter, antilife, antimagic, antipathy, arms, astral, augury, awaken,
+- banishing, banishment, barkskin, barrage, barrier, beacon, beings, bestow, bigby's,
+- binding, black, blank, bless, blight, blinding, blindness, blink, blue, blur, bones,
+- bonfire, booming, branding, breath, breathing, brew, burning, burst, cage, call,
+- calling, calm, catapult, catnap, cause, caustic, ceremony, chain, chaos, chest, chill,
+- chromatic, clairvoyance, climb, clone, cloudkill, cold, color, command, compelled,
+- comprehend, compulsion, cone, confusion, construct, contact, contagion, contingency,
+- continual, cordon, counterspell, creation, creature, crusader's, daggers, dalzim's,
+- dance, dancing, danse, darkvision, dawn, daylight, deafness, delayed, demiplane,
+- demon, demons, destroy, destructive, devil, dimension, disaster, disease, disguise,
+- disintegrate, disk, dissonant, divination, door, dragon, dragon's, drawmij's, drink, druid,
+- druidcraft, duel, dust, dying, earthbind, earthen, earthquake, eldritch, elementals,
+- elements, emotions, empowerment, enemies, enervation, enfeeblement, enhance, enlarge,
+- ensnaring, entangle, enthrall, erupting, etherealness, evard's, expeditious, eye,
+- eyebite, fabricate, faerie, faithful, fall, false, familiar, far, favor, feast,
+- feather, feeblemind, feign, field, fiend, finger, flames, flaming, flesh, floating,
+- flood, fly, fog, forbiddance, forcecage, foresight, form, freedom, freezing, friends,
+- friendship, frost, frostbite, gaseous, geas, gentle, giant, glibness, globe, glyph, gods,
+- goodberry, grasping, gravity, grease, green, grove, guardians, guards, guidance, guiding,
+- guise, hail, hallow, hallucinatory, hands, harm, haste, heat, hellish, heroes',
+- heroism, hex, hideous, homunculus, hope, horrid, hound, hunger, hunter's, hut,
+- hypnotic, identify, immolation, imprisonment, incendiary, infernal, infestation,
+- inflict, instant, intellect, into, irresistible, jar, jump, kill, killer, knife, knock,
+- languages, laughter, legend, levitate, lights, lock, longstrider, lore, lure, macabre,
+- maddening, madness, maelstrom, magnificent, major, mansion, mantle, mark, maximilian's,
+- maze, meld, memory, mending, mental, message, messenger, metal, meteor, meteors,
+- mighty, minute, mirage, mirror, mislead, missile, misty, mockery, modify, moil, mold,
+- moonbeam, mouth, move, movement, negative, nondetection, nystul's, object, objects, orb,
+- other, otherworldly, otto's, pain, pass, passwall, path, pattern, phantom, plague,
 - plant, prayer, prestidigitation, primal, primordial, prison, private, produce,
-- programmed, project, projection, psychic, purify, purity, pyro, quake, quiver, raise,
+- programmed, project, projection, psychic, purify, purity, pyrotechnics, quiver, raise,
 - rary's, rebuke, recall, reduce, regenerate, reincarnate, remove, repose, resilient,
 - resistance, retreat, reverse, revivify, rock, rope, sacred, sanctuary, sanctum, sand,
 - savagery, scatter, scorcher, scorching, scream, script, scrying, searing, secret, see,
-- seeing, seeming, sending, sense, sequester, shapes, shatter, shell, shift, shillelagh,
-- shocking, shroud, sickening, sickness, silence, silent, simulacrum, skill, sky, sleep,
-- sleet, sliver, slow, snare, snilloc's, snow, soul, spare, spawn, spell, spider,
-- spiritual, splash, staggering, stars, static, steel, stinking, stop, stride, strider,
-- stun, summons, swift, symbol, sympathy, synaptic, technics, telekinesis, telepathic,
-- telepathy, teleport, teleportation, temple, tentacles, terrain, thaumaturgy, thorn,
-- thoughts, thunderous, tidal, time, to, toll, tongues, trace, transference,
-- transformation, transmute, transport, traps, tree, tremor, trick, truth, tsunami, unseen,
-- vampiric, veil, vengeance, via, vicious, vine, vision, vitality, vitriolic, volley,
-- wards, watery, weather, web, weird, whirl, whispers, wilting, winds, wish, witch,
-- without, wood, worldly, wrath, wrathful, write, zephyr, zone
+- seeing, seeming, sending, sense, sequester, shadowspawn, shapechange, shapes, shatter,
+- shell, shift, shillelagh, shocking, shroud, sickening, sickness, silence, silent,
+- simulacrum, skill, skywrite, sleep, sleet, sliver, slow, snare, snilloc's, snowball, soul,
+- spare, spider, spiritual, splash, staggering, stars, static, steel, stinking,
+- stoneskin, stop, stride, stun, summons, sunbeam, sunburst, swift, symbol, sympathy,
+- synaptic, telekinesis, telepathic, telepathy, teleport, teleportation, temple,
+- tentacles, terrain, thaumaturgy, thorn, thoughts, thunder, thunderclap, thunderous,
+- thunderwave, tidal, time, to, toll, tongues, trace, transference, transformation,
+- transmute, transport, traps, tree, tremor, trick, truth, tsunami, unseen, vampiric, veil,
+- vengeance, via, vicious, vine, vitality, vitriolic, volley, wards, watery, weather, web,
+- weird, whirlwind, whispers, wilting, winds, wish, witch, without, woodland, wrath,
+- wrathful, zephyr, zone
 
 procedurally split words:
-- friendship: friend ship
-- transmute: trans mute
-- transformation: trans formation
 - transport: trans port
-- branding: bran ding
+- friendship: friend ship
+- shadowspawn: shadows pawn
+- transmute: trans mute
 - foresight: fore sight
-- forbiddance: forbid dance
 - confusion: con fusion
-- restoration: rest oration
+- forbiddance: forbid dance
+- transformation: trans formation
 - freezing: free zing
+- restoration: rest oration
+- branding: bran ding
 - fortress: for tress
 
-final word count: 2188
-final spell count: 5284
+final word count: 2192
+final spell count: 5289
