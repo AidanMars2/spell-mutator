@@ -10,9 +10,9 @@ most used words:
 - conjure: 8
 - flame: 8
 - and: 7
+- smite: 7
 - water: 7
 - blade: 7
-- smite: 7
 
 words used 6 times:
 - sphere, stone, the, wind
@@ -89,18 +89,18 @@ words used 1 times:
 - wrathful, zephyr, zone
 
 procedurally split words:
-- transport: trans port
-- friendship: friend ship
-- shadowspawn: shadows pawn
-- transmute: trans mute
-- foresight: fore sight
-- confusion: con fusion
-- forbiddance: forbid dance
-- transformation: trans formation
-- freezing: free zing
-- restoration: rest oration
 - branding: bran ding
+- forbiddance: forbid dance
+- confusion: con fusion
+- foresight: fore sight
+- restoration: rest oration
+- freezing: free zing
+- shadowspawn: shadows pawn
+- transformation: trans formation
+- friendship: friend ship
+- transmute: trans mute
 - fortress: for tress
+- transport: trans port
 
-final word count: 2192
-final spell count: 5289
+final word count: 2234
+final spell count: 5955

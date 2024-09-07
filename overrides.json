@@ -1,22 +1,4 @@
 {
-  "overrides": {
-    "of": ["or", "on", "if"],
-    "or": [
-      "for", "nor", "of",
-      "on", "xor", "our"
-    ],
-    "to": [
-      "do", "go", "no",
-      "so", "toy", "two"
-    ],
-    "arms": [
-      "arks", "arts", "farms",
-      "harms", "warms"
-    ],
-    "anti": [],
-    "summon": [],
-    "the": []
-  },
   "allow_split": {
     "skywrite": 3,
     "whirlwind": 5,
@@ -55,13 +37,13 @@
     "polymorph": 4
   },
   "illegal_words": [
-    "dis", "coon", "barf", "bong",
-    "dding", "dink", "dong", "fag",
-    "gook", "ho", "mams", "puss",
-    "sexing", "whiz", "whop", "yid",
-    "wog"
+    "// severe profanity",
+    "coon", "barf", "bong", "dding",
+    "dink", "dong", "fag", "gook",
+    "ho", "mams", "puss", "sexing",
+    "whiz", "whop", "yid", "wog"
   ],
   "force_allow": [
-    "growths", "eyes", "amaze"
+    "growths", "eyes", "amaze", "toy"
   ]
 }
