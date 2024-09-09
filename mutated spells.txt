@@ -246,18 +246,10 @@ arbor of agathys
 ardor of agathys
 armor if agathys
 armor oaf agathys
-armor ob agathys
 armor off agathys
 armor oft agathys
-armor oh agathys
-armor oi agathys
-armor om agathys
 armor on agathys
-armor op agathys
 armor or agathys
-armor ow agathys
-armor ox agathys
-armor oz agathys
 
 Arms of Hadar,
 1st level Conjuration,
@@ -270,19 +262,11 @@ ares of hadar
 arks of hadar
 arms if hadar
 arms oaf hadar
-arms ob hadar
 arms of radar
 arms off hadar
 arms oft hadar
-arms oh hadar
-arms oi hadar
-arms om hadar
 arms on hadar
-arms op hadar
 arms or hadar
-arms ow hadar
-arms ox hadar
-arms oz hadar
 army of hadar
 arts of hadar
 arums of hadar
@@ -310,7 +294,6 @@ Aura of Life,
 
 aura if life
 aura oaf life
-aura ob life
 aura of fife
 aura of lice
 aura of lifer
@@ -325,15 +308,8 @@ aura of rife
 aura of wife
 aura off life
 aura oft life
-aura oh life
-aura oi life
-aura om life
 aura on life
-aura op life
 aura or life
-aura ow life
-aura ox life
-aura oz life
 aural of life
 
 Aura of Purity,
@@ -342,20 +318,12 @@ Aura of Purity,
 
 aura if purity
 aura oaf purity
-aura ob purity
 aura of parity
 aura of purify
 aura off purity
 aura oft purity
-aura oh purity
-aura oi purity
-aura om purity
 aura on purity
-aura op purity
 aura or purity
-aura ow purity
-aura ox purity
-aura oz purity
 aural of purity
 
 Aura of Vitality,
@@ -364,18 +332,10 @@ Aura of Vitality,
 
 aura if vitality
 aura oaf vitality
-aura ob vitality
 aura off vitality
 aura oft vitality
-aura oh vitality
-aura oi vitality
-aura om vitality
 aura on vitality
-aura op vitality
 aura or vitality
-aura ow vitality
-aura ox vitality
-aura oz vitality
 aural of vitality
 
 Awaken,
@@ -462,7 +422,6 @@ Beacon of Hope,
 
 beacon if hope
 beacon oaf hope
-beacon ob hope
 beacon of cope
 beacon of dope
 beacon of hoke
@@ -482,15 +441,8 @@ beacon of pope
 beacon of rope
 beacon off hope
 beacon oft hope
-beacon oh hope
-beacon oi hope
-beacon om hope
 beacon on hope
-beacon op hope
 beacon or hope
-beacon ow hope
-beacon ox hope
-beacon oz hope
 deacon of hope
 
 Beast Bond,
@@ -612,18 +564,11 @@ Blade of Disaster,
 
 blade if disaster
 blade oaf disaster
-blade ob disaster
+blade of dis aster
 blade off disaster
 blade oft disaster
-blade oh disaster
-blade oi disaster
-blade om disaster
 blade on disaster
-blade op disaster
 blade or disaster
-blade ow disaster
-blade ox disaster
-blade oz disaster
 bladed of disaster
 blame of disaster
 blare of disaster
@@ -710,7 +655,6 @@ boner of the earth
 boners of the earth
 bones if the earth
 bones oaf the earth
-bones ob the earth
 bones of he earth
 bones of she earth
 bones of tee earth
@@ -726,15 +670,8 @@ bones of tie earth
 bones of toe earth
 bones off the earth
 bones oft the earth
-bones oh the earth
-bones oi the earth
-bones om the earth
 bones on the earth
-bones op the earth
 bones or the earth
-bones ow the earth
-bones ox the earth
-bones oz the earth
 bongs of the earth
 bonks of the earth
 bonus of the earth
@@ -953,22 +890,14 @@ Circle of Death,
 
 circle if death
 circle oaf death
-circle ob death
 circle of dearth
 circle of depth
 circle of heath
 circle of neath
 circle off death
 circle oft death
-circle oh death
-circle oi death
-circle om death
 circle on death
-circle op death
 circle or death
-circle ow death
-circle ox death
-circle oz death
 circled of death
 circlet of death
 
@@ -978,7 +907,6 @@ Circle of Power,
 
 circle if power
 circle oaf power
-circle ob power
 circle of bower
 circle of cower
 circle of dower
@@ -992,15 +920,8 @@ circle of sower
 circle of tower
 circle off power
 circle oft power
-circle oh power
-circle oi power
-circle om power
 circle on power
-circle op power
 circle or power
-circle ow power
-circle ox power
-circle oz power
 circled of power
 circlet of power
 
@@ -1023,22 +944,14 @@ Cloud of Daggers,
 aloud of daggers
 cloud if daggers
 cloud oaf daggers
-cloud ob daggers
 cloud of dangers
 cloud of diggers
 cloud of naggers
 cloud of taggers
 cloud off daggers
 cloud oft daggers
-cloud oh daggers
-cloud oi daggers
-cloud om daggers
 cloud on daggers
-cloud op daggers
 cloud or daggers
-cloud ow daggers
-cloud ox daggers
-cloud oz daggers
 clout of daggers
 loud of daggers
 
@@ -1130,7 +1043,6 @@ coke of cold
 come of cold
 cone if cold
 cone oaf cold
-cone ob cold
 cone of bold
 cone of coed
 cone of cola
@@ -1150,15 +1062,8 @@ cone of told
 cone of wold
 cone off cold
 cone oft cold
-cone oh cold
-cone oi cold
-cone om cold
 cone on cold
-cone op cold
 cone or cold
-cone ow cold
-cone ox cold
-cone oz cold
 coned of cold
 conj of cold
 conk of cold
@@ -1392,7 +1297,6 @@ Cordon of Arrows,
 
 cordon if arrows
 cordon oaf arrows
-cordon ob arrows
 cordon of barrows
 cordon of farrows
 cordon of harrows
@@ -1400,15 +1304,8 @@ cordon of marrows
 cordon of narrows
 cordon off arrows
 cordon oft arrows
-cordon oh arrows
-cordon oi arrows
-cordon om arrows
 cordon on arrows
-cordon op arrows
 cordon or arrows
-cordon ow arrows
-cordon ox arrows
-cordon oz arrows
 
 Counterspell,
 3rd level Abjuration,
@@ -1498,18 +1395,11 @@ Create or Destroy Water,
 1 action, VSM (phb 229)
 
 crease or destroy water
-create cor destroy water
-create er destroy water
 create for destroy water
 create nor destroy water
 create oar destroy water
-create ob destroy water
 create of destroy water
-create oh destroy water
-create oi destroy water
-create om destroy water
 create on destroy water
-create op destroy water
 create or destroy cater
 create or destroy dater
 create or destroy eater
@@ -1529,12 +1419,7 @@ create orc destroy water
 create ore destroy water
 create org destroy water
 create our destroy water
-create ow destroy water
-create ox destroy water
-create oz destroy water
-create tor destroy water
 create xor destroy water
-create yr destroy water
 created or destroy water
 cremate or destroy water
 
@@ -1554,20 +1439,12 @@ croon of madness
 crowd of madness
 crown if madness
 crown oaf madness
-crown ob madness
 crown of badness
 crown of sadness
 crown off madness
 crown oft madness
-crown oh madness
-crown oi madness
-crown om madness
 crown on madness
-crown op madness
 crown or madness
-crown ow madness
-crown ox madness
-crown oz madness
 crows of madness
 drown of madness
 frown of madness
@@ -1583,7 +1460,6 @@ croon of stars
 crowd of stars
 crown if stars
 crown oaf stars
-crown ob stars
 crown of scars
 crown of sears
 crown of sitars
@@ -1603,15 +1479,8 @@ crown of stirs
 crown of tars
 crown off stars
 crown oft stars
-crown oh stars
-crown oi stars
-crown om stars
 crown on stars
-crown op stars
 crown or stars
-crown ow stars
-crown ox stars
-crown oz stars
 crows of stars
 drown of stars
 frown of stars
@@ -1967,6 +1836,7 @@ Disguise Self,
 1st level Illusion,
 1 action, VS (phb 233)
 
+dis guise self
 disguise elf
 disguise pelf
 disguise sell
@@ -1978,6 +1848,7 @@ Disintegrate,
 6th level Transmutation,
 1 action, VSM (phb 233)
 
+dis integrate
 disintegrated
 
 Dispel Evil and Good,
@@ -2120,7 +1991,6 @@ cream of the blue veil
 dread of the blue veil
 dream if the blue veil
 dream oaf the blue veil
-dream ob the blue veil
 dream of he blue veil
 dream of she blue veil
 dream of tee blue veil
@@ -2144,15 +2014,8 @@ dream of tie blue veil
 dream of toe blue veil
 dream off the blue veil
 dream oft the blue veil
-dream oh the blue veil
-dream oi the blue veil
-dream om the blue veil
 dream on the blue veil
-dream op the blue veil
 dream or the blue veil
-dream ow the blue veil
-dream ox the blue veil
-dream oz the blue veil
 drear of the blue veil
 ream of the blue veil
 
@@ -2693,22 +2556,14 @@ Finger of Death,
 finder of death
 finger if death
 finger oaf death
-finger ob death
 finger of dearth
 finger of depth
 finger of heath
 finger of neath
 finger off death
 finger oft death
-finger oh death
-finger oi death
-finger om death
 finger on death
-finger op death
 finger or death
-finger ow death
-finger ox death
-finger oz death
 ginger of death
 linger of death
 ringer of death
@@ -2954,9 +2809,9 @@ flesh tom stone
 flesh ton stone
 flesh too stone
 flesh top stone
-flesh tor stone
 flesh tot stone
 flesh tow stone
+flesh toy stone
 flesh two stone
 flesh yo stone
 flush to stone
@@ -3045,18 +2900,10 @@ Freedom of Movement,
 
 freedom if movement
 freedom oaf movement
-freedom ob movement
 freedom off movement
 freedom oft movement
-freedom oh movement
-freedom oi movement
-freedom om movement
 freedom on movement
-freedom op movement
 freedom or movement
-freedom ow movement
-freedom ox movement
-freedom oz movement
 
 Frostbite,
 Evocation Cantrip,
@@ -3165,18 +3012,10 @@ Globe of Invulnerability,
 
 globe if invulnerability
 globe oaf invulnerability
-globe ob invulnerability
 globe off invulnerability
 globe oft invulnerability
-globe oh invulnerability
-globe oi invulnerability
-globe om invulnerability
 globe on invulnerability
-globe op invulnerability
 globe or invulnerability
-globe ow invulnerability
-globe ox invulnerability
-globe oz invulnerability
 globed of invulnerability
 globs of invulnerability
 glove of invulnerability
@@ -3188,7 +3027,6 @@ Glyph of Warding,
 
 glyph if warding
 glyph oaf warding
-glyph ob warding
 glyph of carding
 glyph of larding
 glyph of wadding
@@ -3199,15 +3037,8 @@ glyph of warring
 glyph of wording
 glyph off warding
 glyph oft warding
-glyph oh warding
-glyph oi warding
-glyph om warding
 glyph on warding
-glyph op warding
 glyph or warding
-glyph ow warding
-glyph ox warding
-glyph oz warding
 
 Goodberry,
 1st level Transmutation,
@@ -3308,19 +3139,11 @@ Guardian of Faith,
 
 guardian if faith
 guardian oaf faith
-guardian ob faith
 guardian of saith
 guardian off faith
 guardian oft faith
-guardian oh faith
-guardian oi faith
-guardian om faith
 guardian on faith
-guardian op faith
 guardian or faith
-guardian ow faith
-guardian ox faith
-guardian oz faith
 
 Guardian of Nature,
 4th level Transmutation,
@@ -3328,19 +3151,11 @@ Guardian of Nature,
 
 guardian if nature
 guardian oaf nature
-guardian ob nature
 guardian of mature
 guardian off nature
 guardian oft nature
-guardian oh nature
-guardian oi nature
-guardian om nature
 guardian on nature
-guardian op nature
 guardian or nature
-guardian ow nature
-guardian ox nature
-guardian oz nature
 
 Guards and Wards,
 6th level Abjuration,
@@ -3418,7 +3233,6 @@ guest of wind
 gush of wind
 gust if wind
 gust oaf wind
-gust ob wind
 gust of bind
 gust of find
 gust of hind
@@ -3438,15 +3252,8 @@ gust of wins
 gust of winy
 gust off wind
 gust oft wind
-gust oh wind
-gust oi wind
-gust om wind
 gust on wind
-gust op wind
 gust or wind
-gust ow wind
-gust ox wind
-gust oz wind
 gusto of wind
 just of wind
 lust of wind
@@ -3463,20 +3270,12 @@ bail of thorns
 fail of thorns
 hail if thorns
 hail oaf thorns
-hail ob thorns
 hail of horns
 hail of thorny
 hail off thorns
 hail oft thorns
-hail oh thorns
-hail oi thorns
-hail om thorns
 hail on thorns
-hail op thorns
 hail or thorns
-hail ow thorns
-hail ox thorns
-hail oz thorns
 hair of thorns
 hall of thorns
 haul of thorns
@@ -3737,19 +3536,11 @@ Hunger of Hadar,
 hanger of hadar
 hunger if hadar
 hunger oaf hadar
-hunger ob hadar
 hunger of radar
 hunger off hadar
 hunger oft hadar
-hunger oh hadar
-hunger oi hadar
-hunger om hadar
 hunger on hadar
-hunger op hadar
 hunger or hadar
-hunger ow hadar
-hunger ox hadar
-hunger oz hadar
 hunker of hadar
 hunter of hadar
 
@@ -3896,7 +3687,6 @@ Investiture of Flame,
 
 investiture if flame
 investiture oaf flame
-investiture ob flame
 investiture of blame
 investiture of flake
 investiture of flambe
@@ -3908,15 +3698,8 @@ investiture of frame
 investiture of lame
 investiture off flame
 investiture oft flame
-investiture oh flame
-investiture oi flame
-investiture om flame
 investiture on flame
-investiture op flame
 investiture or flame
-investiture ow flame
-investiture ox flame
-investiture oz flame
 
 Investiture of Ice,
 6th level Transmutation,
@@ -3924,7 +3707,6 @@ Investiture of Ice,
 
 investiture if ice
 investiture oaf ice
-investiture ob ice
 investiture of ace
 investiture of dice
 investiture of iced
@@ -3937,15 +3719,8 @@ investiture of rice
 investiture of vice
 investiture off ice
 investiture oft ice
-investiture oh ice
-investiture oi ice
-investiture om ice
 investiture on ice
-investiture op ice
 investiture or ice
-investiture ow ice
-investiture ox ice
-investiture oz ice
 
 Investiture of Stone,
 6th level Transmutation,
@@ -3953,7 +3728,6 @@ Investiture of Stone,
 
 investiture if stone
 investiture oaf stone
-investiture ob stone
 investiture of atone
 investiture of scone
 investiture of shone
@@ -3967,15 +3741,8 @@ investiture of stove
 investiture of tone
 investiture off stone
 investiture oft stone
-investiture oh stone
-investiture oi stone
-investiture om stone
 investiture on stone
-investiture op stone
 investiture or stone
-investiture ow stone
-investiture ox stone
-investiture oz stone
 
 Investiture of Wind,
 6th level Transmutation,
@@ -3983,7 +3750,6 @@ Investiture of Wind,
 
 investiture if wind
 investiture oaf wind
-investiture ob wind
 investiture of bind
 investiture of find
 investiture of hind
@@ -4003,15 +3769,8 @@ investiture of wins
 investiture of winy
 investiture off wind
 investiture oft wind
-investiture oh wind
-investiture oi wind
-investiture om wind
 investiture on wind
-investiture op wind
 investiture or wind
-investiture ow wind
-investiture ox wind
-investiture oz wind
 
 Jump,
 1st level Transmutation,
@@ -4209,18 +3968,11 @@ Locate Animals or Plants,
 1 action, VSM<R> (phb 256)
 
 locale animals or plants
-locate animals cor plants
-locate animals er plants
 locate animals for plants
 locate animals nor plants
 locate animals oar plants
-locate animals ob plants
 locate animals of plants
-locate animals oh plants
-locate animals oi plants
-locate animals om plants
 locate animals on plants
-locate animals op plants
 locate animals or plaints
 locate animals or plaits
 locate animals or planes
@@ -4232,12 +3984,7 @@ locate animals orc plants
 locate animals ore plants
 locate animals org plants
 locate animals our plants
-locate animals ow plants
-locate animals ox plants
-locate animals oz plants
-locate animals tor plants
 locate animals xor plants
-locate animals yr plants
 located animals or plants
 
 Locate Creature,
@@ -5449,7 +5196,6 @@ prater of healing
 prayed of healing
 prayer if healing
 prayer oaf healing
-prayer ob healing
 prayer of dealing
 prayer of heading
 prayer of heaping
@@ -5461,15 +5207,8 @@ prayer of pealing
 prayer of sealing
 prayer off healing
 prayer oft healing
-prayer oh healing
-prayer oi healing
-prayer om healing
 prayer on healing
-prayer op healing
 prayer or healing
-prayer ow healing
-prayer ox healing
-prayer oz healing
 sprayer of healing
 
 Primal Savagery,
@@ -5726,18 +5465,10 @@ rat of enfeeblement
 raw of enfeeblement
 ray if enfeeblement
 ray oaf enfeeblement
-ray ob enfeeblement
 ray off enfeeblement
 ray oft enfeeblement
-ray oh enfeeblement
-ray oi enfeeblement
-ray om enfeeblement
 ray on enfeeblement
-ray op enfeeblement
 ray or enfeeblement
-ray ow enfeeblement
-ray ox enfeeblement
-ray oz enfeeblement
 say of enfeeblement
 tray of enfeeblement
 way of enfeeblement
@@ -5774,20 +5505,12 @@ rat of frost
 raw of frost
 ray if frost
 ray oaf frost
-ray ob frost
 ray of front
 ray of frosh
 ray off frost
 ray oft frost
-ray oh frost
-ray oi frost
-ray om frost
 ray on frost
-ray op frost
 ray or frost
-ray ow frost
-ray ox frost
-ray oz frost
 say of frost
 tray of frost
 way of frost
@@ -5824,19 +5547,11 @@ rat of sickness
 raw of sickness
 ray if sickness
 ray oaf sickness
-ray ob sickness
 ray of slickness
 ray off sickness
 ray oft sickness
-ray oh sickness
-ray oi sickness
-ray om sickness
 ray on sickness
-ray op sickness
 ray or sickness
-ray ow sickness
-ray ox sickness
-ray oz sickness
 say of sickness
 tray of sickness
 way of sickness
@@ -6093,7 +5808,6 @@ Shadow of Moil,
 
 shadow if moil
 shadow oaf moil
-shadow ob moil
 shadow of boil
 shadow of coil
 shadow of foil
@@ -6105,15 +5819,8 @@ shadow of soil
 shadow of toil
 shadow off moil
 shadow oft moil
-shadow oh moil
-shadow oi moil
-shadow om moil
 shadow on moil
-shadow op moil
 shadow or moil
-shadow ow moil
-shadow ox moil
-shadow oz moil
 
 Shape Water,
 Transmutation Cantrip,
@@ -6174,19 +5881,11 @@ Shield of Faith,
 
 shield if faith
 shield oaf faith
-shield ob faith
 shield of saith
 shield off faith
 shield oft faith
-shield oh faith
-shield oi faith
-shield om faith
 shield on faith
-shield op faith
 shield or faith
-shield ow faith
-shield ox faith
-shield oz faith
 
 Shocking Grasp,
 Evocation Cantrip,
@@ -6631,18 +6330,10 @@ store of vengeance
 stork of vengeance
 storm if vengeance
 storm oaf vengeance
-storm ob vengeance
 storm off vengeance
 storm oft vengeance
-storm oh vengeance
-storm oi vengeance
-storm om vengeance
 storm on vengeance
-storm op vengeance
 storm or vengeance
-storm ow vengeance
-storm ox vengeance
-storm oz vengeance
 story of vengeance
 
 Summon Beast,
@@ -6900,7 +6591,6 @@ Temple of the Gods,
 
 temple if the gods
 temple oaf the gods
-temple ob the gods
 temple of he gods
 temple of she gods
 temple of tee gods
@@ -6928,15 +6618,8 @@ temple of tie gods
 temple of toe gods
 temple off the gods
 temple oft the gods
-temple oh the gods
-temple oi the gods
-temple om the gods
 temple on the gods
-temple op the gods
 temple or the gods
-temple ow the gods
-temple ox the gods
-temple oz the gods
 
 Tenser's Floating Disk,
 1st level Conjuration,
@@ -7344,7 +7027,6 @@ wale of fire
 walk of fire
 wall if fire
 wall oaf fire
-wall ob fire
 wall of dire
 wall of fare
 wall of fife
@@ -7365,15 +7047,8 @@ wall of tire
 wall of wire
 wall off fire
 wall oft fire
-wall oh fire
-wall oi fire
-wall om fire
 wall on fire
-wall op fire
 wall or fire
-wall ow fire
-wall ox fire
-wall oz fire
 well of fire
 will of fire
 
@@ -7395,22 +7070,14 @@ wale of force
 walk of force
 wall if force
 wall oaf force
-wall ob force
 wall of farce
 wall of forced
 wall of forge
 wall of forte
 wall off force
 wall oft force
-wall oh force
-wall oi force
-wall om force
 wall on force
-wall op force
 wall or force
-wall ow force
-wall ox force
-wall oz force
 well of force
 will of force
 
@@ -7432,7 +7099,6 @@ wale of ice
 walk of ice
 wall if ice
 wall oaf ice
-wall ob ice
 wall of ace
 wall of dice
 wall of iced
@@ -7445,15 +7111,8 @@ wall of rice
 wall of vice
 wall off ice
 wall oft ice
-wall oh ice
-wall oi ice
-wall om ice
 wall on ice
-wall op ice
 wall or ice
-wall ow ice
-wall ox ice
-wall oz ice
 well of ice
 will of ice
 
@@ -7475,7 +7134,6 @@ wale of light
 walk of light
 wall if light
 wall oaf light
-wall ob light
 wall of bight
 wall of blight
 wall of eight
@@ -7491,15 +7149,8 @@ wall of tight
 wall of wight
 wall off light
 wall oft light
-wall oh light
-wall oi light
-wall om light
 wall on light
-wall op light
 wall or light
-wall ow light
-wall ox light
-wall oz light
 well of light
 will of light
 
@@ -7521,7 +7172,6 @@ wale of sand
 walk of sand
 wall if sand
 wall oaf sand
-wall ob sand
 wall of and
 wall of band
 wall of hand
@@ -7537,15 +7187,8 @@ wall of stand
 wall of wand
 wall off sand
 wall oft sand
-wall oh sand
-wall oi sand
-wall om sand
 wall on sand
-wall op sand
 wall or sand
-wall ow sand
-wall ox sand
-wall oz sand
 well of sand
 will of sand
 
@@ -7567,7 +7210,6 @@ wale of stone
 walk of stone
 wall if stone
 wall oaf stone
-wall ob stone
 wall of atone
 wall of scone
 wall of shone
@@ -7581,15 +7223,8 @@ wall of stove
 wall of tone
 wall off stone
 wall oft stone
-wall oh stone
-wall oi stone
-wall om stone
 wall on stone
-wall op stone
 wall or stone
-wall ow stone
-wall ox stone
-wall oz stone
 well of stone
 will of stone
 
@@ -7611,20 +7246,12 @@ wale of thorns
 walk of thorns
 wall if thorns
 wall oaf thorns
-wall ob thorns
 wall of horns
 wall of thorny
 wall off thorns
 wall oft thorns
-wall oh thorns
-wall oi thorns
-wall om thorns
 wall on thorns
-wall op thorns
 wall or thorns
-wall ow thorns
-wall ox thorns
-wall oz thorns
 well of thorns
 will of thorns
 
@@ -7646,7 +7273,6 @@ wale of water
 walk of water
 wall if water
 wall oaf water
-wall ob water
 wall of cater
 wall of dater
 wall of eater
@@ -7663,15 +7289,8 @@ wall of waster
 wall of waver
 wall off water
 wall oft water
-wall oh water
-wall oi water
-wall om water
 wall on water
-wall op water
 wall or water
-wall ow water
-wall ox water
-wall oz water
 well of water
 will of water
 
@@ -7946,18 +7565,10 @@ wold of radiance
 wood of radiance
 word if radiance
 word oaf radiance
-word ob radiance
 word off radiance
 word oft radiance
-word oh radiance
-word oi radiance
-word om radiance
 word on radiance
-word op radiance
 word or radiance
-word ow radiance
-word ox radiance
-word oz radiance
 wore of radiance
 work of radiance
 world of radiance
@@ -7979,18 +7590,10 @@ wold of recall
 wood of recall
 word if recall
 word oaf recall
-word ob recall
 word off recall
 word oft recall
-word oh recall
-word oi recall
-word om recall
 word on recall
-word op recall
 word or recall
-word ow recall
-word ox recall
-word oz recall
 wore of recall
 work of recall
 world of recall
@@ -8005,19 +7608,11 @@ Wrath of Nature,
 wraith of nature
 wrath if nature
 wrath oaf nature
-wrath ob nature
 wrath of mature
 wrath off nature
 wrath oft nature
-wrath oh nature
-wrath oi nature
-wrath om nature
 wrath on nature
-wrath op nature
 wrath or nature
-wrath ow nature
-wrath ox nature
-wrath oz nature
 wreath of nature
 wroth of nature
 
@@ -8064,17 +7659,9 @@ tone of truth
 zine of truth
 zone if truth
 zone oaf truth
-zone ob truth
 zone of troth
 zone off truth
 zone oft truth
-zone oh truth
-zone oi truth
-zone om truth
 zone on truth
-zone op truth
 zone or truth
-zone ow truth
-zone ox truth
-zone oz truth
 zoned of truth

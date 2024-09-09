@@ -41,7 +41,10 @@
     "coon", "barf", "bong", "dding",
     "dink", "dong", "fag", "gook",
     "ho", "mams", "puss", "sexing",
-    "whiz", "whop", "yid", "wog"
+    "whiz", "whop", "yid", "wog",
+
+    "// boring shirt",
+    "oi", "ob", "om", "ow", "tor", "oz", "cor", "ox", "yr", "er", "op", "oh"
   ],
   "force_allow": [
     "growths", "eyes", "amaze", "toy"
