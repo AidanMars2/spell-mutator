@@ -6,11 +6,29 @@ pub struct Diagnostics {
     pub initial_spell_count: usize,
     initial_word_count: usize,
     initial_word_usage: HashMap<String, usize>,
+    pub mutations: Mutations,
+    pub maybe_mutations: Mutations
+}
+
+#[derive(Default)]
+pub struct Mutations {
     word_splits: HashMap<String, HashSet<String>>,
     mutated_words: HashSet<String>,
-    filtered_words: HashSet<String>,
     pub final_spell_count: usize,
-    pub final_word_count: usize,
+}
+
+impl Mutations {
+    pub fn log_procedural_split(&mut self, original: String, split: String) {
+        self.word_splits.entry(original).or_insert_with(HashSet::new).insert(split);
+    }
+
+    pub fn log_mutated_word(&mut self, word: String) {
+        self.mutated_words.insert(word);
+    }
+
+    pub fn final_word_count(&self) -> usize {
+        self.mutated_words.len()
+    }
 }
 
 impl Diagnostics {
@@ -19,43 +37,13 @@ impl Diagnostics {
             initial_spell_count: 0,
             initial_word_count: 0,
             initial_word_usage: Default::default(),
-            word_splits: Default::default(),
-            mutated_words: Default::default(),
-            filtered_words: Default::default(),
-            final_spell_count: 0,
-            final_word_count: 0,
+            mutations: Default::default(),
+            maybe_mutations: Default::default(),
         }
     }
 
-    pub fn use_initial_word(&mut self, word: &str) {
-        if let Some(count) = self.initial_word_usage.get_mut(word) {
-            *count += 1;
-        } else {
-            self.initial_word_usage.insert(word.to_string(), 1);
-            self.initial_word_count += 1;
-        }
-    }
-
-    pub fn set_final_word_count(&mut self) {
-        self.final_word_count = self.mutated_words.len()
-    }
-
-    pub fn mutate_word(&mut self, word: &str) {
-        self.mutated_words.insert(word.to_string());
-    }
-
-    pub fn procedural_split_word(&mut self, original: String, split: String) {
-        if let Some(split_words) = self.word_splits.get_mut(&original) {
-            split_words.insert(split);
-        } else {
-            let mut set = HashSet::<String>::new();
-            set.insert(split);
-            self.word_splits.insert(original.to_string(), set);
-        }
-    }
-
-    pub fn filter_word(&mut self, filtered: String) {
-        self.filtered_words.insert(filtered);
+    pub fn log_initial_word(&mut self, word: String) {
+        *self.initial_word_usage.entry(word).or_insert(0) += 1;
     }
 
     pub fn stringify(&self, config: &MutationConfig, verbose: bool) -> String {
@@ -63,11 +51,13 @@ impl Diagnostics {
 
         lines.push(format!("initial spell count: {}", self.initial_spell_count));
         lines.push(format!("initial word count: {}", self.initial_word_count));
+        lines.push(format!("final word count: {}", self.mutations.mutated_words.len()));
+        lines.push(format!("final spell count: {}", self.mutations.final_spell_count));
+        lines.push(format!("related word count: {}", self.maybe_mutations.mutated_words.len()));
+        lines.push(format!("related spell count: {}", self.maybe_mutations.final_spell_count));
         if config.advanced_diagnostics {
             self.advanced_diagnostics(&mut lines, verbose);
         }
-        lines.push(format!("final word count: {}", self.final_word_count));
-        lines.push(format!("final spell count: {}", self.final_spell_count));
 
         lines.join("\n")
     }
@@ -103,7 +93,7 @@ impl Diagnostics {
 
         // procedurally split words
         lines.push("\nprocedurally split words:".to_string());
-        for (original, split) in self.word_splits.iter() {
+        for (original, split) in self.mutations.word_splits.iter() {
             split_words(lines, original, split);
         }
         lines.push("".to_string());
@@ -113,9 +103,9 @@ impl Diagnostics {
         let mut lines: Vec<String> = vec![];
 
         lines.push("mutated words:".to_string());
-        word_listing(&mut lines, &self.mutated_words);
-        lines.push("\nspecially filtered words:".to_string());
-        word_listing(&mut lines, &self.filtered_words);
+        word_listing(&mut lines, &self.mutations.mutated_words);
+        lines.push("\nrelated words:".to_string());
+        word_listing(&mut lines, &self.maybe_mutations.mutated_words);
 
         lines.join("\n")
     }

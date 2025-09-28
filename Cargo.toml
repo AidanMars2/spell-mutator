@@ -8,8 +8,8 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [dependencies]
 zspell = "0.5.5"
-serde = { version = "1.0.199", features = ["derive"] }
 serde_json = "1.0.116"
 types = {path = "crates/types" }
 itertools = "0.13.0"
 humantime = "2.1.0"
+peg = "0.8.5"

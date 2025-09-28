@@ -1,0 +1,12 @@
+{
+  "input_file": "assets/spells.json",
+  "overrides_file": "assets/overrides.json",
+  "raw_spells_file": "assets/spells_raw.txt",
+  "output_file": "results/spells_mutated.json",
+  "formatted_file": "results/mutated spells.txt",
+  "diagnostics_file": "results/diagnostics.txt",
+  "mutated_words_file": "results/mutated words.txt",
+  "mutation_depth": 1,
+  "advanced_diagnostics": true,
+  "omit_zero_mutation_spells": true
+}

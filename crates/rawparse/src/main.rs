@@ -2,7 +2,7 @@ use std::fs;
 use types::Spell;
 
 fn main() {
-    let raw_spells = fs::read_to_string("../../../spells_raw.txt")
+    let raw_spells = fs::read_to_string("../../../assets/spells_raw.txt")
         .expect("failed to load raw spells");
 
     let spells = parse_spells(&raw_spells);
@@ -36,7 +36,7 @@ fn parse_spells(raw_spells: &str) -> Vec<Spell> {
                 components: parts[5].clone(),
                 concentration: !parts[6].is_empty(),
                 source: parts[7].clone(),
-                mutations: vec![],
+                mutations: Default::default(),
             }
         )
     }

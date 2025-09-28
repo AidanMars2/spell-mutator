@@ -3,7 +3,7 @@ use types::{MutationConfig, Spell};
 
 fn main() {
     let config: MutationConfig = serde_json::from_str(
-        &fs::read_to_string("config.json").unwrap()
+        &fs::read_to_string("../../../assets/config.json").unwrap()
     ).unwrap();
 
     let input: Vec<Spell> = serde_json::from_str(
@@ -12,15 +12,16 @@ fn main() {
 
     let mut result: Vec<String> = vec![];
 
-    for mut spell in input {
-        if config.omit_zero_mutation_spells && spell.mutations.is_empty() {
+    for spell in input {
+        if config.omit_zero_mutation_spells && spell.mutations.mutations.is_empty() {
             continue
         }
         result.push(spell.write_spell_information());
-        spell.mutations.sort_unstable();
-        for mutation in spell.mutations {
+        let mut mutations = spell.mutations.mutations.into_iter().collect::<Vec<_>>();
+        mutations.sort_unstable();
+        for mut mutation in mutations {
+            mutation.push('\n');
             result.push(mutation);
-            result.push("\n".to_string());
         }
     }
 

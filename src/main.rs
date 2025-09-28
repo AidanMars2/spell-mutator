@@ -1,81 +1,50 @@
-use std::collections::{HashMap, HashSet};
+use crate::mutation::Mutator;
+use crate::spellchecking::lemma::LemmaSpellChecker;
+use crate::spellchecking::SpellChecker;
+use humantime::format_duration;
 use std::fs;
 use std::time::Instant;
-use humantime::format_duration;
-use types::{MutationConfig, Overrides, Spell};
-use crate::diagnostics::Diagnostics;
-use crate::mutation::mutate_string;
-use crate::spellcheck::Spellchecker;
+use types::{MutationConfig, Spell};
 
 mod mutation;
 mod diagnostics;
-mod spellcheck;
+mod spellchecking;
 
 fn main() {
     let start_time = Instant::now();
-    let (config, mut spells, overrides) = parse_files();
+    let (config, mut spells) = parse_files();
 
-    let mut diagnostics = Diagnostics::new();
-    diagnostics.initial_spell_count = spells.len();
+    let spellchecker = Box::new(LemmaSpellChecker::new()) as Box<dyn SpellChecker>;
+    let mut mutator = Mutator::new(config, spellchecker);
 
-    let spellchecker = Spellchecker::load(&config, &overrides);
-    let mut word_cache: HashMap<String, Vec<String>> = HashMap::new();
+    let mut total_mutations = 0usize;
+    let mut total_maybe_mutations = 0usize;
+    for spell in &mut spells {
+        spell.mutations = mutator.mutate(&spell.name, mutator.config.mutation_depth);
+        total_mutations += spell.mutations.mutations.len();
+        total_maybe_mutations += spell.mutations.maybe_mutations.len();
+    }
+    mutator.ctx.diagnostics.mutations.final_spell_count = total_mutations;
+    mutator.ctx.diagnostics.maybe_mutations.final_spell_count = total_maybe_mutations;
+    println!("{}", mutator.ctx.diagnostics.stringify(&mutator.config, false));
 
-    spells.iter_mut().for_each(|spell| {
-        mutate_spell(
-            spell, &mut word_cache, &spellchecker,
-            &overrides, config.mutation_depth, &mut diagnostics
-        );
-    });
-    diagnostics.final_spell_count = spells.iter().map(|spell| spell.mutations.len()).sum();
-    diagnostics.set_final_word_count();
-    println!("{}", diagnostics.stringify(&config, false));
-
-    fs::write(&config.output_file, serde_json::to_string(&spells).unwrap())
+    fs::write(&mutator.config.output_file, serde_json::to_string(&spells).unwrap())
         .expect("failed to write output");
 
-    fs::write(&config.diagnostics_file, diagnostics.stringify(&config, true))
+    fs::write(&mutator.config.diagnostics_file, 
+              mutator.ctx.diagnostics.stringify(&mutator.config, true))
         .expect("failed to write diagnostics");
 
-    fs::write(&config.mutated_words_file, diagnostics.mutated_words())
+    fs::write(&mutator.config.mutated_words_file, mutator.ctx.diagnostics.mutated_words())
         .expect("failed to write mutated words");
+    
     let duration = Instant::now().duration_since(start_time);
     println!("completed mutation in {}", format_duration(duration))
 }
 
-fn mutate_spell(
-    spell: &mut Spell,
-    words_mut: &mut HashMap<String, Vec<String>>,
-    spellchecker: &Spellchecker,
-    overrides: &Overrides,
-    mutation_depth: u8,
-    diagnostics: &mut Diagnostics
-) {
-    let mut result: HashSet<String> = HashSet::new();
-    let mut current: Vec<String> = vec![spell.name.to_lowercase()];
-    let mut next: HashSet<String> = HashSet::new();
-
-    for index in 0..mutation_depth {
-        let initial = index == 0;
-        current.drain(..).for_each(|name| {
-            let mutations = mutate_string(
-                &name, spellchecker, words_mut,
-                overrides, diagnostics, initial
-            );
-            mutations.into_iter().for_each(|mutation| {
-                next.insert(mutation.clone());
-                result.insert(mutation);
-            })
-        });
-        current.extend(next.drain());
-    }
-
-    spell.mutations.extend(result);
-}
-
-fn parse_files() -> (MutationConfig, Vec<Spell>, Overrides) {
+fn parse_files() -> (MutationConfig, Vec<Spell>) {
     let config: MutationConfig = serde_json::from_str(
-        &*fs::read_to_string("config.json")
+        &*fs::read_to_string("../assets/config.json")
             .expect("failed to load config")
     ).expect("failed to parse config");
 
@@ -86,11 +55,5 @@ fn parse_files() -> (MutationConfig, Vec<Spell>, Overrides) {
 
     spells.sort_unstable();
 
-
-    let overrides: Overrides = serde_json::from_str(
-        &*fs::read_to_string(&config.overrides_file)
-            .expect("failed to load overrides")
-    ).expect("failed to parse overrides");
-
-    (config, spells, overrides)
+    (config, spells)
 }
