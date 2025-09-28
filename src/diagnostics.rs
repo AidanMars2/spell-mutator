@@ -1,13 +1,14 @@
 use std::collections::{HashMap, HashSet};
 use types::MutationConfig;
 use itertools::Itertools;
+use crate::spellchecking::CheckResult;
 
 pub struct Diagnostics {
     pub initial_spell_count: usize,
     initial_word_count: usize,
     initial_word_usage: HashMap<String, usize>,
-    pub mutations: Mutations,
-    pub maybe_mutations: Mutations
+    pub results: Mutations,
+    pub maybe_results: Mutations
 }
 
 #[derive(Default)]
@@ -25,10 +26,6 @@ impl Mutations {
     pub fn log_mutated_word(&mut self, word: String) {
         self.mutated_words.insert(word);
     }
-
-    pub fn final_word_count(&self) -> usize {
-        self.mutated_words.len()
-    }
 }
 
 impl Diagnostics {
@@ -37,8 +34,16 @@ impl Diagnostics {
             initial_spell_count: 0,
             initial_word_count: 0,
             initial_word_usage: Default::default(),
-            mutations: Default::default(),
-            maybe_mutations: Default::default(),
+            results: Default::default(),
+            maybe_results: Default::default(),
+        }
+    }
+    
+    pub fn mutations_mut(&mut self, check_result: CheckResult) -> Option<&mut Mutations> {
+        match check_result {
+            CheckResult::Success => Some(&mut self.results),
+            CheckResult::Maybe => Some(&mut self.maybe_results),
+            CheckResult::Fail => None
         }
     }
 
@@ -51,10 +56,10 @@ impl Diagnostics {
 
         lines.push(format!("initial spell count: {}", self.initial_spell_count));
         lines.push(format!("initial word count: {}", self.initial_word_count));
-        lines.push(format!("final word count: {}", self.mutations.mutated_words.len()));
-        lines.push(format!("final spell count: {}", self.mutations.final_spell_count));
-        lines.push(format!("related word count: {}", self.maybe_mutations.mutated_words.len()));
-        lines.push(format!("related spell count: {}", self.maybe_mutations.final_spell_count));
+        lines.push(format!("final word count: {}", self.results.mutated_words.len()));
+        lines.push(format!("final spell count: {}", self.results.final_spell_count));
+        lines.push(format!("related word count: {}", self.maybe_results.mutated_words.len()));
+        lines.push(format!("related spell count: {}", self.maybe_results.final_spell_count));
         if config.advanced_diagnostics {
             self.advanced_diagnostics(&mut lines, verbose);
         }
@@ -93,19 +98,22 @@ impl Diagnostics {
 
         // procedurally split words
         lines.push("\nprocedurally split words:".to_string());
-        for (original, split) in self.mutations.word_splits.iter() {
+        for (original, split) in self.results.word_splits.iter() {
             split_words(lines, original, split);
         }
-        lines.push("".to_string());
+        lines.push("\nrelated split words:".to_string());
+        for (original, split) in self.maybe_results.word_splits.iter() {
+            split_words(lines, original, split);
+        }
     }
 
     pub fn mutated_words(&self) -> String {
         let mut lines: Vec<String> = vec![];
 
         lines.push("mutated words:".to_string());
-        word_listing(&mut lines, &self.mutations.mutated_words);
+        word_listing(&mut lines, &self.results.mutated_words);
         lines.push("\nrelated words:".to_string());
-        word_listing(&mut lines, &self.maybe_mutations.mutated_words);
+        word_listing(&mut lines, &self.maybe_results.mutated_words);
 
         lines.join("\n")
     }

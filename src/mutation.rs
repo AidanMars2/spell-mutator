@@ -35,15 +35,27 @@ impl Mutator {
 
 
 fn mutate_string(
-    word: &str,
+    string: &str,
     depth: usize,
     ctx: &mut MutationContext
 ) -> MutationResult {
-    ctx.diagnostics.log_initial_word(word.to_string());
+    for word in string.split(' ') {
+        ctx.diagnostics.log_initial_word(word.to_string());
+    }
     let mut result = MutationResult::new();
+    let words = process_split(&string.chars().collect_vec(), &ctx.overrides);
+    
+    let mut chars = Vec::new();
+    for word in words {
+        if !chars.is_empty() {
+            chars.push(' ');
+        }
+        chars.extend(word);
+    }
+    let string = chars.iter().collect::<String>();
 
     let mutation_state = vec![RefCell::new((vec![], 0)); depth + 1];
-    mutation_state[0].borrow_mut().0.push(word.chars().collect_vec());
+    mutation_state[0].borrow_mut().0.push(chars);
     loop {
         let (depth_idx, mutation_cell) = mutation_state.iter()
             .find_position(|mutations| mutations.borrow().0.is_empty())
@@ -63,28 +75,30 @@ fn mutate_string(
             }
             let lower_chars = &lower_mutations[*lower_mut_idx];
             *lower_mut_idx += 1;
-            result.add(word, lower_chars.iter().collect::<String>(), ctx);
-            process_single_mutation(lower_chars, &ctx.overrides, mutations);
+            result.add(&string, lower_chars.iter().collect::<String>(), ctx);
+            process_single_mutation(lower_chars, ctx, mutations);
             if depth_idx != depth {
                 continue
             }
         }
         for mutation in mutations.drain(..) {
-            result.add(word, mutation.iter().collect::<String>(), ctx);
+            result.add(&string, mutation.iter().collect::<String>(), ctx);
         }
     }
+    result.mutations.remove(&string);
+    result.maybe_mutations.remove(&string);
 
     result
 }
 
 fn process_single_mutation(
     word: &Vec<char>,
-    overrides: &Overrides,
+    ctx: &mut MutationContext,
     target: &mut Vec<Vec<char>>
 ) {
-    let mut split = process_split(&word.iter().collect::<String>(), overrides);
+    let mut split = process_split(word, &ctx.overrides);
     let split_mutated = split.iter()
-        .map(|it| mutate_word(it, overrides))
+        .map(|it| mutate_word(it, ctx))
         .collect_vec();
 
     for (index, mutated) in split_mutated.into_iter().enumerate() {
@@ -112,7 +126,7 @@ fn process_single_mutation(
 
 fn mutate_word(
     word: &Vec<char>,
-    overrides: &Overrides
+    ctx: &mut MutationContext,
 ) -> Vec<Vec<char>> {
     if !word.iter().any(|it| it.is_alphanumeric()) {
         println!("WARN: word without alphanumeric letters spotted in {}", word.iter().collect::<String>());
@@ -123,7 +137,7 @@ fn mutate_word(
     mutate_add_char(word.clone(), &mut target);
     mutate_remove_char(word, &mut target);
     mutate_change_char(word.clone(), &mut target);
-    mutate_split_word(word.clone(), overrides, &mut target);
+    mutate_split_word(word.clone(), ctx, &mut target);
     target
 }
 
@@ -182,13 +196,14 @@ fn mutate_remove_char(
 
 fn mutate_split_word(
     mut chars: Vec<char>,
-    overrides: &Overrides,
+    ctx: &mut MutationContext,
     target: &mut Vec<Vec<char>>
 ) {
     if chars.len() < 8 {
         return
     }
-    let option_skip_index = overrides.allow_split.get(&chars.iter().collect::<String>());
+    let original = chars.clone();
+    let option_skip_index = ctx.overrides.allow_split.get(&chars.iter().collect::<String>());
     chars.insert(0, ' ');
 
     // split words must be at least 1 letter long
@@ -201,23 +216,28 @@ fn mutate_split_word(
                 continue
             }
         }
+        let string = chars.iter().collect::<String>();
+        if let Some(mutations) = ctx.diagnostics
+            .mutations_mut(ctx.spellchecker.check_split("", &string)) {
+            mutations.log_procedural_split(original.iter().collect(), string)
+        }
 
         target.push(chars.clone());
     }
 }
 
 fn process_split(
-    string: &str,
+    string: &Vec<char>,
     overrides: &Overrides
 ) -> Vec<Vec<char>> {
     let mut result = vec![];
-    for mut word in string.split(' ') {
-        while let Some(index) = overrides.allow_split.get(word) {
-            let (first, second) = string.split_at(*index);
-            result.push(first.chars().collect_vec());
+    for mut word in string.split(|it| *it == ' ') {
+        while let Some(index) = overrides.allow_split.get(&word.iter().collect::<String>()) {
+            let (first, second) = word.split_at(*index);
+            result.push(first.to_vec());
             word = second;
         }
-        result.push(word.chars().collect_vec())
+        result.push(word.to_vec())
     }
 
     result
@@ -237,15 +257,15 @@ impl MutationResultExt for MutationResult {
     fn add(&mut self, original: &str, mutation: String, ctx: &mut MutationContext) {
         let check_result = ctx.spellchecker.check_split(original, &mutation);
         match check_result {
-            CheckResult::Succes => {
+            CheckResult::Success => {
                 for word in mutation.split(' ') {
-                    ctx.diagnostics.mutations.log_mutated_word(word.to_string())
+                    ctx.diagnostics.results.log_mutated_word(word.to_string())
                 }
                 self.mutations.insert(mutation);
             }
             CheckResult::Maybe => {
                 for word in mutation.split(' ') {
-                    ctx.diagnostics.maybe_mutations.log_mutated_word(word.to_string())
+                    ctx.diagnostics.maybe_results.log_mutated_word(word.to_string())
                 }
                 self.maybe_mutations.insert(mutation);
             }

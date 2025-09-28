@@ -2,7 +2,7 @@ use std::collections::HashMap;
 use std::fs;
 use std::iter::once;
 use std::sync::LazyLock;
-use crate::spellchecking::CheckResult::{Fail, Maybe, Succes};
+use crate::spellchecking::CheckResult::{Fail, Maybe, Success};
 use crate::spellchecking::{CheckResult, SpellChecker};
 
 static LEMMA_STRING: LazyLock<String> = LazyLock::new(|| fs::read_to_string
@@ -15,19 +15,21 @@ peg::parser! {
     grammar lemma_parser() for str {
         rule _() = " "*
 
-        rule word() -> &'input str = $(['a'..='z' | 'A'..='Z' | '-']+)
+        rule new_line() = "\r\n" / "\n"
+
+        rule word() -> &'input str = r:$(['a'..='z' | 'A'..='Z' | '-']+) "!"? {r}
 
         rule cross_ref() -> Vec<&'input str> = _ "->" _ "[" _ refs:(word() ** (_ "," _)) _ "]" { refs }
 
         rule inflection() -> ParsedWord<'input> =
             w:word() refs:cross_ref()? { (w, refs.unwrap_or(Vec::new())) }
 
-        rule inflection_list() -> Vec<ParsedWord<'input>> = "\n    " infs:inflection() ** (_ "," _) { infs }
+        rule inflection_list() -> Vec<ParsedWord<'input>> = new_line() "    " infs:inflection() ** (_ "," _) { infs }
 
         rule head_word() -> (ParsedWord<'input>, Vec<ParsedWord<'input>>) =
-            w:inflection() inf:inflection_list()?{ (w, inf.unwrap_or(Vec::new())) }
+            w:inflection() inf:inflection_list()? { (w, inf.unwrap_or(Vec::new())) }
 
-        pub rule dict() -> Vec<(ParsedWord<'input>, Vec<ParsedWord<'input>>)> = head_word() ** "\n"
+        pub rule dict() -> Vec<(ParsedWord<'input>, Vec<ParsedWord<'input>>)> = head_word() ** new_line()
     }
 }
 
@@ -65,6 +67,9 @@ impl LemmaSpellChecker {
 
 impl SpellChecker for LemmaSpellChecker {
     fn check(&self, original: &str, word: &str) -> CheckResult {
+        if original == word {
+            return Success
+        }
         if let Some(word_idx) = self.words.get(word) {
             if let Some(original_idx) = self.words.get(original) {
                 let relations = &self.relations[*word_idx];
@@ -72,7 +77,7 @@ impl SpellChecker for LemmaSpellChecker {
                     return Maybe
                 }
             }
-            return Succes
+            return Success
         }
         Fail
     }

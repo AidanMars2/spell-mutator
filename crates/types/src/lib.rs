@@ -2,6 +2,11 @@ use std::cmp::Ordering;
 use serde::{Deserialize, Serialize};
 use std::collections::{HashMap, HashSet};
 
+pub const MUTATED_SPELLS_JSON: &str = "spells_mutated.json";
+pub const MUTATED_SPELLS_FILE: &str = "mutated spells.txt";
+pub const MUTATED_WORDS_FILE: &str = "mutated words.txt";
+pub const DIAGNOSTICS_FILE: &str = "diagnostics.txt";
+
 #[derive(Serialize, Deserialize, Eq, PartialEq, Ord, PartialOrd, Debug)]
 pub struct Spell {
     pub name: String,
@@ -65,11 +70,8 @@ pub struct Overrides {
 #[derive(Serialize, Deserialize)]
 pub struct MutationConfig {
     pub input_file: String,
-    pub output_file: String,
-    pub formatted_file: String,
     pub overrides_file: String,
-    pub diagnostics_file: String,
-    pub mutated_words_file: String,
+    pub output_dir: String,
     pub mutation_depth: usize,
     pub advanced_diagnostics: bool,
     pub omit_zero_mutation_spells: bool
