@@ -25,6 +25,10 @@ impl OldSpellChecker {
 }
 
 impl SpellChecker for OldSpellChecker {
+    fn name(&self) -> &'static str {
+        "Legacy"
+    }
+
     fn check(&self, original: &str, word: &str) -> CheckResult {
         if !self.dictionary.check_word(word) {
             return Fail

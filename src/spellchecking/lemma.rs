@@ -66,6 +66,10 @@ impl LemmaSpellChecker {
 }
 
 impl SpellChecker for LemmaSpellChecker {
+    fn name(&self) -> &'static str {
+        "Lemma"
+    }
+
     fn check(&self, original: &str, word: &str) -> CheckResult {
         if original == word {
             return Success

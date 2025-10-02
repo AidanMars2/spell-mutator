@@ -24,13 +24,13 @@ fn main() {
         result.push(spell.write_spell_information());
         let mut mutations = spell.mutations.mutations.into_iter().collect::<Vec<_>>();
         mutations.sort_unstable();
-        for mut mutation in mutations {
+        for (mut mutation, _) in mutations {
             mutation.push('\n');
             result.push(mutation);
         }
         let mut mutations = spell.mutations.maybe_mutations.into_iter().collect::<Vec<_>>();
         mutations.sort_unstable();
-        for mut mutation in mutations {
+        for (mut mutation, _) in mutations {
             result.push("#".to_string());
             mutation.push('\n');
             result.push(mutation);

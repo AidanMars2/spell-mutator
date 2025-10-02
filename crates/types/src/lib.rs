@@ -1,6 +1,6 @@
-use std::cmp::Ordering;
 use serde::{Deserialize, Serialize};
-use std::collections::{HashMap, HashSet};
+use std::cmp::Ordering;
+use std::collections::HashMap;
 
 pub const MUTATED_SPELLS_JSON: &str = "spells_mutated.json";
 pub const MUTATED_SPELLS_FILE: &str = "mutated spells.txt";
@@ -21,12 +21,9 @@ pub struct Spell {
     pub concentration: bool,
     #[serde(default)]
     pub ritual: bool,
-    #[serde(default)]
-    pub mutations: MutationResult
 }
 
 impl Spell {
-
     fn write_spell_level(&self) -> String {
         match self.level {
             0 => "Cantrip".to_string(),
@@ -80,8 +77,8 @@ pub struct MutationConfig {
 
 #[derive(Default, Clone, Serialize, Deserialize, Debug, Eq, PartialEq)]
 pub struct MutationResult {
-    pub mutations: HashSet<String>,
-    pub maybe_mutations: HashSet<String>,
+    pub mutations: HashMap<String, usize>,
+    pub maybe_mutations: HashMap<String, usize>,
 }
 
 impl Ord for MutationResult {
@@ -99,8 +96,8 @@ impl PartialOrd for MutationResult {
 impl MutationResult {
     pub fn new() -> Self {
         Self {
-            mutations: HashSet::new(),
-            maybe_mutations: HashSet::new()
+            mutations: HashMap::new(),
+            maybe_mutations: HashMap::new()
         }
     }
 }

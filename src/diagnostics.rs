@@ -14,7 +14,7 @@ pub struct Diagnostics {
 #[derive(Default)]
 pub struct Mutations {
     word_splits: HashMap<String, HashSet<String>>,
-    mutated_words: HashSet<String>,
+    mutated_words: HashMap<String, usize>,
     pub final_spell_count: usize,
 }
 
@@ -23,8 +23,11 @@ impl Mutations {
         self.word_splits.entry(original).or_insert_with(HashSet::new).insert(split);
     }
 
-    pub fn log_mutated_word(&mut self, word: String) {
-        self.mutated_words.insert(word);
+    pub fn log_mutated_word(&mut self, word: String, depth: usize) {
+        let target = self.mutated_words.entry(word).or_insert(depth);
+        if depth < *target {
+            *target = depth;
+        }
     }
 }
 
@@ -68,6 +71,20 @@ impl Diagnostics {
     }
 
     fn advanced_diagnostics(&self, lines: &mut Vec<String>, verbose: bool) {
+        self.initial_word_counts(lines, verbose);
+
+        // procedurally split words
+        lines.push("\nprocedurally split words:".to_string());
+        for (original, split) in self.results.word_splits.iter() {
+            split_words(lines, original, split);
+        }
+        lines.push("\nrelated split words:".to_string());
+        for (original, split) in self.maybe_results.word_splits.iter() {
+            split_words(lines, original, split);
+        }
+    }
+
+    fn initial_word_counts(&self, lines: &mut Vec<String>, verbose: bool) {
         // most used initial words
         lines.push("\nmost used words:".to_string());
 
@@ -88,22 +105,14 @@ impl Diagnostics {
         for (count, words) in words_by_count {
             if total_vertical >= 10 {
                 if verbose {
-                    compressed_count(lines, count, words)
+                    compressed_count(lines, count, words);
+                    continue
+                } else {
+                    break
                 }
-                continue
             }
             total_vertical += words.len();
             vertical_count(lines, count, words)
-        }
-
-        // procedurally split words
-        lines.push("\nprocedurally split words:".to_string());
-        for (original, split) in self.results.word_splits.iter() {
-            split_words(lines, original, split);
-        }
-        lines.push("\nrelated split words:".to_string());
-        for (original, split) in self.maybe_results.word_splits.iter() {
-            split_words(lines, original, split);
         }
     }
 
@@ -150,9 +159,9 @@ fn split_words(lines: &mut Vec<String>, original: &str, split: &HashSet<String>)
     }
 }
 
-fn word_listing(lines: &mut Vec<String>, words: &HashSet<String>) {
+fn word_listing(lines: &mut Vec<String>, words: &HashMap<String, usize>) {
     let mut words = words.iter()
-        .map(String::as_str)
+        .map(|it| it.0.as_str())
         .collect::<Vec<_>>();
     words.sort_unstable();
 

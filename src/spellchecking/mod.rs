@@ -5,20 +5,16 @@ pub mod old;
 pub mod lemma;
 
 pub trait SpellChecker {
+    fn name(&self) -> &'static str;
+
     fn check(&self, original: &str, word: &str) -> CheckResult;
 
     fn check_split(&self, original: &str, string: &str) -> CheckResult {
-        original.split(' ')
-            .zip_longest(string.split(' '))
-            .map(|tuple| {
-                match tuple {
-                    EitherOrBoth::Both(orig, string) => self.check(orig, string),
-                    EitherOrBoth::Right(string) => self.check("", string),
-                    _ => unreachable!("more words in original than mutation")
-                }
-            })
-            .reduce(CheckResult::min)
-            .unwrap_or(CheckResult::Success)
+        let mut result = CheckResult::Success;
+        for word in string.split(' ') {
+            result = result.min(self.check(original, word));
+        }
+        result
     }
 }
 

@@ -1,13 +1,14 @@
 #![allow(unused)]
 
-use crate::mutation::Mutator;
+use std::collections::HashMap;
 use crate::spellchecking::SpellChecker;
 use humantime::format_duration;
-use std::fs;
+use std::{fs, mem};
 use std::path::PathBuf;
 use std::str::FromStr;
 use std::time::Instant;
-use types::{MutationConfig, Spell, DIAGNOSTICS_FILE, MUTATED_SPELLS_JSON, MUTATED_WORDS_FILE};
+use types::{MutationConfig, MutationResult, Spell, DIAGNOSTICS_FILE, MUTATED_SPELLS_JSON, MUTATED_WORDS_FILE};
+use crate::mutation::{MutationContext, MutationTarget};
 use crate::spellchecking::lemma::LemmaSpellChecker;
 use crate::spellchecking::old::OldSpellChecker;
 
@@ -19,39 +20,56 @@ fn main() {
     let start_time = Instant::now();
     let (config, mut spells) = parse_files();
 
-    let spellchecker = Box::new(LemmaSpellChecker::new()) as Box<dyn SpellChecker>;
-    let mut mutator = Mutator::new(config, spellchecker);
+    let lemma_target = MutationTarget::new(Box::new(LemmaSpellChecker::new()) as Box<dyn SpellChecker>);
+    let legacy_target = MutationTarget::new(Box::new(OldSpellChecker::new()) as Box<dyn SpellChecker>);
+    let mut ctx = MutationContext::new(config, vec![lemma_target, legacy_target]);
+    let mut mutations = HashMap::new();
 
-    let mut total_mutations = 0usize;
-    let mut total_maybe_mutations = 0usize;
     for spell in &mut spells {
         spell.name.make_ascii_lowercase();
         spell.name.retain(|it| it != '\'');
-        spell.mutations = mutator.mutate(&spell.name.replace('-', " "), mutator.config.mutation_depth);
-        total_mutations += spell.mutations.mutations.len();
-        total_maybe_mutations += spell.mutations.maybe_mutations.len();
+        ctx.mutate(&spell.name.replace('-', " "), ctx.config.mutation_depth);
+        for target in &mut ctx.targets {
+            let results = mem::replace(&mut target.results, MutationResult::new());
+            target.diagnostics.results.final_spell_count += results.mutations.len();
+            target.diagnostics.maybe_results.final_spell_count += results.maybe_mutations.len();
+            mutations
+                .entry(target.spellchecker.name())
+                .or_insert_with(HashMap::new)
+                .insert(spell.name.clone(), results);
+        }
     }
-    mutator.ctx.diagnostics.results.final_spell_count = total_mutations;
-    mutator.ctx.diagnostics.maybe_results.final_spell_count = total_maybe_mutations;
 
-    println!("{}", mutator.ctx.diagnostics.stringify(&mutator.config, false));
+    let mut output = PathBuf::from_str(&*ctx.config.output_dir).unwrap();
+    for target in &mut ctx.targets {
+        println!("Diagnostics for {}:", target.spellchecker.name());
+        println!("{}", target.diagnostics.stringify(&ctx.config, false));
+        output.push(target.spellchecker.name());
+        fs::create_dir(&output);
 
-    let mut output_file = PathBuf::from_str(&*mutator.config.output_dir).unwrap();
-    output_file.push(format!("{}deep", mutator.config.mutation_depth));
-    fs::create_dir(&output_file);
-    output_file.push(MUTATED_SPELLS_JSON);
+        output.push(DIAGNOSTICS_FILE);
+        fs::write(&output, target.diagnostics.stringify(&ctx.config, true))
+            .expect("failed to write diagnostics");
+        output.pop();
 
-    fs::write(&output_file, serde_json::to_string(&spells).unwrap())
-        .expect("failed to write output");
+        for depth in 1..=ctx.config.mutation_depth {
+            output.push(format!("{depth}deep"));
+            fs::create_dir(&output);
 
-    output_file.set_file_name(DIAGNOSTICS_FILE);
-    fs::write(&output_file,
-              mutator.ctx.diagnostics.stringify(&mutator.config, true))
-        .expect("failed to write diagnostics");
+            output.push(MUTATED_SPELLS_JSON);
+            fs::write(&output, serde_json::to_string(&spells).unwrap())
+                .expect("failed to write output");
+            output.pop();
 
-    output_file.set_file_name(MUTATED_WORDS_FILE);
-    fs::write(&output_file, mutator.ctx.diagnostics.mutated_words())
-        .expect("failed to write mutated words");
+            output.push(MUTATED_WORDS_FILE);
+            fs::write(&output, target.diagnostics.mutated_words())
+                .expect("failed to write mutated words");
+            output.pop();
+
+            output.pop();
+        }
+        output.pop();
+    }
 
     let duration = Instant::now().duration_since(start_time);
     println!("completed mutation in {}", format_duration(duration))

@@ -36,7 +36,6 @@ fn parse_spells(raw_spells: &str) -> Vec<Spell> {
                 components: parts[5].clone(),
                 concentration: !parts[6].is_empty(),
                 source: parts[7].clone(),
-                mutations: Default::default(),
             }
         )
     }
