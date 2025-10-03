@@ -1,13 +1,13 @@
+use crate::spellchecking::{CheckResult, SpellChecker};
 use std::collections::HashMap;
 use std::fs;
 use std::iter::once;
 use std::sync::LazyLock;
-use crate::spellchecking::CheckResult::{Fail, Maybe, Success};
-use crate::spellchecking::{CheckResult, SpellChecker};
 
-static LEMMA_STRING: LazyLock<String> = LazyLock::new(|| fs::read_to_string
-    ("./dicts/12dicts-6.0.2/Lemmatized/2+2+3lem.txt")
-    .expect("failed to read dictionary"));
+static LEMMA_STRING: LazyLock<String> = LazyLock::new(|| {
+    fs::read_to_string("./dicts/12dicts-6.0.2/Lemmatized/2+2+3lem.txt")
+        .expect("failed to read dictionary")
+});
 
 type ParsedWord<'a> = (&'a str, Vec<&'a str>);
 
@@ -40,8 +40,7 @@ pub struct LemmaSpellChecker {
 
 impl LemmaSpellChecker {
     pub fn new() -> Self {
-        let parsed = lemma_parser::dict(LEMMA_STRING.as_str())
-            .expect("couldn't parse dictionary");
+        let parsed = lemma_parser::dict(LEMMA_STRING.as_str()).expect("couldn't parse dictionary");
 
         let mut relations = vec![];
         let mut words = HashMap::new();
@@ -72,17 +71,17 @@ impl SpellChecker for LemmaSpellChecker {
 
     fn check(&self, original: &str, word: &str) -> CheckResult {
         if original == word {
-            return Success
+            return CheckResult::SUCCESS;
         }
         if let Some(word_idx) = self.words.get(word) {
             if let Some(original_idx) = self.words.get(original) {
                 let relations = &self.relations[*word_idx];
                 if relations.contains(original_idx) {
-                    return Maybe
+                    return CheckResult::new(1);
                 }
             }
-            return Success
+            return CheckResult::SUCCESS;
         }
-        Fail
+        CheckResult::FAIL
     }
 }

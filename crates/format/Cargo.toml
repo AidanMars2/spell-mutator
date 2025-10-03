@@ -1,9 +1,0 @@
-[package]
-name = "format"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-serde = "1.0.200"
-serde_json = "1.0.116"
-types = {path = "../types" }

@@ -1,5 +1,4 @@
 use serde::{Deserialize, Serialize};
-use std::cmp::Ordering;
 use std::collections::HashMap;
 
 pub const MUTATED_SPELLS_JSON: &str = "spells_mutated.json";
@@ -30,7 +29,7 @@ impl Spell {
             1 => "1st".to_string(),
             2 => "2nd".to_string(),
             3 => "3rd".to_string(),
-            n => n.to_string() + "th"
+            n => n.to_string() + "th",
         }
     }
 
@@ -51,7 +50,7 @@ impl Spell {
                 () if self.concentration && self.ritual => "<CR>",
                 () if self.concentration => "<C>",
                 () if self.ritual => "<R>",
-                () => ""
+                () => "",
             },
             self.source
         )
@@ -71,33 +70,5 @@ pub struct MutationConfig {
     pub output_dir: String,
     pub mutation_depth: usize,
     pub advanced_diagnostics: bool,
-    pub omit_zero_mutation_spells: bool
-}
-
-
-#[derive(Default, Clone, Serialize, Deserialize, Debug, Eq, PartialEq)]
-pub struct MutationResult {
-    pub mutations: HashMap<String, usize>,
-    pub maybe_mutations: HashMap<String, usize>,
-}
-
-impl Ord for MutationResult {
-    fn cmp(&self, _other: &Self) -> Ordering {
-        Ordering::Equal
-    }
-}
-
-impl PartialOrd for MutationResult {
-    fn partial_cmp(&self, _other: &Self) -> Option<Ordering> {
-        Some(Ordering::Equal)
-    }
-}
-
-impl MutationResult {
-    pub fn new() -> Self {
-        Self {
-            mutations: HashMap::new(),
-            maybe_mutations: HashMap::new()
-        }
-    }
+    pub omit_zero_mutation_spells: bool,
 }
