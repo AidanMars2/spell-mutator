@@ -9,7 +9,7 @@ pub struct Diagnostics {
     pub initial_spell_count: usize,
     initial_word_count: usize,
     initial_word_usage: DashMap<String, usize>,
-    word_splits: DashMap<String, HashMap<CheckResult, HashSet<String>>>,
+    word_splits: DashMap<String, HashSet<(CheckResult, String)>>,
     pub final_spell_count: AtomicUsize,
 }
 
@@ -32,9 +32,8 @@ impl Diagnostics {
         self.word_splits
             .entry(original)
             .or_default()
-            .entry(check_result)
-            .or_default()
-            .insert(split);
+            .value_mut()
+            .insert((check_result, split));
     }
 
     pub fn stringify(&self, config: &MutationConfig, verbose: bool) -> String {
@@ -58,9 +57,7 @@ impl Diagnostics {
 
         // procedurally split words
         lines.push("\nprocedurally split words:".to_string());
-        for val in self.word_splits.iter() {
-            split_words(lines, val.key(), val.value());
-        }
+        split_words(lines, &self.word_splits);
     }
 
     fn initial_word_counts(&self, lines: &mut Vec<String>, verbose: bool) {
@@ -120,19 +117,20 @@ fn compressed_count(lines: &mut Vec<String>, count: usize, mut words: Vec<String
 
 fn split_words(
     lines: &mut Vec<String>,
-    original: &str,
-    split: &HashMap<CheckResult, HashSet<String>>,
+    split: &DashMap<String, HashSet<(CheckResult, String)>>,
 ) {
     let mut split = split
         .iter()
-        .map(|(check, split)| (*check, split.iter().collect_vec()))
         .collect_vec();
-    split.sort_unstable_by_key(|(check, _)| *check);
-    for (check, mut split) in split {
-        split.sort_unstable();
-        for split_word in split {
-            lines.push(format!("- {original}: {split_word}"))
-        }
+    let mut split = split.iter()
+        .map(|it| it.value().iter()
+            .map(|(check, split)| (check, it.key().as_str(), split.as_str())))
+        .flatten()
+        .collect_vec();
+    split.sort_unstable();
+    for (check, original, split) in split {
+        let prefix = check.to_string();
+        lines.push(format!("{prefix}{original}: {split}"));
     }
 }
 

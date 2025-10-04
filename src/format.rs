@@ -58,7 +58,7 @@ pub fn format_mutations(
                                 empties[depth_idx] = false;
                             }
                             for mutation in mutations.iter() {
-                                write!(target, "\n{} {}", check, mutation).unwrap();
+                                write!(target, "{}{}\n", check, mutation).unwrap();
                             }
                         }
                     }

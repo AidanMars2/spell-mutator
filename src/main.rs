@@ -15,7 +15,9 @@ use std::str::FromStr;
 use std::sync::atomic::Ordering;
 use std::time::Instant;
 use std::{fs, mem};
+use std::sync::Arc;
 use types::{MutationConfig, Spell, DIAGNOSTICS_FILE, MUTATED_SPELLS_JSON, MUTATED_WORDS_FILE};
+use crate::spellchecking::freq::FreqSpellChecker;
 
 mod diagnostics;
 mod format;
@@ -26,40 +28,38 @@ fn main() {
     let start_time = Instant::now();
     let (config, mut spells) = parse_files();
 
-    let lemma_target =
-        MutationTarget::new(Box::new(LemmaSpellChecker::new()) as Box<dyn SpellChecker>);
-    let legacy_target =
-        MutationTarget::new(Box::new(OldSpellChecker::new()) as Box<dyn SpellChecker>);
-    let mut ctx = MutationContext::new(config, vec![lemma_target, legacy_target]);
-    let mut mutations = DashMap::new();
+    let lemma_target = MutationTarget::new(
+        Box::new(LemmaSpellChecker::new()) as Box<dyn SpellChecker>);
+    let freq_target = MutationTarget::new(
+        Box::new(FreqSpellChecker::new()) as Box<dyn SpellChecker>);
+    // let legacy_target = MutationTarget::new(
+    //     Box::new(OldSpellChecker::new()) as Box<dyn SpellChecker>);
+    let spell_checker_init_end_time = Instant::now();
+    let mut ctx = MutationContext::new(config, vec![lemma_target, freq_target]);
+    let mut mutations: DashMap<&'static str, HashMap<_, _>> = DashMap::new();
 
     spells.par_iter().for_each(|spell| {
+        let mutation_name = spell
+            .name
+            .chars()
+            .filter(|c| *c != '\'')
+            .map(|c| c.to_ascii_lowercase())
+            .map(|c| if !c.is_ascii_alphabetic() { ' ' } else { c })
+            .collect::<String>();
         ctx.mutate(
-            &spell
-                .name
-                .chars()
-                .filter(|c| *c != '\'')
-                .map(|c| c.to_ascii_lowercase())
-                .map(|c| if !c.is_ascii_alphabetic() { ' ' } else { c })
-                .collect::<String>(),
+            &mutation_name,
             ctx.config.mutation_depth,
         );
         for target in &ctx.targets {
-            let results = target
-                .results
-                .remove(&spell.name)
-                .map(|(_, it)| it)
-                .unwrap();
-            target
-                .diagnostics
-                .final_spell_count
-                .fetch_add(results.len(), Ordering::Relaxed);
-            mutations
-                .entry(target.spellchecker.name())
-                .or_insert_with(HashMap::new)
-                .insert(spell.name.clone(), results);
+            if let Some(results) = target.take_mutations(&mutation_name) {
+                target.diagnostics.final_spell_count.fetch_add(results.len(), Ordering::Relaxed);
+                mutations.entry(target.spellchecker.name())
+                    .or_default().value_mut()
+                    .insert(spell.name.clone(), results);
+            }
         }
     });
+    let mutation_end_time = Instant::now();
 
     let mut output = PathBuf::from_str(&ctx.config.output_dir).unwrap();
     for target in &mut ctx.targets {
@@ -78,8 +78,9 @@ fn main() {
             fs::create_dir(&output);
 
             output.push(MUTATED_SPELLS_JSON);
-            fs::write(&output, serde_json::to_string(&mutations).unwrap())
-                .expect("failed to write output");
+            fs::write(&output, serde_json::to_string(
+                mutations.get(target.spellchecker.name()).unwrap().value()
+            ).unwrap()).expect("failed to write output");
             output.pop();
 
             output.pop();
@@ -88,9 +89,16 @@ fn main() {
     }
 
     format_mutations(spells, mutations, ctx.config);
+    let output_end_time = Instant::now();
 
-    let duration = Instant::now().duration_since(start_time);
-    println!("completed mutation in {}", format_duration(duration))
+    let dict_init_duration = spell_checker_init_end_time.duration_since(start_time);
+    let mutation_duration = mutation_end_time.duration_since(spell_checker_init_end_time);
+    let output_duration = output_end_time.duration_since(mutation_end_time);
+    println!("\n\ndict parse time: {}\nmutation time: {}\noutput time: {}",
+             format_duration(dict_init_duration),
+             format_duration(mutation_duration),
+             format_duration(output_duration)
+    );
 }
 
 fn parse_files() -> (MutationConfig, Vec<Spell>) {

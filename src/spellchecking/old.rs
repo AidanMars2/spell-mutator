@@ -33,7 +33,7 @@ impl SpellChecker for OldSpellChecker {
             return CheckResult::FAIL;
         }
         if word.len() <= 1 || !word.chars().any(|char| "aeuioy".contains(char)) {
-            return CheckResult::new(3);
+            return CheckResult::FAIL;
         }
         if !original.is_empty() {
             if original[1..] == *word && original.as_bytes()[0] == b'a' {

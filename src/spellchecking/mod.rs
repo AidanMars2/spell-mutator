@@ -3,7 +3,7 @@ use serde::{Deserialize, Serialize};
 use std::cmp::{max, min};
 use std::fmt::Display;
 
-mod freq;
+pub mod freq;
 pub mod lemma;
 pub mod old;
 
@@ -56,7 +56,7 @@ impl Display for CheckResult {
         let str = if self.value == 0 {
             String::new()
         } else {
-            format!("#({})", self.value)
+            format!("#({}) ", self.value)
         };
         write!(f, "{}", str)
     }

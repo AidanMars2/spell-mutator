@@ -13,6 +13,7 @@ use std::collections::{HashMap, HashSet};
 use std::mem::MaybeUninit;
 use std::rc::Rc;
 use std::{fs, mem};
+use std::sync::Arc;
 use types::{MutationConfig, Overrides};
 
 pub struct MutationContext {
@@ -81,7 +82,7 @@ impl MutationTarget {
         if !check_result.is_fail() {
             let result = String::new();
 
-            for (original, split) in original.split('$').zip(mutation.split('$')) {
+            for (original, split) in processed.split('$').zip(mutation.split('$')) {
                 if split.contains(' ') {
                     self.diagnostics.log_procedural_split(
                         original.to_string(),
@@ -90,18 +91,16 @@ impl MutationTarget {
                     )
                 }
             }
-
-            let mut target = self
-                .results
+            self.results
                 .entry(original.to_string())
-                .or_default();
-            let min_depth = target
-                .entry(mutation.split('$').join(" "))
-                .or_insert((check_result, depth));
-            if depth < min_depth.1 {
-                min_depth.1 = depth;
-            }
+                .or_default()
+                .value_mut()
+                .insert(mutation.split('$').join(" "), (check_result, depth));
         }
+    }
+
+    pub fn take_mutations(&self, original: &str) -> Option<HashMap<String, (CheckResult, usize)>> {
+        self.results.remove(original).map(|(_, it)| it)
     }
 }
 
