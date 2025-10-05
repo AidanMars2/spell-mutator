@@ -41,7 +41,7 @@ static FRQ_STRING: LazyLock<String> = LazyLock::new(|| {
 });
 
 pub struct FreqSpellChecker {
-    words: HashMap<&'static str, usize>,
+    words: HashMap<&'static str, usize, rapidhash::fast::RandomState>,
     relations: Vec<(u8, Vec<usize>)>,
 }
 
@@ -51,7 +51,7 @@ impl FreqSpellChecker {
             .expect("couldn't parse dictionary");
 
         let mut relations = vec![];
-        let mut words = HashMap::new();
+        let mut words = HashMap::with_hasher(rapidhash::fast::RandomState::new());
 
         for (freq_idx, section) in parsed.into_iter().enumerate() {
             let freq_idx = freq_idx as u8;

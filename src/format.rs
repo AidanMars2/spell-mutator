@@ -20,10 +20,8 @@ pub fn format_mutations(
         fs::create_dir(&output);
         let mut output_files = vec![];
         for depth in 1..=config.mutation_depth {
-            output.push(format!("{depth}deep"));
-            output.push("mutated spells.txt");
+            output.push(format!("{depth} deep mutated spells.txt"));
             output_files.push(File::create(&output).expect("Failed to open output file"));
-            output.pop();
             output.pop();
         }
         output.pop();
@@ -49,8 +47,8 @@ pub fn format_mutations(
                     mutations.sort_unstable_by_key(|(depth, _)| *depth);
                     for (depth, mutations) in mutations {
                         mutations.sort_unstable();
-                        for depth_idx in 0..*depth {
-                            let mut target = &mut output_files[depth_idx];
+                        for (depth_idx, target) in 
+                            output_files[*depth..].iter_mut().enumerate() {
                             if empties[depth_idx] {
                                 target
                                     .write_all(spell.write_spell_information().as_bytes())

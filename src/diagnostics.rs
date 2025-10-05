@@ -7,7 +7,6 @@ use types::MutationConfig;
 
 pub struct Diagnostics {
     pub initial_spell_count: usize,
-    initial_word_count: usize,
     initial_word_usage: DashMap<String, usize>,
     word_splits: DashMap<String, HashSet<(CheckResult, String)>>,
     pub final_spell_count: AtomicUsize,
@@ -17,7 +16,6 @@ impl Diagnostics {
     pub fn new() -> Self {
         Self {
             initial_spell_count: 0,
-            initial_word_count: 0,
             initial_word_usage: Default::default(),
             word_splits: Default::default(),
             final_spell_count: AtomicUsize::default(),
@@ -40,7 +38,7 @@ impl Diagnostics {
         let mut lines: Vec<String> = vec![];
 
         lines.push(format!("initial spell count: {}", self.initial_spell_count));
-        lines.push(format!("initial word count: {}", self.initial_word_count));
+        lines.push(format!("initial word count: {}", self.initial_word_usage.len()));
         lines.push(format!(
             "final spell count: {}",
             self.final_spell_count.load(Ordering::Relaxed)
@@ -55,9 +53,11 @@ impl Diagnostics {
     fn advanced_diagnostics(&self, lines: &mut Vec<String>, verbose: bool) {
         self.initial_word_counts(lines, verbose);
 
-        // procedurally split words
-        lines.push("\nprocedurally split words:".to_string());
-        split_words(lines, &self.word_splits);
+        if verbose { 
+            // procedurally split words
+            lines.push("\nprocedurally split words:".to_string());
+            split_words(lines, &self.word_splits);
+        }
     }
 
     fn initial_word_counts(&self, lines: &mut Vec<String>, verbose: bool) {

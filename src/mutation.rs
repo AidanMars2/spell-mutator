@@ -13,6 +13,8 @@ use std::collections::{HashMap, HashSet};
 use std::mem::MaybeUninit;
 use std::rc::Rc;
 use std::{fs, mem};
+use std::cmp::min;
+use std::collections::hash_map::Entry;
 use std::sync::Arc;
 use types::{MutationConfig, Overrides};
 
@@ -37,6 +39,9 @@ impl MutationContext {
     }
 
     pub fn submit(&self, original: &str, processed: &str, mutation: &str, depth: usize) {
+        if processed == mutation {
+            return;
+        }
         for target in &self.targets {
             target.submit(original, processed, mutation, depth)
         }
@@ -69,9 +74,6 @@ impl MutationTarget {
     }
 
     pub fn submit(&self, original: &str, processed: &str, mutation: &str, depth: usize) {
-        if processed == mutation {
-            return;
-        }
         let check_result = processed
             .split('$')
             .zip_eq(mutation.split('$'))
@@ -91,11 +93,13 @@ impl MutationTarget {
                     )
                 }
             }
-            self.results
+            let mut target = self.results
                 .entry(original.to_string())
-                .or_default()
-                .value_mut()
-                .insert(mutation.split('$').join(" "), (check_result, depth));
+                .or_default();
+            let target = target.value_mut()
+                .entry(mutation.split('$').join(" "))
+                .or_insert((check_result, depth));
+            target.1 = min(target.1, depth);
         }
     }
 
@@ -135,19 +139,20 @@ fn mutate_string(string: &str, depth: usize, ctx: &MutationContext) {
                 break;
             }
             let lower_mutation_iter = &mutation_state[depth_idx - 1];
-            if let Some(mutation) = lower_mutation_iter.borrow_mut().as_mut().unwrap().next() {
+            let mut lower_mutation_iter = lower_mutation_iter.borrow_mut();
+            if let Some(mutation) = lower_mutation_iter.as_mut().unwrap().next() {
                 ctx.submit(
                     string,
                     &processed_string,
                     str::from_utf8(mutation).unwrap(),
-                    depth_idx + 1,
+                    depth_idx - 1,
                 );
                 *mutation_iter.borrow_mut() = Some(MutateStringIter::new(mutation));
                 if depth_idx != depth - 1 {
                     continue;
                 }
             } else {
-                *lower_mutation_iter.borrow_mut() = None;
+                *lower_mutation_iter = None;
                 continue;
             }
         }
@@ -159,7 +164,7 @@ fn mutate_string(string: &str, depth: usize, ctx: &MutationContext) {
                 string,
                 &processed_string,
                 str::from_utf8(mutation).unwrap(),
-                depth,
+                depth_idx,
             )
         }
         *mutation_iter_option = None

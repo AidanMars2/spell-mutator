@@ -34,7 +34,7 @@ peg::parser! {
 }
 
 pub struct LemmaSpellChecker {
-    words: HashMap<&'static str, usize>,
+    words: HashMap<&'static str, usize, rapidhash::fast::RandomState>,
     relations: Vec<Vec<usize>>,
 }
 
@@ -43,7 +43,7 @@ impl LemmaSpellChecker {
         let parsed = lemma_parser::dict(LEMMA_STRING.as_str()).expect("couldn't parse dictionary");
 
         let mut relations = vec![];
-        let mut words = HashMap::new();
+        let mut words = HashMap::with_hasher(rapidhash::fast::RandomState::new());
 
         for (head, inflections) in parsed {
             let mut mesh = vec![];

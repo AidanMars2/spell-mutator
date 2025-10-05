@@ -3,7 +3,7 @@
   "overrides_file": "assets/overrides.json",
   "raw_spells_file": "assets/spells_raw.txt",
   "output_dir": "results",
-  "mutation_depth": 1,
+  "mutation_depth": 2,
   "advanced_diagnostics": true,
   "omit_zero_mutation_spells": true
 }

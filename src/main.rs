@@ -37,6 +37,10 @@ fn main() {
     let spell_checker_init_end_time = Instant::now();
     let mut ctx = MutationContext::new(config, vec![lemma_target, freq_target]);
     let mut mutations: DashMap<&'static str, HashMap<_, _>> = DashMap::new();
+    
+    for target in &mut ctx.targets {
+        target.diagnostics.initial_spell_count = spells.len();
+    }
 
     spells.par_iter().for_each(|spell| {
         let mutation_name = spell
@@ -58,6 +62,7 @@ fn main() {
                     .insert(spell.name.clone(), results);
             }
         }
+        println!("completed {}", spell.name);
     });
     let mutation_end_time = Instant::now();
 
@@ -72,19 +77,13 @@ fn main() {
         fs::write(&output, target.diagnostics.stringify(&ctx.config, true))
             .expect("failed to write diagnostics");
         output.pop();
+        
+        output.push(MUTATED_SPELLS_JSON);
+        fs::write(&output, serde_json::to_string(
+            mutations.get(target.spellchecker.name()).unwrap().value()
+        ).unwrap()).expect("failed to write output");
+        output.pop();
 
-        for depth in 1..=ctx.config.mutation_depth {
-            output.push(format!("{depth}deep"));
-            fs::create_dir(&output);
-
-            output.push(MUTATED_SPELLS_JSON);
-            fs::write(&output, serde_json::to_string(
-                mutations.get(target.spellchecker.name()).unwrap().value()
-            ).unwrap()).expect("failed to write output");
-            output.pop();
-
-            output.pop();
-        }
         output.pop();
     }
 
